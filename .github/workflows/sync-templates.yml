@@ -68,6 +68,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: chore/sync-templates-${{ github.run_id }}
+          MATCHED_APPSTORE_COUNT: ${{ steps.changes.outputs.matched_appstore_count }}
+          MATCHED_APPSTORE_FILES: ${{ steps.changes.outputs.matched_appstore_files }}
+          OTHER_CHANGED_COUNT: ${{ steps.changes.outputs.other_changed_count }}
+          OTHER_CHANGED_FILES: ${{ steps.changes.outputs.other_changed_files }}
         run: |
           gh pr create \
             --title "chore: sync templates" \
@@ -75,6 +79,20 @@ jobs:
           ## Summary
           - sync template-derived appstore content
           - apply biome formatting to generated files
+
+          ## Appstore Changes
+          - matched files: ${MATCHED_APPSTORE_COUNT}
+
+          ```text
+          ${MATCHED_APPSTORE_FILES}
+          ```
+
+          ## Other Changes Included
+          - matched files: ${OTHER_CHANGED_COUNT}
+
+          ```text
+          ${OTHER_CHANGED_FILES}
+          ```
           EOF
           )" \
             --head "$BRANCH_NAME"
