@@ -1,8 +1,4 @@
 {
 	"title": "DevBox",
-	"pages": [
-		"code-server",		
-		"faq-codepull",
-		"templets"
-	]
+	"pages": ["code-server", "faq-codepull", "templets"]
 }

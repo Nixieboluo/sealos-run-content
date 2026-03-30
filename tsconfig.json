@@ -5,14 +5,7 @@
 	"exclude": ["node_modules"],
 	"compilerOptions": {
 		// Enable latest features
-		"lib": [
-			"ESNext",
-			"ESNext.Array",
-			"ESNext.Collection",
-			"ESNext.Error",
-			"ESNext.Iterator",
-			"ESNext.Promise"
-		],
+		"lib": ["ESNext", "ESNext.Array", "ESNext.Collection", "ESNext.Error", "ESNext.Iterator", "ESNext.Promise"],
 		"target": "ESNext",
 		"module": "ESNext",
 		"moduleDetection": "force",
