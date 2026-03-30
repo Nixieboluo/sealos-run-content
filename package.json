@@ -9,12 +9,14 @@
 	"license": "MIT",
 	"packageManager": "pnpm@10.17.0",
 	"dependencies": {
+		"js-yaml": "^4.1.1",
 		"tsx": "^4.21.0",
 		"typescript": "^6.0.2",
 		"zx": "^8.8.5"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.9",
+		"@types/js-yaml": "^4.0.9",
 		"@types/node": "^25.5.0"
 	}
 }

@@ -1,7 +1,11 @@
 #!/usr/bin/env zx
 
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import type { Dirent } from 'node:fs';
+import { mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+
+import { load } from 'js-yaml';
 import { $, chalk } from 'zx';
 
 import templatesConfig from '../config/templates.json' with { type: 'json' };
@@ -9,6 +13,7 @@ import templatesConfig from '../config/templates.json' with { type: 'json' };
 type TemplatesConfig = {
 	repo: string;
 	branch: string;
+	template_dir: string;
 };
 
 type TemplatesLock = {
@@ -16,6 +21,59 @@ type TemplatesLock = {
 	ref: string;
 	hash: string;
 	updated_at: string;
+};
+
+type TemplateSpecField = {
+	type: string;
+	value: string;
+};
+
+type TemplateInput = {
+	type: string;
+	default?: string;
+	description?: string;
+	required?: boolean;
+};
+
+type TemplateSpec = {
+	author?: string;
+	categories?: string[];
+	defaults?: Record<string, TemplateSpecField>;
+	description?: string;
+	draft?: boolean;
+	gitRepo?: string;
+	icon?: string;
+	inputs?: Record<string, TemplateInput>;
+	readme?: string;
+	templateType: string;
+	title: string;
+	url?: string;
+};
+
+type TemplateManifest = {
+	apiVersion?: string;
+	kind?: string;
+	metadata?: {
+		name?: string;
+	};
+	spec: TemplateSpec;
+};
+
+type AppstorePageSchema = {
+	title: string;
+	description?: string;
+	category?: string;
+	starsText?: string;
+	versionText?: string;
+	trendDeltaText?: string;
+	thumbnail?: string;
+};
+
+type ParsedTemplate = {
+	slug: string;
+	manifestPath: string;
+	spec: TemplateSpec;
+	appstore: AppstorePageSchema;
 };
 
 const config = templatesConfig satisfies TemplatesConfig;
@@ -64,12 +122,7 @@ async function pathExists(target: string) {
 }
 
 async function hasInternalGitMetadata(target: string) {
-	try {
-		await stat(`${target}/.git`);
-		return true;
-	} catch {
-		return false;
-	}
+	return pathExists(path.join(target, '.git'));
 }
 
 async function syncCloneTarget(targetDir: string, repo: string, branch: string) {
@@ -109,13 +162,12 @@ async function computeConfigHash(configPath: string) {
 async function buildTemplatesLock(targetDir: string, configPath: string) {
 	const configHash = await computeConfigHash(configPath);
 	const commitHash = (await $({ cwd: targetDir, quiet: true })`git rev-parse HEAD`).stdout.trim();
-	const updatedAt = new Date().toISOString();
 
 	return {
 		config_hash: configHash,
 		ref: `refs/heads/${config.branch}`,
 		hash: commitHash,
-		updated_at: updatedAt,
+		updated_at: new Date().toISOString(),
 	} satisfies TemplatesLock;
 }
 
@@ -124,21 +176,163 @@ async function writeTemplatesLock(lockPath: string, lock: TemplatesLock) {
 	await writeFile(lockPath, lockContent, { encoding: 'utf8' });
 }
 
-async function syncTemplates({ repo, branch }: TemplatesConfig) {
+function isYamlFile(entry: Dirent) {
+	return entry.isFile() && /\.ya?ml$/u.test(entry.name);
+}
+
+async function resolveTemplateManifestPath(templateRootDir: string, entry: Dirent) {
+	if (isYamlFile(entry)) {
+		return path.join(templateRootDir, entry.name);
+	}
+
+	if (!entry.isDirectory()) {
+		return null;
+	}
+
+	const yamlCandidates = ['index.yaml', 'index.yml'];
+	for (const candidate of yamlCandidates) {
+		const manifestPath = path.join(templateRootDir, entry.name, candidate);
+		if (await pathExists(manifestPath)) {
+			return manifestPath;
+		}
+	}
+
+	throw new Error(
+		`template directory is missing index.yaml: ${path.join(templateRootDir, entry.name)}`,
+	);
+}
+
+async function listTemplateManifestPaths(templateRootDir: string) {
+	const entries = await readdir(templateRootDir, { withFileTypes: true });
+	const manifestPaths = await Promise.all(
+		entries
+			.filter((entry) => !entry.name.startsWith('.'))
+			.map((entry) => resolveTemplateManifestPath(templateRootDir, entry)),
+	);
+
+	return manifestPaths
+		.filter((manifestPath): manifestPath is string => manifestPath !== null)
+		.sort();
+}
+
+function splitYamlDocuments(source: string) {
+	return source
+		.split(/^---\s*$/mu)
+		.map((documentSource) => documentSource.trim())
+		.filter((documentSource) => documentSource.length > 0);
+}
+
+function assertTemplateSpec(manifestPath: string, manifest: unknown): TemplateManifest {
+	if (!manifest || typeof manifest !== 'object') {
+		throw new Error(`template manifest must be an object: ${manifestPath}`);
+	}
+
+	const typedManifest = manifest as TemplateManifest;
+	if (!typedManifest.spec) {
+		throw new Error(`template manifest is missing spec: ${manifestPath}`);
+	}
+
+	if (!typedManifest.spec.title || !typedManifest.spec.templateType) {
+		throw new Error(`template spec is missing required fields: ${manifestPath}`);
+	}
+
+	return typedManifest;
+}
+
+function isTemplateManifest(manifest: unknown): manifest is TemplateManifest {
+	if (!manifest || typeof manifest !== 'object') {
+		return false;
+	}
+
+	const candidate = manifest as { kind?: unknown };
+	if (candidate.kind !== 'Template') {
+		return false;
+	}
+
+	try {
+		assertTemplateSpec('template resource', manifest);
+		return true;
+	} catch {
+		return false;
+	}
+}
+
+async function readTemplateManifest(manifestPath: string) {
+	const source = await readFile(manifestPath, { encoding: 'utf8' });
+	const documents = splitYamlDocuments(source);
+	const parsedDocuments: unknown[] = [];
+
+	for (const documentSource of documents) {
+		try {
+			parsedDocuments.push(load(documentSource));
+		} catch {}
+	}
+
+	const manifest = parsedDocuments.find((document) => isTemplateManifest(document));
+	if (!manifest) {
+		return null;
+	}
+
+	return assertTemplateSpec(manifestPath, manifest);
+}
+
+function mapTemplateSpecToAppstore(spec: TemplateSpec): AppstorePageSchema {
+	return {
+		title: spec.title,
+		description: spec.description,
+		category: spec.categories?.[0],
+		thumbnail: spec.icon,
+	};
+}
+
+async function parseTemplates(templateRootDir: string) {
+	const manifestPaths = await listTemplateManifestPaths(templateRootDir);
+	const templates = await Promise.all(
+		manifestPaths.map(async (manifestPath) => {
+			const manifest = await readTemplateManifest(manifestPath);
+			if (!manifest) {
+				return null;
+			}
+
+			const spec = manifest.spec;
+			const fileSlug = path.basename(manifestPath).replace(/\.ya?ml$/u, '');
+			const slug =
+				fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
+
+			const template = {
+				slug,
+				manifestPath,
+				spec,
+				appstore: mapTemplateSpecToAppstore(spec),
+			} satisfies ParsedTemplate;
+
+			return template;
+		}),
+	);
+
+	return templates.filter((template): template is ParsedTemplate => template !== null);
+}
+
+async function syncTemplates(templatesConfig: TemplatesConfig) {
+	const { repo, branch, template_dir: templateDir } = templatesConfig;
 	const workspaceRoot = await getWorkspaceRoot();
-	const cloneBaseDir = `${workspaceRoot}/.local`;
-	const cloneTargetDir = `${cloneBaseDir}/templates`;
-	const configPath = `${workspaceRoot}/config/templates.json`;
-	const lockPath = `${workspaceRoot}/config/templates.lock.json`;
+	const cloneBaseDir = path.join(workspaceRoot, '.local');
+	const cloneTargetDir = path.join(cloneBaseDir, 'templates');
+	const configPath = path.join(workspaceRoot, 'config', 'templates.json');
+	const lockPath = path.join(workspaceRoot, 'config', 'templates.lock.json');
+	const templateRootDir = path.join(cloneTargetDir, templateDir);
 
 	await mkdir(cloneBaseDir, { recursive: true });
 	await syncCloneTarget(cloneTargetDir, repo, branch);
 
+	const templates = await parseTemplates(templateRootDir);
 	const lock = await buildTemplatesLock(cloneTargetDir, configPath);
 	await writeTemplatesLock(lockPath, lock);
 
 	console.log(chalk.green(`templates synced to ${cloneTargetDir}`));
+	console.log(chalk.green(`parsed ${templates.length} templates from ${templateRootDir}`));
 	console.log(chalk.green(`lockfile updated at ${lockPath}`));
+	return templates;
 }
 
 async function main() {
