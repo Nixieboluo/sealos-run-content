@@ -154,9 +154,7 @@ async function syncCloneTarget(targetDir: string, repo: string, branch: string) 
 		return;
 	}
 
-	const remoteUrl = (
-		await $({ cwd: targetDir, quiet: true })`git remote get-url origin`
-	).stdout.trim();
+	const remoteUrl = (await $({ cwd: targetDir, quiet: true })`git remote get-url origin`).stdout.trim();
 	if (remoteUrl !== repo) {
 		throw new Error(`clone target origin mismatch: expected ${repo}, got ${remoteUrl}`);
 	}
@@ -211,9 +209,7 @@ async function resolveTemplateManifestPath(templateRootDir: string, entry: Diren
 		}
 	}
 
-	throw new Error(
-		`template directory is missing index.yaml: ${path.join(templateRootDir, entry.name)}`,
-	);
+	throw new Error(`template directory is missing index.yaml: ${path.join(templateRootDir, entry.name)}`);
 }
 
 async function listTemplateManifestPaths(templateRootDir: string) {
@@ -224,9 +220,7 @@ async function listTemplateManifestPaths(templateRootDir: string) {
 			.map((entry) => resolveTemplateManifestPath(templateRootDir, entry)),
 	);
 
-	return manifestPaths
-		.filter((manifestPath): manifestPath is string => manifestPath !== null)
-		.sort();
+	return manifestPaths.filter((manifestPath): manifestPath is string => manifestPath !== null).sort();
 }
 
 function splitYamlDocuments(source: string) {
@@ -299,10 +293,7 @@ function mapTemplateSpecToAppstore(spec: TemplateSpec): AppstorePageSchema {
 	};
 }
 
-function renderMdxDocument(
-	frontmatterObject: Record<string, string | number | boolean>,
-	body: string,
-) {
+function renderMdxDocument(frontmatterObject: Record<string, string | number | boolean>, body: string) {
 	const frontmatter = dump(frontmatterObject, { lineWidth: -1 }).trimEnd();
 
 	return `---\n${frontmatter}\n---\n\n${body}`;
@@ -345,11 +336,7 @@ async function writeTemplatePages(outputDir: string, templates: ParsedTemplate[]
 	);
 }
 
-function mapTrendItemToPage(
-	template: ParsedTemplate,
-	trendItem: TrendItem,
-	rank: number,
-): TrendPageSchema {
+function mapTrendItemToPage(template: ParsedTemplate, trendItem: TrendItem, rank: number): TrendPageSchema {
 	return {
 		...template.appstore,
 		starsText: `Star ${trendItem.stars}`,
@@ -358,11 +345,7 @@ function mapTrendItemToPage(
 	};
 }
 
-async function writeTrendPages(
-	outputDir: string,
-	templates: ParsedTemplate[],
-	trendItems: TrendItem[],
-) {
+async function writeTrendPages(outputDir: string, templates: ParsedTemplate[], trendItems: TrendItem[]) {
 	await rm(outputDir, { force: true, recursive: true });
 	await mkdir(outputDir, { recursive: true });
 
@@ -398,8 +381,7 @@ async function parseTemplates(templateRootDir: string) {
 
 			const spec = manifest.spec;
 			const fileSlug = path.basename(manifestPath).replace(/\.ya?ml$/u, '');
-			const slug =
-				fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
+			const slug = fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
 
 			const template = {
 				slug,
