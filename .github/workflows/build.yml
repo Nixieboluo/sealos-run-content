@@ -1,0 +1,73 @@
+name: Build Image
+
+on:
+  push:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  SITE_REPO_URL: ${{ vars.SITE_REPO_URL }}
+  IMAGE_NAME: ${{ vars.IMAGE_NAME }}
+
+jobs:
+  build:
+    name: Build and push image
+    runs-on: ubuntu-latest
+    environment: ci
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout content repository
+        uses: actions/checkout@v4
+
+      - name: Validate CI environment
+        run: |
+          if [ -z "$SITE_REPO_URL" ]; then
+            echo "SITE_REPO_URL is not configured in the ci environment." >&2
+            exit 1
+          fi
+          if [ -z "$IMAGE_NAME" ]; then
+            echo "IMAGE_NAME is not configured in the ci environment." >&2
+            exit 1
+          fi
+
+      - name: Checkout website repository
+        run: git clone --depth=1 "$SITE_REPO_URL" site
+
+      - name: Prepare website build context
+        run: |
+          rm -rf site/content
+          mkdir -p site/content
+          tar \
+            --exclude='./.git' \
+            --exclude='./site' \
+            -cf - . | tar -C site/content -xf -
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract Docker metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,prefix=sha-
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: site
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}

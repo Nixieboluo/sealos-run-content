@@ -1,0 +1,80 @@
+name: Sync Templates
+
+on:
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: Sync templates and open PR
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout content repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync templates
+        run: pnpm sync-templates
+
+      - name: Format generated files
+        run: pnpm exec biome format --write .
+
+      - name: Decide whether to open a PR
+        id: changes
+        run: pnpm exec tsx scripts/should-open-sync-templates-pr.ts
+
+      - name: Create pull request branch
+        if: steps.changes.outputs.should_open_pr == 'true'
+        env:
+          BRANCH_NAME: chore/sync-templates-${{ github.run_id }}
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git checkout -b "$BRANCH_NAME"
+          git add .
+          git commit -m "chore: sync templates"
+          git push --set-upstream origin "$BRANCH_NAME"
+
+      - name: Open pull request
+        if: steps.changes.outputs.should_open_pr == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: chore/sync-templates-${{ github.run_id }}
+        run: |
+          gh pr create \
+            --title "chore: sync templates" \
+            --body "$(cat <<'EOF'
+          ## Summary
+          - sync template-derived appstore content
+          - apply biome formatting to generated files
+          EOF
+          )" \
+            --head "$BRANCH_NAME"
