@@ -2,5 +2,33 @@
 	"repo": "git@github.com:labring-actions/templates.git",
 	"branch": "kb-0.9",
 	"template_dir": "template",
-	"contents_output_dir": "content/appstore/templates"
+	"contents_output_dir": "content/appstore/templates",
+	"trends_output_dir": "content/appstore/trends",
+	"trends_items": [
+		{
+			"slug": "fastgpt",
+			"stars": "27.6k",
+			"delta": "+3.6k"
+		},
+		{
+			"slug": "lobe-chat",
+			"stars": "74.5k",
+			"delta": "+2.3k"
+		},
+		{
+			"slug": "affine",
+			"stars": "66.7k",
+			"delta": "+390"
+		},
+		{
+			"slug": "tianji",
+			"stars": "3k",
+			"delta": "+78"
+		},
+		{
+			"slug": "umami",
+			"stars": "35.9k",
+			"delta": "+66"
+		}
+	]
 }

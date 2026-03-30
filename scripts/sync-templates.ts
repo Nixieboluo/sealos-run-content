@@ -15,6 +15,14 @@ type TemplatesConfig = {
 	branch: string;
 	template_dir: string;
 	contents_output_dir: string;
+	trends_output_dir: string;
+	trends_items: TrendItem[];
+};
+
+type TrendItem = {
+	slug: string;
+	stars: string;
+	delta: string;
 };
 
 type TemplatesLock = {
@@ -75,6 +83,11 @@ type ParsedTemplate = {
 	manifestPath: string;
 	spec: TemplateSpec;
 	appstore: AppstorePageSchema;
+};
+
+type TrendPageSchema = AppstorePageSchema & {
+	rank: number;
+	trendDeltaText: string;
 };
 
 const config = templatesConfig satisfies TemplatesConfig;
@@ -141,7 +154,9 @@ async function syncCloneTarget(targetDir: string, repo: string, branch: string) 
 		return;
 	}
 
-	const remoteUrl = (await $({ cwd: targetDir, quiet: true })`git remote get-url origin`).stdout.trim();
+	const remoteUrl = (
+		await $({ cwd: targetDir, quiet: true })`git remote get-url origin`
+	).stdout.trim();
 	if (remoteUrl !== repo) {
 		throw new Error(`clone target origin mismatch: expected ${repo}, got ${remoteUrl}`);
 	}
@@ -196,7 +211,9 @@ async function resolveTemplateManifestPath(templateRootDir: string, entry: Diren
 		}
 	}
 
-	throw new Error(`template directory is missing index.yaml: ${path.join(templateRootDir, entry.name)}`);
+	throw new Error(
+		`template directory is missing index.yaml: ${path.join(templateRootDir, entry.name)}`,
+	);
 }
 
 async function listTemplateManifestPaths(templateRootDir: string) {
@@ -207,7 +224,9 @@ async function listTemplateManifestPaths(templateRootDir: string) {
 			.map((entry) => resolveTemplateManifestPath(templateRootDir, entry)),
 	);
 
-	return manifestPaths.filter((manifestPath): manifestPath is string => manifestPath !== null).sort();
+	return manifestPaths
+		.filter((manifestPath): manifestPath is string => manifestPath !== null)
+		.sort();
 }
 
 function splitYamlDocuments(source: string) {
@@ -280,16 +299,37 @@ function mapTemplateSpecToAppstore(spec: TemplateSpec): AppstorePageSchema {
 	};
 }
 
-function renderAppstoreMdx(appstore: AppstorePageSchema) {
-	const frontmatterObject = Object.fromEntries(Object.entries(appstore).filter(([, value]) => value !== undefined));
+function renderMdxDocument(
+	frontmatterObject: Record<string, string | number | boolean>,
+	body: string,
+) {
 	const frontmatter = dump(frontmatterObject, { lineWidth: -1 }).trimEnd();
-	const body = renderAppstoreBody(appstore);
 
 	return `---\n${frontmatter}\n---\n\n${body}`;
 }
 
+function renderAppstoreMdx(appstore: AppstorePageSchema) {
+	const frontmatterObject = Object.fromEntries(
+		Object.entries(appstore).filter(([, value]) => value !== undefined),
+	) as Record<string, string | number | boolean>;
+
+	return renderMdxDocument(frontmatterObject, renderAppstoreBody(appstore));
+}
+
 function renderAppstoreBody(appstore: AppstorePageSchema) {
 	return `# ${appstore.title}\n`;
+}
+
+function renderTrendMdx(trend: TrendPageSchema) {
+	const frontmatterObject = Object.fromEntries(
+		Object.entries(trend).filter(([, value]) => value !== undefined),
+	) as Record<string, string | number | boolean>;
+
+	return renderMdxDocument(frontmatterObject, renderTrendBody(trend));
+}
+
+function renderTrendBody(trend: TrendPageSchema) {
+	return `# ${trend.title}\n`;
 }
 
 async function writeTemplatePages(outputDir: string, templates: ParsedTemplate[]) {
@@ -305,6 +345,48 @@ async function writeTemplatePages(outputDir: string, templates: ParsedTemplate[]
 	);
 }
 
+function mapTrendItemToPage(
+	template: ParsedTemplate,
+	trendItem: TrendItem,
+	rank: number,
+): TrendPageSchema {
+	return {
+		...template.appstore,
+		starsText: `Star ${trendItem.stars}`,
+		trendDeltaText: trendItem.delta,
+		rank,
+	};
+}
+
+async function writeTrendPages(
+	outputDir: string,
+	templates: ParsedTemplate[],
+	trendItems: TrendItem[],
+) {
+	await rm(outputDir, { force: true, recursive: true });
+	await mkdir(outputDir, { recursive: true });
+
+	const templatesBySlug = new Map(templates.map((template) => [template.slug, template]));
+
+	await Promise.all(
+		trendItems.map(async (trendItem, index) => {
+			const template = templatesBySlug.get(trendItem.slug);
+			if (!template) {
+				throw new Error(`trend item slug not found in parsed templates: ${trendItem.slug}`);
+			}
+
+			const rank = index + 1;
+			if (rank > 5) {
+				throw new Error(`trend item rank is out of range: ${trendItem.slug}`);
+			}
+
+			const trendPage = mapTrendItemToPage(template, trendItem, rank);
+			const outputPath = path.join(outputDir, `${trendItem.slug}.mdx`);
+			await writeFile(outputPath, renderTrendMdx(trendPage), { encoding: 'utf8' });
+		}),
+	);
+}
+
 async function parseTemplates(templateRootDir: string) {
 	const manifestPaths = await listTemplateManifestPaths(templateRootDir);
 	const templates = await Promise.all(
@@ -316,7 +398,8 @@ async function parseTemplates(templateRootDir: string) {
 
 			const spec = manifest.spec;
 			const fileSlug = path.basename(manifestPath).replace(/\.ya?ml$/u, '');
-			const slug = fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
+			const slug =
+				fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
 
 			const template = {
 				slug,
@@ -333,7 +416,14 @@ async function parseTemplates(templateRootDir: string) {
 }
 
 async function syncTemplates(templatesConfig: TemplatesConfig) {
-	const { repo, branch, template_dir: templateDir, contents_output_dir: contentsOutputDir } = templatesConfig;
+	const {
+		repo,
+		branch,
+		template_dir: templateDir,
+		contents_output_dir: contentsOutputDir,
+		trends_output_dir: trendsOutputDir,
+		trends_items: trendItems,
+	} = templatesConfig;
 	const workspaceRoot = await getWorkspaceRoot();
 	const cloneBaseDir = path.join(workspaceRoot, '.local');
 	const cloneTargetDir = path.join(cloneBaseDir, 'templates');
@@ -341,18 +431,21 @@ async function syncTemplates(templatesConfig: TemplatesConfig) {
 	const lockPath = path.join(workspaceRoot, 'config', 'templates.lock.json');
 	const templateRootDir = path.join(cloneTargetDir, templateDir);
 	const outputDir = path.join(workspaceRoot, contentsOutputDir);
+	const trendsDir = path.join(workspaceRoot, trendsOutputDir);
 
 	await mkdir(cloneBaseDir, { recursive: true });
 	await syncCloneTarget(cloneTargetDir, repo, branch);
 
 	const templates = await parseTemplates(templateRootDir);
 	await writeTemplatePages(outputDir, templates);
+	await writeTrendPages(trendsDir, templates, trendItems);
 	const lock = await buildTemplatesLock(cloneTargetDir, configPath);
 	await writeTemplatesLock(lockPath, lock);
 
 	console.log(chalk.green(`templates synced to ${cloneTargetDir}`));
 	console.log(chalk.green(`parsed ${templates.length} templates from ${templateRootDir}`));
 	console.log(chalk.green(`generated ${templates.length} appstore pages in ${outputDir}`));
+	console.log(chalk.green(`generated ${trendItems.length} trend pages in ${trendsDir}`));
 	console.log(chalk.green(`lockfile updated at ${lockPath}`));
 	return templates;
 }
