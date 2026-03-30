@@ -45,15 +45,15 @@ jobs:
         run: |
           content_sha=$(git rev-parse HEAD)
           site_sha=$(git -C site rev-parse HEAD)
-          content_short=${content_sha:0:12}
-          site_short=${site_sha:0:12}
+          content_short=${content_sha:0:7}
+          site_short=${site_sha:0:7}
 
           {
             echo "content_sha=$content_sha"
             echo "site_sha=$site_sha"
             echo "content_short_sha=$content_short"
             echo "site_short_sha=$site_short"
-            echo "combined_tag=content-${content_short}_site-${site_short}"
+            echo "combined_tag=site-${site_short}_content-${content_short}"
           } >> "$GITHUB_OUTPUT"
 
       - name: Prepare website build context
