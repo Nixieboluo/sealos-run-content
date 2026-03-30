@@ -52,7 +52,7 @@ jobs:
       - name: Create pull request branch
         if: steps.changes.outputs.should_open_pr == 'true'
         env:
-          BRANCH_NAME: chore/sync-templates-${{ github.run_id }}
+          BRANCH_NAME: chore/sync-templates-${{ github.run_id }}-${{ github.run_attempt }}
           GIT_AUTHOR_NAME: github-actions[bot]
           GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
           GIT_COMMITTER_NAME: github-actions[bot]
@@ -67,32 +67,14 @@ jobs:
         if: steps.changes.outputs.should_open_pr == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: chore/sync-templates-${{ github.run_id }}
+          BRANCH_NAME: chore/sync-templates-${{ github.run_id }}-${{ github.run_attempt }}
           MATCHED_APPSTORE_COUNT: ${{ steps.changes.outputs.matched_appstore_count }}
           MATCHED_APPSTORE_FILES: ${{ steps.changes.outputs.matched_appstore_files }}
           OTHER_CHANGED_COUNT: ${{ steps.changes.outputs.other_changed_count }}
           OTHER_CHANGED_FILES: ${{ steps.changes.outputs.other_changed_files }}
         run: |
+          pnpm exec tsx scripts/write-sync-templates-pr-body.ts pr-body.md
           gh pr create \
             --title "chore: sync templates" \
-            --body "$(cat <<'EOF'
-          ## Summary
-          - sync template-derived appstore content
-          - apply biome formatting to generated files
-
-          ## Appstore Changes
-          - matched files: ${MATCHED_APPSTORE_COUNT}
-
-          ```text
-          ${MATCHED_APPSTORE_FILES}
-          ```
-
-          ## Other Changes Included
-          - matched files: ${OTHER_CHANGED_COUNT}
-
-          ```text
-          ${OTHER_CHANGED_FILES}
-          ```
-          EOF
-          )" \
+            --body-file pr-body.md \
             --head "$BRANCH_NAME"
