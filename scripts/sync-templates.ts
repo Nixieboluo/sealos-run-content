@@ -5,7 +5,7 @@ import type { Dirent } from 'node:fs';
 import { mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-import { load } from 'js-yaml';
+import { dump, load } from 'js-yaml';
 import { $, chalk } from 'zx';
 
 import templatesConfig from '../config/templates.json' with { type: 'json' };
@@ -14,6 +14,7 @@ type TemplatesConfig = {
 	repo: string;
 	branch: string;
 	template_dir: string;
+	contents_output_dir: string;
 };
 
 type TemplatesLock = {
@@ -140,9 +141,7 @@ async function syncCloneTarget(targetDir: string, repo: string, branch: string) 
 		return;
 	}
 
-	const remoteUrl = (
-		await $({ cwd: targetDir, quiet: true })`git remote get-url origin`
-	).stdout.trim();
+	const remoteUrl = (await $({ cwd: targetDir, quiet: true })`git remote get-url origin`).stdout.trim();
 	if (remoteUrl !== repo) {
 		throw new Error(`clone target origin mismatch: expected ${repo}, got ${remoteUrl}`);
 	}
@@ -197,9 +196,7 @@ async function resolveTemplateManifestPath(templateRootDir: string, entry: Diren
 		}
 	}
 
-	throw new Error(
-		`template directory is missing index.yaml: ${path.join(templateRootDir, entry.name)}`,
-	);
+	throw new Error(`template directory is missing index.yaml: ${path.join(templateRootDir, entry.name)}`);
 }
 
 async function listTemplateManifestPaths(templateRootDir: string) {
@@ -210,9 +207,7 @@ async function listTemplateManifestPaths(templateRootDir: string) {
 			.map((entry) => resolveTemplateManifestPath(templateRootDir, entry)),
 	);
 
-	return manifestPaths
-		.filter((manifestPath): manifestPath is string => manifestPath !== null)
-		.sort();
+	return manifestPaths.filter((manifestPath): manifestPath is string => manifestPath !== null).sort();
 }
 
 function splitYamlDocuments(source: string) {
@@ -285,6 +280,31 @@ function mapTemplateSpecToAppstore(spec: TemplateSpec): AppstorePageSchema {
 	};
 }
 
+function renderAppstoreMdx(appstore: AppstorePageSchema) {
+	const frontmatterObject = Object.fromEntries(Object.entries(appstore).filter(([, value]) => value !== undefined));
+	const frontmatter = dump(frontmatterObject, { lineWidth: -1 }).trimEnd();
+	const body = renderAppstoreBody(appstore);
+
+	return `---\n${frontmatter}\n---\n\n${body}`;
+}
+
+function renderAppstoreBody(appstore: AppstorePageSchema) {
+	return `# ${appstore.title}\n`;
+}
+
+async function writeTemplatePages(outputDir: string, templates: ParsedTemplate[]) {
+	await rm(outputDir, { force: true, recursive: true });
+	await mkdir(outputDir, { recursive: true });
+
+	await Promise.all(
+		templates.map(async (template) => {
+			const outputPath = path.join(outputDir, `${template.slug}.mdx`);
+			const content = renderAppstoreMdx(template.appstore);
+			await writeFile(outputPath, content, { encoding: 'utf8' });
+		}),
+	);
+}
+
 async function parseTemplates(templateRootDir: string) {
 	const manifestPaths = await listTemplateManifestPaths(templateRootDir);
 	const templates = await Promise.all(
@@ -296,8 +316,7 @@ async function parseTemplates(templateRootDir: string) {
 
 			const spec = manifest.spec;
 			const fileSlug = path.basename(manifestPath).replace(/\.ya?ml$/u, '');
-			const slug =
-				fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
+			const slug = fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
 
 			const template = {
 				slug,
@@ -314,23 +333,26 @@ async function parseTemplates(templateRootDir: string) {
 }
 
 async function syncTemplates(templatesConfig: TemplatesConfig) {
-	const { repo, branch, template_dir: templateDir } = templatesConfig;
+	const { repo, branch, template_dir: templateDir, contents_output_dir: contentsOutputDir } = templatesConfig;
 	const workspaceRoot = await getWorkspaceRoot();
 	const cloneBaseDir = path.join(workspaceRoot, '.local');
 	const cloneTargetDir = path.join(cloneBaseDir, 'templates');
 	const configPath = path.join(workspaceRoot, 'config', 'templates.json');
 	const lockPath = path.join(workspaceRoot, 'config', 'templates.lock.json');
 	const templateRootDir = path.join(cloneTargetDir, templateDir);
+	const outputDir = path.join(workspaceRoot, contentsOutputDir);
 
 	await mkdir(cloneBaseDir, { recursive: true });
 	await syncCloneTarget(cloneTargetDir, repo, branch);
 
 	const templates = await parseTemplates(templateRootDir);
+	await writeTemplatePages(outputDir, templates);
 	const lock = await buildTemplatesLock(cloneTargetDir, configPath);
 	await writeTemplatesLock(lockPath, lock);
 
 	console.log(chalk.green(`templates synced to ${cloneTargetDir}`));
 	console.log(chalk.green(`parsed ${templates.length} templates from ${templateRootDir}`));
+	console.log(chalk.green(`generated ${templates.length} appstore pages in ${outputDir}`));
 	console.log(chalk.green(`lockfile updated at ${lockPath}`));
 	return templates;
 }

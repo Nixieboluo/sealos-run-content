@@ -1,5 +1,6 @@
 {
 	"repo": "git@github.com:labring-actions/templates.git",
 	"branch": "kb-0.9",
-	"template_dir": "template"
+	"template_dir": "template",
+	"contents_output_dir": "content/appstore/templates"
 }
