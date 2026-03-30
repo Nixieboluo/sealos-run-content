@@ -1,12 +1,18 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"display": "Default",
+	"include": ["./**/*"],
+	"exclude": ["node_modules"],
 	"compilerOptions": {
-		// For TS compiler
-		"incremental": true,
-
 		// Enable latest features
-		"lib": ["ESNext"],
+		"lib": [
+			"ESNext",
+			"ESNext.Array",
+			"ESNext.Collection",
+			"ESNext.Error",
+			"ESNext.Iterator",
+			"ESNext.Promise"
+		],
 		"target": "ESNext",
 		"module": "ESNext",
 		"moduleDetection": "force",

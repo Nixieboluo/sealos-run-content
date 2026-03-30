@@ -14,10 +14,16 @@ importers:
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
+      zx:
+        specifier: ^8.8.5
+        version: 8.8.5
     devDependencies:
       '@biomejs/biome':
         specifier: 2.4.9
         version: 2.4.9
+      '@types/node':
+        specifier: ^25.5.0
+        version: 25.5.0
 
 packages:
 
@@ -230,6 +236,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@types/node@25.5.0':
+    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
+
   esbuild@0.27.4:
     resolution: {integrity: sha512-Rq4vbHnYkK5fws5NF7MYTU68FPRE1ajX7heQ/8QXXWqNgqqJ/GkmmyxIzUnf2Sr/bakf8l54716CcMGHYhMrrQ==}
     engines: {node: '>=18'}
@@ -254,6 +263,14 @@ packages:
   typescript@6.0.2:
     resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
     engines: {node: '>=14.17'}
+    hasBin: true
+
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
+
+  zx@8.8.5:
+    resolution: {integrity: sha512-SNgDF5L0gfN7FwVOdEFguY3orU5AkfFZm9B5YSHog/UDHv+lvmd82ZAsOenOkQixigwH2+yyH198AwNdKhj+RA==}
+    engines: {node: '>= 12.17.0'}
     hasBin: true
 
 snapshots:
@@ -371,6 +388,10 @@ snapshots:
   '@esbuild/win32-x64@0.27.4':
     optional: true
 
+  '@types/node@25.5.0':
+    dependencies:
+      undici-types: 7.18.2
+
   esbuild@0.27.4:
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.27.4
@@ -417,3 +438,7 @@ snapshots:
       fsevents: 2.3.3
 
   typescript@6.0.2: {}
+
+  undici-types@7.18.2: {}
+
+  zx@8.8.5: {}
