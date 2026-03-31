@@ -72,6 +72,7 @@ type AppstorePageSchema = {
 	title: string;
 	description?: string;
 	category?: string;
+	deployCount?: number;
 	starsText?: string;
 	versionText?: string;
 	trendDeltaText?: string;
@@ -293,6 +294,17 @@ function mapTemplateSpecToAppstore(spec: TemplateSpec): AppstorePageSchema {
 	};
 }
 
+function generateDeployCount(title: string, templateStaticMap: Record<string, number>) {
+	const appTitle = title.toUpperCase();
+	const currentCount = templateStaticMap[appTitle] || 0;
+	const randomFactor = 11 + Math.floor(Math.random() * 5);
+	const deployCount = (currentCount + 1) * randomFactor;
+
+	templateStaticMap[appTitle] = currentCount + 1;
+
+	return deployCount;
+}
+
 function renderMdxDocument(frontmatterObject: Record<string, string | number | boolean>, body: string) {
 	const frontmatter = dump(frontmatterObject, { lineWidth: -1 }).trimEnd();
 
@@ -372,6 +384,7 @@ async function writeTrendPages(outputDir: string, templates: ParsedTemplate[], t
 
 async function parseTemplates(templateRootDir: string) {
 	const manifestPaths = await listTemplateManifestPaths(templateRootDir);
+	const templateStaticMap: Record<string, number> = {};
 	const templates = await Promise.all(
 		manifestPaths.map(async (manifestPath) => {
 			const manifest = await readTemplateManifest(manifestPath);
@@ -383,12 +396,15 @@ async function parseTemplates(templateRootDir: string) {
 			const fileSlug = path.basename(manifestPath).replace(/\.ya?ml$/u, '');
 			const slug = fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
 
-			const template = {
+			const template: ParsedTemplate = {
 				slug,
 				manifestPath,
 				spec,
-				appstore: mapTemplateSpecToAppstore(spec),
-			} satisfies ParsedTemplate;
+				appstore: {
+					...mapTemplateSpecToAppstore(spec),
+					deployCount: generateDeployCount(spec.title, templateStaticMap),
+				},
+			};
 
 			return template;
 		}),
