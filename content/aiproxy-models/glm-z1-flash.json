@@ -1,0 +1,10 @@
+{
+	"name": "glm-z1-flash",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"rpm": 60,
+	"inputPrice": 0.0001,
+	"outputPrice": 0.0001,
+	"capabilities": ["vision"]
+}

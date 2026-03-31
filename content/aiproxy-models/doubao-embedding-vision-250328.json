@@ -1,0 +1,10 @@
+{
+	"name": "doubao-embedding-vision-250328",
+	"ownerKey": "doubao",
+	"type": "embedding",
+	"maxInputTokens": 4096,
+	"rpm": 1000,
+	"inputPrice": 0.0007,
+	"outputPrice": 0,
+	"capabilities": ["vision"]
+}

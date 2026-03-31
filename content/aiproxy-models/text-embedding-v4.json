@@ -1,0 +1,10 @@
+{
+	"name": "text-embedding-v4",
+	"ownerKey": "alibaba",
+	"type": "embedding",
+	"maxInputTokens": 8192,
+	"rpm": 900,
+	"inputPrice": 0.0005,
+	"outputPrice": 0,
+	"capabilities": []
+}

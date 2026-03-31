@@ -1,0 +1,11 @@
+{
+	"name": "glm-4-plus",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"maxOutputTokens": 4096,
+	"rpm": 600,
+	"inputPrice": 0.05,
+	"outputPrice": 0.05,
+	"capabilities": ["tool_choice"]
+}

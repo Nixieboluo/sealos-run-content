@@ -1,0 +1,12 @@
+{
+	"name": "ERNIE-4.0-Turbo-8K-Latest",
+	"ownerKey": "baidu",
+	"type": "chat-completion",
+	"contextSize": 6144,
+	"maxOutputTokens": 2048,
+	"maxInputTokens": 6144,
+	"rpm": 60,
+	"inputPrice": 0.02,
+	"outputPrice": 0.06,
+	"capabilities": ["tool_choice"]
+}

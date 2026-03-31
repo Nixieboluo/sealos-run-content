@@ -1,0 +1,12 @@
+{
+	"name": "ERNIE-3.5-8K-Preview",
+	"ownerKey": "baidu",
+	"type": "chat-completion",
+	"contextSize": 5120,
+	"maxOutputTokens": 2048,
+	"maxInputTokens": 5120,
+	"rpm": 300,
+	"inputPrice": 0.0008,
+	"outputPrice": 0.002,
+	"capabilities": ["tool_choice"]
+}

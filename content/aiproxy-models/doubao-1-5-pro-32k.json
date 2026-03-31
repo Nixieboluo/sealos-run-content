@@ -1,0 +1,11 @@
+{
+	"name": "Doubao-1.5-pro-32k",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"maxOutputTokens": 4096,
+	"maxInputTokens": 32768,
+	"rpm": 5000,
+	"inputPrice": 0.0008,
+	"outputPrice": 0.002,
+	"capabilities": ["tool_choice"]
+}

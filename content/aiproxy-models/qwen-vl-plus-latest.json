@@ -1,0 +1,12 @@
+{
+	"name": "qwen-vl-plus-latest",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 32000,
+	"maxOutputTokens": 2000,
+	"maxInputTokens": 30000,
+	"rpm": 1200,
+	"inputPrice": 0.0015,
+	"outputPrice": 0.0048,
+	"capabilities": ["tool_choice", "vision"]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "kimi-k2-thinking-turbo",
+	"ownerKey": "moonshot",
+	"type": "chat-completion",
+	"maxInputTokens": 256000,
+	"rpm": 500,
+	"inputPrice": 0.008,
+	"outputPrice": 0.058,
+	"capabilities": ["tool_choice", "coder"]
+}

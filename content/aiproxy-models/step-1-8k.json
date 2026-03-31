@@ -1,0 +1,10 @@
+{
+	"name": "step-1-8k",
+	"ownerKey": "stepfun",
+	"type": "chat-completion",
+	"contextSize": 8000,
+	"rpm": 60,
+	"inputPrice": 0.005,
+	"outputPrice": 0.02,
+	"capabilities": ["tool_choice"]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "jina-clip-v2",
+	"ownerKey": "jina",
+	"type": "embedding",
+	"rpm": 600,
+	"inputPrice": 0.00015,
+	"outputPrice": 0,
+	"capabilities": []
+}

@@ -1,0 +1,12 @@
+{
+	"name": "qwen-vl-ocr",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 34096,
+	"maxOutputTokens": 4096,
+	"maxInputTokens": 30000,
+	"rpm": 600,
+	"inputPrice": 0.005,
+	"outputPrice": 0.005,
+	"capabilities": ["vision"]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "glm-4v-flash",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"maxOutputTokens": 1024,
+	"maxInputTokens": 8192,
+	"rpm": 60,
+	"inputPrice": 0.0001,
+	"outputPrice": 0.0001,
+	"capabilities": ["vision"]
+}

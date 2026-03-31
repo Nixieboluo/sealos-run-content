@@ -1,0 +1,9 @@
+{
+	"name": "bge-reranker-v2-m3",
+	"ownerKey": "baai",
+	"type": "rerank",
+	"rpm": 2000,
+	"inputPrice": 0.0009,
+	"outputPrice": 0,
+	"capabilities": []
+}

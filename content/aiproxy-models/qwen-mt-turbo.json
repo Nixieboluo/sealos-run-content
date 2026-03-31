@@ -1,0 +1,12 @@
+{
+	"name": "qwen-mt-turbo",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 2048,
+	"maxOutputTokens": 1024,
+	"maxInputTokens": 1024,
+	"rpm": 60,
+	"inputPrice": 0.0007,
+	"outputPrice": 0.00195,
+	"capabilities": []
+}

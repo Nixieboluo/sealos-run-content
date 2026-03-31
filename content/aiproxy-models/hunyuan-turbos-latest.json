@@ -1,0 +1,12 @@
+{
+	"name": "hunyuan-turbos-latest",
+	"ownerKey": "tencent",
+	"type": "chat-completion",
+	"contextSize": 64000,
+	"maxOutputTokens": 64000,
+	"maxInputTokens": 28672,
+	"rpm": 300,
+	"inputPrice": 0.0008,
+	"outputPrice": 0.002,
+	"capabilities": []
+}

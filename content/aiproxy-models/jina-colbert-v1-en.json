@@ -1,0 +1,9 @@
+{
+	"name": "jina-colbert-v1-en",
+	"ownerKey": "jina",
+	"type": "rerank",
+	"rpm": 600,
+	"inputPrice": 0.00015,
+	"outputPrice": 0,
+	"capabilities": []
+}

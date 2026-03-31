@@ -1,0 +1,11 @@
+{
+	"name": "KAT-Coder",
+	"ownerKey": "streamlake",
+	"type": "chat-completion",
+	"contextSize": 256000,
+	"maxOutputTokens": 32000,
+	"rpm": 20,
+	"inputPrice": 0.01,
+	"outputPrice": 0.04,
+	"capabilities": ["tool_choice", "coder"]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "moonshot-v1-8k-vision-preview",
+	"ownerKey": "moonshot",
+	"type": "chat-completion",
+	"maxInputTokens": 8192,
+	"rpm": 500,
+	"inputPrice": 0.002,
+	"outputPrice": 0.01,
+	"capabilities": ["tool_choice", "vision"]
+}

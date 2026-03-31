@@ -1,0 +1,10 @@
+{
+	"name": "SparkDesk-Max-32k",
+	"ownerKey": "xunfei",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"rpm": 120,
+	"inputPrice": 0.09,
+	"outputPrice": 0.09,
+	"capabilities": ["tool_choice"]
+}

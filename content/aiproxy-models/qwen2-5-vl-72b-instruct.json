@@ -1,0 +1,12 @@
+{
+	"name": "qwen2.5-vl-72b-instruct",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"maxOutputTokens": 8192,
+	"maxInputTokens": 129024,
+	"rpm": 60,
+	"inputPrice": 0.016,
+	"outputPrice": 0.048,
+	"capabilities": ["tool_choice", "vision"]
+}

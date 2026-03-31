@@ -1,0 +1,12 @@
+{
+	"name": "hunyuan-t1-20250321",
+	"ownerKey": "tencent",
+	"type": "chat-completion",
+	"contextSize": 64000,
+	"maxOutputTokens": 64000,
+	"maxInputTokens": 28672,
+	"rpm": 300,
+	"inputPrice": 0.001,
+	"outputPrice": 0.004,
+	"capabilities": []
+}

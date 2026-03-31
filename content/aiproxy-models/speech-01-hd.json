@@ -1,0 +1,9 @@
+{
+	"name": "speech-01-hd",
+	"ownerKey": "minimax",
+	"type": "text-to-speech",
+	"rpm": 20,
+	"inputPrice": 0.35,
+	"outputPrice": 0,
+	"capabilities": []
+}

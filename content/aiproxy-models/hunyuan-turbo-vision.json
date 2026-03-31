@@ -1,0 +1,12 @@
+{
+	"name": "hunyuan-turbo-vision",
+	"ownerKey": "tencent",
+	"type": "chat-completion",
+	"contextSize": 8192,
+	"maxOutputTokens": 2048,
+	"maxInputTokens": 6144,
+	"rpm": 300,
+	"inputPrice": 0.08,
+	"outputPrice": 0.08,
+	"capabilities": ["tool_choice", "vision"]
+}

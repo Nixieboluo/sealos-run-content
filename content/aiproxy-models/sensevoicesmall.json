@@ -1,0 +1,9 @@
+{
+	"name": "SenseVoiceSmall",
+	"ownerKey": "funaudiollm",
+	"type": "speech-to-text",
+	"rpm": 300,
+	"inputPrice": 0.1,
+	"outputPrice": 0,
+	"capabilities": []
+}

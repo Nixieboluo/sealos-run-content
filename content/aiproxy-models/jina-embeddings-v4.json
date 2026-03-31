@@ -1,0 +1,9 @@
+{
+	"name": "jina-embeddings-v4",
+	"ownerKey": "jina",
+	"type": "embedding",
+	"rpm": 600,
+	"inputPrice": 0.0001,
+	"outputPrice": 0,
+	"capabilities": []
+}

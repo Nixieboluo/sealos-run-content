@@ -1,0 +1,12 @@
+{
+	"name": "qwen3-vl-flash",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"maxOutputTokens": 32768,
+	"maxInputTokens": 260096,
+	"rpm": 300,
+	"inputPrice": 0.0006,
+	"outputPrice": 0.006,
+	"capabilities": ["tool_choice"]
+}

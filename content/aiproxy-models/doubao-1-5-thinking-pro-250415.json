@@ -1,0 +1,11 @@
+{
+	"name": "doubao-1-5-thinking-pro-250415",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"maxOutputTokens": 4096,
+	"maxInputTokens": 32768,
+	"rpm": 5000,
+	"inputPrice": 0.0008,
+	"outputPrice": 0.008,
+	"capabilities": ["tool_choice"]
+}

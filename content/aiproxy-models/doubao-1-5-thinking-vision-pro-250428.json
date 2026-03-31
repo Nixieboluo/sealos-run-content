@@ -1,0 +1,11 @@
+{
+	"name": "doubao-1-5-thinking-vision-pro-250428",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"maxOutputTokens": 4096,
+	"maxInputTokens": 32768,
+	"rpm": 5000,
+	"inputPrice": 0.003,
+	"outputPrice": 0.009,
+	"capabilities": ["tool_choice", "vision"]
+}

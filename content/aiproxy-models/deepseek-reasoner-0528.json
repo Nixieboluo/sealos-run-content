@@ -1,0 +1,11 @@
+{
+	"name": "deepseek-reasoner-0528",
+	"ownerKey": "deepseek",
+	"type": "chat-completion",
+	"contextSize": 64000,
+	"maxOutputTokens": 8192,
+	"rpm": 10000,
+	"inputPrice": 0.004,
+	"outputPrice": 0.016,
+	"capabilities": []
+}

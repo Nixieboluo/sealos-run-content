@@ -1,0 +1,9 @@
+{
+	"name": "bce-reranker-base_v1",
+	"ownerKey": "baidu",
+	"type": "rerank",
+	"rpm": 1200,
+	"inputPrice": 0.0005,
+	"outputPrice": 0,
+	"capabilities": []
+}

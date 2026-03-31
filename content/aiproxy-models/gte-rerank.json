@@ -1,0 +1,11 @@
+{
+	"name": "gte-rerank",
+	"ownerKey": "alibaba",
+	"type": "rerank",
+	"contextSize": 4000,
+	"maxInputTokens": 4000,
+	"rpm": 300,
+	"inputPrice": 0.0007,
+	"outputPrice": 0,
+	"capabilities": []
+}

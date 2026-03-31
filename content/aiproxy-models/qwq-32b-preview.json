@@ -1,0 +1,12 @@
+{
+	"name": "qwq-32b-preview",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"maxOutputTokens": 16384,
+	"maxInputTokens": 30720,
+	"rpm": 1200,
+	"inputPrice": 0.002,
+	"outputPrice": 0.006,
+	"capabilities": []
+}

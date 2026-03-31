@@ -1,0 +1,10 @@
+{
+	"name": "yi-vision-v2",
+	"ownerKey": "lingyiwanwu",
+	"type": "chat-completion",
+	"contextSize": 16384,
+	"rpm": 60,
+	"inputPrice": 0.006,
+	"outputPrice": 0.006,
+	"capabilities": ["tool_choice", "vision"]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "qwen-math-turbo",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 4096,
+	"maxOutputTokens": 3072,
+	"maxInputTokens": 3072,
+	"rpm": 1200,
+	"inputPrice": 0.002,
+	"outputPrice": 0.006,
+	"capabilities": ["tool_choice"]
+}

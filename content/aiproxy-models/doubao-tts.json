@@ -1,0 +1,9 @@
+{
+	"name": "Doubao-tts",
+	"ownerKey": "doubao",
+	"type": "text-to-speech",
+	"rpm": 60,
+	"inputPrice": 0.5,
+	"outputPrice": 0,
+	"capabilities": []
+}

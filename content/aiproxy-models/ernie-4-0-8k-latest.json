@@ -1,0 +1,12 @@
+{
+	"name": "ERNIE-4.0-8K-Latest",
+	"ownerKey": "baidu",
+	"type": "chat-completion",
+	"contextSize": 5120,
+	"maxOutputTokens": 2048,
+	"maxInputTokens": 5120,
+	"rpm": 120,
+	"inputPrice": 0.03,
+	"outputPrice": 0.09,
+	"capabilities": ["tool_choice"]
+}

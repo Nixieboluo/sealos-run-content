@@ -1,0 +1,12 @@
+{
+	"name": "qwen2-7b-instruct",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"maxOutputTokens": 6144,
+	"maxInputTokens": 128000,
+	"rpm": 60,
+	"inputPrice": 0.001,
+	"outputPrice": 0.002,
+	"capabilities": ["tool_choice"]
+}

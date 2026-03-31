@@ -1,0 +1,10 @@
+{
+	"name": "sambert-v1",
+	"ownerKey": "alibaba",
+	"type": "text-to-speech",
+	"maxInputTokens": 10000,
+	"rpm": 1200,
+	"inputPrice": 0.1,
+	"outputPrice": 0,
+	"capabilities": []
+}

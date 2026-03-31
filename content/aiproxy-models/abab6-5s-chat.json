@@ -1,0 +1,10 @@
+{
+	"name": "abab6.5s-chat",
+	"ownerKey": "minimax",
+	"type": "chat-completion",
+	"contextSize": 245760,
+	"rpm": 120,
+	"inputPrice": 0.001,
+	"outputPrice": 0.001,
+	"capabilities": ["tool_choice"]
+}

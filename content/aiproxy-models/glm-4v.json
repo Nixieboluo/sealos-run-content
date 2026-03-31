@@ -1,0 +1,11 @@
+{
+	"name": "glm-4v",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"maxOutputTokens": 1024,
+	"maxInputTokens": 2048,
+	"rpm": 60,
+	"inputPrice": 0.05,
+	"outputPrice": 0.05,
+	"capabilities": ["vision"]
+}

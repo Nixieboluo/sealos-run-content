@@ -1,0 +1,11 @@
+{
+	"name": "hunyuan-large-longcontext",
+	"ownerKey": "tencent",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"maxOutputTokens": 6144,
+	"rpm": 300,
+	"inputPrice": 0.006,
+	"outputPrice": 0.018,
+	"capabilities": []
+}

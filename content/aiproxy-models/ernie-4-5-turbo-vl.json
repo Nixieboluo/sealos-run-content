@@ -1,0 +1,12 @@
+{
+	"name": "ERNIE-4.5-Turbo-VL",
+	"ownerKey": "baidu",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"maxOutputTokens": 4096,
+	"maxInputTokens": 32768,
+	"rpm": 60,
+	"inputPrice": 0.003,
+	"outputPrice": 0.009,
+	"capabilities": ["tool_choice"]
+}

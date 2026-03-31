@@ -1,0 +1,10 @@
+{
+	"name": "SparkDesk-4.0-Ultra",
+	"ownerKey": "xunfei",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"rpm": 120,
+	"inputPrice": 0.14,
+	"outputPrice": 0.14,
+	"capabilities": ["tool_choice"]
+}

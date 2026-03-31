@@ -1,0 +1,10 @@
+{
+	"name": "SparkDesk-Pro",
+	"ownerKey": "xunfei",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"rpm": 120,
+	"inputPrice": 0.014,
+	"outputPrice": 0.014,
+	"capabilities": []
+}

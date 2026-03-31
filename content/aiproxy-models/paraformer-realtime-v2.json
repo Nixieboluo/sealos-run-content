@@ -1,0 +1,10 @@
+{
+	"name": "paraformer-realtime-v2",
+	"ownerKey": "alibaba",
+	"type": "speech-to-text",
+	"maxInputTokens": 10000,
+	"rpm": 20,
+	"inputPrice": 0.35,
+	"outputPrice": 0,
+	"capabilities": []
+}

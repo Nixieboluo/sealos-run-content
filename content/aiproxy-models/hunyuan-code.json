@@ -1,0 +1,12 @@
+{
+	"name": "hunyuan-code",
+	"ownerKey": "tencent",
+	"type": "chat-completion",
+	"contextSize": 8192,
+	"maxOutputTokens": 4096,
+	"maxInputTokens": 4096,
+	"rpm": 300,
+	"inputPrice": 0.004,
+	"outputPrice": 0.008,
+	"capabilities": []
+}

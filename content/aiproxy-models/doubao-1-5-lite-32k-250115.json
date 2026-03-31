@@ -1,0 +1,11 @@
+{
+	"name": "doubao-1-5-lite-32k-250115",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"maxOutputTokens": 4096,
+	"rpm": 5000,
+	"inputPrice": 0.0003,
+	"outputPrice": 0.0006,
+	"capabilities": ["tool_choice"]
+}

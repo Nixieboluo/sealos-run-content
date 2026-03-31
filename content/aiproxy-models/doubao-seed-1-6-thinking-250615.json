@@ -1,0 +1,12 @@
+{
+	"name": "doubao-seed-1-6-thinking-250615",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"contextSize": 256000,
+	"maxOutputTokens": 16000,
+	"maxInputTokens": 224000,
+	"rpm": 5000,
+	"inputPrice": 0.0024,
+	"outputPrice": 0.024,
+	"capabilities": ["tool_choice", "vision"]
+}

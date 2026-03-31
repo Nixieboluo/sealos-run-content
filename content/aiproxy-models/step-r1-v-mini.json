@@ -1,0 +1,10 @@
+{
+	"name": "step-r1-v-mini",
+	"ownerKey": "stepfun",
+	"type": "chat-completion",
+	"contextSize": 32000,
+	"rpm": 60,
+	"inputPrice": 0.0025,
+	"outputPrice": 0.008,
+	"capabilities": ["tool_choice", "vision"]
+}

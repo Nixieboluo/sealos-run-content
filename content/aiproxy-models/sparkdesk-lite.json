@@ -1,0 +1,10 @@
+{
+	"name": "SparkDesk-Lite",
+	"ownerKey": "xunfei",
+	"type": "chat-completion",
+	"contextSize": 4096,
+	"rpm": 120,
+	"inputPrice": 0.001,
+	"outputPrice": 0.001,
+	"capabilities": []
+}

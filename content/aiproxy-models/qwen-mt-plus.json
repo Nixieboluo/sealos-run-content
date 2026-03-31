@@ -1,0 +1,12 @@
+{
+	"name": "qwen-mt-plus",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 2048,
+	"maxOutputTokens": 1024,
+	"maxInputTokens": 1024,
+	"rpm": 60,
+	"inputPrice": 0.0018,
+	"outputPrice": 0.0054,
+	"capabilities": []
+}

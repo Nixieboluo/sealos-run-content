@@ -1,0 +1,11 @@
+{
+	"name": "KAT-Dev-72B-Exp",
+	"ownerKey": "streamlake",
+	"type": "chat-completion",
+	"contextSize": 128000,
+	"maxOutputTokens": 32000,
+	"rpm": 100,
+	"inputPrice": 0.0095,
+	"outputPrice": 0.038,
+	"capabilities": ["tool_choice"]
+}

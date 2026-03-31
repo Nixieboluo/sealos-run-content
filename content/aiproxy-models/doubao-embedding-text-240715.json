@@ -1,0 +1,10 @@
+{
+	"name": "doubao-embedding-text-240715",
+	"ownerKey": "doubao",
+	"type": "embedding",
+	"maxInputTokens": 4096,
+	"rpm": 1200,
+	"inputPrice": 0.0005,
+	"outputPrice": 0,
+	"capabilities": []
+}

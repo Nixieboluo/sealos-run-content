@@ -1,0 +1,10 @@
+{
+	"name": "embedding-2",
+	"ownerKey": "chatglm",
+	"type": "embedding",
+	"maxInputTokens": 8192,
+	"rpm": 60,
+	"inputPrice": 0.0005,
+	"outputPrice": 0,
+	"capabilities": []
+}

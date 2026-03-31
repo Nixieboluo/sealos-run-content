@@ -1,0 +1,11 @@
+{
+	"name": "hunyuan-role",
+	"ownerKey": "tencent",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"maxOutputTokens": 4096,
+	"rpm": 300,
+	"inputPrice": 0.004,
+	"outputPrice": 0.008,
+	"capabilities": []
+}

@@ -1,0 +1,10 @@
+{
+	"name": "hunyuan-embedding",
+	"ownerKey": "tencent",
+	"type": "embedding",
+	"maxInputTokens": 1024,
+	"rpm": 300,
+	"inputPrice": 0.0007,
+	"outputPrice": 0,
+	"capabilities": []
+}

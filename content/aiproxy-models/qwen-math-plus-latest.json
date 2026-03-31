@@ -1,0 +1,12 @@
+{
+	"name": "qwen-math-plus-latest",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 4096,
+	"maxOutputTokens": 3072,
+	"maxInputTokens": 3072,
+	"rpm": 1200,
+	"inputPrice": 0.004,
+	"outputPrice": 0.012,
+	"capabilities": ["tool_choice"]
+}

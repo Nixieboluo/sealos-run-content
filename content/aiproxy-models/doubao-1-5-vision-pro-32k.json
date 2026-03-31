@@ -1,0 +1,10 @@
+{
+	"name": "Doubao-1.5-vision-pro-32k",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"maxInputTokens": 32768,
+	"rpm": 5000,
+	"inputPrice": 0.003,
+	"outputPrice": 0.009,
+	"capabilities": ["vision"]
+}

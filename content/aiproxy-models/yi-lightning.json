@@ -1,0 +1,10 @@
+{
+	"name": "yi-lightning",
+	"ownerKey": "lingyiwanwu",
+	"type": "chat-completion",
+	"contextSize": 16384,
+	"rpm": 60,
+	"inputPrice": 0.00099,
+	"outputPrice": 0.00099,
+	"capabilities": ["tool_choice"]
+}

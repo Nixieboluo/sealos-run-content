@@ -1,0 +1,12 @@
+{
+	"name": "doubao-seed-2-0-mini-260215",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"contextSize": 256000,
+	"maxOutputTokens": 16000,
+	"maxInputTokens": 224000,
+	"rpm": 5000,
+	"inputPrice": 0.0008,
+	"outputPrice": 0.008,
+	"capabilities": ["tool_choice", "vision"]
+}

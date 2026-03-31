@@ -1,0 +1,12 @@
+{
+	"name": "hunyuan-lite",
+	"ownerKey": "tencent",
+	"type": "chat-completion",
+	"contextSize": 262144,
+	"maxOutputTokens": 6144,
+	"maxInputTokens": 256000,
+	"rpm": 300,
+	"inputPrice": 0.0001,
+	"outputPrice": 0.0001,
+	"capabilities": []
+}

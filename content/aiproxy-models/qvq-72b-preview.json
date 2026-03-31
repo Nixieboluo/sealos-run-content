@@ -1,0 +1,12 @@
+{
+	"name": "qvq-72b-preview",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"maxOutputTokens": 16384,
+	"maxInputTokens": 16384,
+	"rpm": 60,
+	"inputPrice": 0.012,
+	"outputPrice": 0.036,
+	"capabilities": []
+}

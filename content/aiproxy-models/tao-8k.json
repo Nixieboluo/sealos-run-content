@@ -1,0 +1,9 @@
+{
+	"name": "tao-8k",
+	"ownerKey": "baidu",
+	"type": "embedding",
+	"rpm": 1200,
+	"inputPrice": 0.0005,
+	"outputPrice": 0,
+	"capabilities": []
+}

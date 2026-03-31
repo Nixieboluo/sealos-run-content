@@ -1,0 +1,10 @@
+{
+	"name": "step-tts-mini",
+	"ownerKey": "stepfun",
+	"type": "text-to-speech",
+	"maxInputTokens": 1000,
+	"rpm": 60,
+	"inputPrice": 0.09,
+	"outputPrice": 0,
+	"capabilities": []
+}

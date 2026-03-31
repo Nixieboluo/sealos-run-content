@@ -1,0 +1,11 @@
+{
+	"name": "charglm-4",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"contextSize": 4096,
+	"maxOutputTokens": 2048,
+	"rpm": 60,
+	"inputPrice": 0.001,
+	"outputPrice": 0.001,
+	"capabilities": []
+}

@@ -1,0 +1,9 @@
+{
+	"name": "jina-reranker-m0",
+	"ownerKey": "jina",
+	"type": "rerank",
+	"rpm": 600,
+	"inputPrice": 0.00015,
+	"outputPrice": 0,
+	"capabilities": []
+}

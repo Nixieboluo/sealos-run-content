@@ -1,0 +1,10 @@
+{
+	"name": "doubao-1.5-vision-lite-250315",
+	"ownerKey": "doubao",
+	"type": "chat-completion",
+	"maxInputTokens": 32768,
+	"rpm": 5000,
+	"inputPrice": 0.008,
+	"outputPrice": 0.008,
+	"capabilities": ["vision"]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "glm-z1-airx",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"rpm": 60,
+	"inputPrice": 0.005,
+	"outputPrice": 0.005,
+	"capabilities": ["vision"]
+}

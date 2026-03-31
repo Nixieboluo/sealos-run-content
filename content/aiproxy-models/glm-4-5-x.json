@@ -1,0 +1,12 @@
+{
+	"name": "glm-4.5-x",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"maxOutputTokens": 98304,
+	"maxInputTokens": 98304,
+	"rpm": 60,
+	"inputPrice": 0.016,
+	"outputPrice": 0.064,
+	"capabilities": ["tool_choice"]
+}

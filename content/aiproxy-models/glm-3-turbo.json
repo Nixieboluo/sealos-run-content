@@ -1,0 +1,11 @@
+{
+	"name": "glm-3-turbo",
+	"ownerKey": "chatglm",
+	"type": "chat-completion",
+	"contextSize": 131072,
+	"maxOutputTokens": 4096,
+	"rpm": 300,
+	"inputPrice": 0.001,
+	"outputPrice": 0.001,
+	"capabilities": []
+}

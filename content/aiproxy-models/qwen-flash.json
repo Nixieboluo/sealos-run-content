@@ -1,0 +1,12 @@
+{
+	"name": "qwen-flash",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 32768,
+	"maxOutputTokens": 8192,
+	"maxInputTokens": 30720,
+	"rpm": 1200,
+	"inputPrice": 0.0012,
+	"outputPrice": 0.012,
+	"capabilities": ["tool_choice"]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "MiniMax-M1",
+	"ownerKey": "minimax",
+	"type": "chat-completion",
+	"contextSize": 1000000,
+	"rpm": 120,
+	"inputPrice": 0.0024,
+	"outputPrice": 0.024,
+	"capabilities": ["tool_choice"]
+}

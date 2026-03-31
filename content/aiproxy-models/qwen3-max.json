@@ -1,0 +1,12 @@
+{
+	"name": "qwen3-max",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 1048576,
+	"maxOutputTokens": 65536,
+	"maxInputTokens": 1000000,
+	"rpm": 300,
+	"inputPrice": 0.015,
+	"outputPrice": 0.06,
+	"capabilities": ["tool_choice"]
+}

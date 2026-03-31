@@ -1,0 +1,10 @@
+{
+	"name": "moonshot-v1-32k",
+	"ownerKey": "moonshot",
+	"type": "chat-completion",
+	"maxInputTokens": 32768,
+	"rpm": 500,
+	"inputPrice": 0.005,
+	"outputPrice": 0.02,
+	"capabilities": ["tool_choice"]
+}

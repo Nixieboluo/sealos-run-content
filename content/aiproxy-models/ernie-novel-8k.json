@@ -1,0 +1,12 @@
+{
+	"name": "ERNIE-Novel-8K",
+	"ownerKey": "baidu",
+	"type": "chat-completion",
+	"contextSize": 6144,
+	"maxOutputTokens": 2048,
+	"maxInputTokens": 6144,
+	"rpm": 60,
+	"inputPrice": 0.04,
+	"outputPrice": 0.12,
+	"capabilities": []
+}

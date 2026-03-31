@@ -1,0 +1,12 @@
+{
+	"name": "qwen1.5-72b-chat",
+	"ownerKey": "alibaba",
+	"type": "chat-completion",
+	"contextSize": 32000,
+	"maxOutputTokens": 8000,
+	"maxInputTokens": 30000,
+	"rpm": 120,
+	"inputPrice": 0.005,
+	"outputPrice": 0.01,
+	"capabilities": ["tool_choice"]
+}

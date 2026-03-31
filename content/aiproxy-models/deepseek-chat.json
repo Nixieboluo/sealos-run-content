@@ -1,0 +1,11 @@
+{
+	"name": "deepseek-chat",
+	"ownerKey": "deepseek",
+	"type": "chat-completion",
+	"contextSize": 64000,
+	"maxOutputTokens": 4096,
+	"rpm": 10000,
+	"inputPrice": 0.002,
+	"outputPrice": 0.008,
+	"capabilities": ["tool_choice"]
+}

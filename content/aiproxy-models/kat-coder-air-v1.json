@@ -1,0 +1,11 @@
+{
+	"name": "KAT-Coder-Air-V1",
+	"ownerKey": "streamlake",
+	"type": "chat-completion",
+	"contextSize": 128000,
+	"maxOutputTokens": 32000,
+	"rpm": 20,
+	"inputPrice": 0,
+	"outputPrice": 0,
+	"capabilities": ["tool_choice", "coder"]
+}

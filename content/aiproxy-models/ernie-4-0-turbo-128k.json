@@ -1,0 +1,12 @@
+{
+	"name": "ERNIE-4.0-Turbo-128K",
+	"ownerKey": "baidu",
+	"type": "chat-completion",
+	"contextSize": 126976,
+	"maxOutputTokens": 4096,
+	"maxInputTokens": 126976,
+	"rpm": 60,
+	"inputPrice": 0.02,
+	"outputPrice": 0.06,
+	"capabilities": ["tool_choice"]
+}

@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"lint": "biome check --write .",
+		"sync-aiproxy-models": "tsx scripts/sync-aiproxy-models.ts",
 		"sync-templates": "tsx scripts/sync-templates.ts"
 	},
 	"license": "MIT",

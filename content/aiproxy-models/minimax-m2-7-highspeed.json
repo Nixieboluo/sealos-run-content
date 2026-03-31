@@ -1,0 +1,10 @@
+{
+	"name": "MiniMax-M2.7-highspeed",
+	"ownerKey": "minimax",
+	"type": "chat-completion",
+	"contextSize": 204800,
+	"rpm": 120,
+	"inputPrice": 0.0042,
+	"outputPrice": 0.0168,
+	"capabilities": ["tool_choice"]
+}
