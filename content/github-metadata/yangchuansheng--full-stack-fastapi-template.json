@@ -111,8 +111,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"parent": {
 		"id": 172227885,
 		"node_id": "MDEwOlJlcG9zaXRvcnkxNzIyMjc4ODU=",
@@ -181,7 +182,7 @@
 		"releases_url": "https://api.github.com/repos/fastapi/full-stack-fastapi-template/releases{/id}",
 		"deployments_url": "https://api.github.com/repos/fastapi/full-stack-fastapi-template/deployments",
 		"created_at": "2019-02-23T15:08:34Z",
-		"updated_at": "2026-04-08T07:17:32Z",
+		"updated_at": "2026-04-08T08:55:22Z",
 		"pushed_at": "2026-04-04T10:12:55Z",
 		"git_url": "git://github.com/fastapi/full-stack-fastapi-template.git",
 		"ssh_url": "git@github.com:fastapi/full-stack-fastapi-template.git",
@@ -189,8 +190,8 @@
 		"svn_url": "https://github.com/fastapi/full-stack-fastapi-template",
 		"homepage": "",
 		"size": 5566,
-		"stargazers_count": 42528,
-		"watchers_count": 42528,
+		"stargazers_count": 42530,
+		"watchers_count": 42530,
 		"language": "TypeScript",
 		"has_issues": true,
 		"has_projects": true,
@@ -239,7 +240,7 @@
 		"visibility": "public",
 		"forks": 8336,
 		"open_issues": 20,
-		"watchers": 42528,
+		"watchers": 42530,
 		"default_branch": "master"
 	},
 	"source": {
@@ -310,7 +311,7 @@
 		"releases_url": "https://api.github.com/repos/fastapi/full-stack-fastapi-template/releases{/id}",
 		"deployments_url": "https://api.github.com/repos/fastapi/full-stack-fastapi-template/deployments",
 		"created_at": "2019-02-23T15:08:34Z",
-		"updated_at": "2026-04-08T07:17:32Z",
+		"updated_at": "2026-04-08T08:55:22Z",
 		"pushed_at": "2026-04-04T10:12:55Z",
 		"git_url": "git://github.com/fastapi/full-stack-fastapi-template.git",
 		"ssh_url": "git@github.com:fastapi/full-stack-fastapi-template.git",
@@ -318,8 +319,8 @@
 		"svn_url": "https://github.com/fastapi/full-stack-fastapi-template",
 		"homepage": "",
 		"size": 5566,
-		"stargazers_count": 42528,
-		"watchers_count": 42528,
+		"stargazers_count": 42530,
+		"watchers_count": 42530,
 		"language": "TypeScript",
 		"has_issues": true,
 		"has_projects": true,
@@ -368,7 +369,7 @@
 		"visibility": "public",
 		"forks": 8336,
 		"open_issues": 20,
-		"watchers": 42528,
+		"watchers": 42530,
 		"default_branch": "master"
 	},
 	"network_count": 8336,

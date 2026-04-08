@@ -73,7 +73,7 @@
 	"clone_url": "https://github.com/project-zot/zot.git",
 	"svn_url": "https://github.com/project-zot/zot",
 	"homepage": "https://zotregistry.dev",
-	"size": 46883,
+	"size": 46703,
 	"stargazers_count": 2025,
 	"watchers_count": 2025,
 	"language": "Go",
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 79,
+	"open_issues_count": 78,
 	"license": {
 		"key": "apache-2.0",
 		"name": "Apache License 2.0",
@@ -103,7 +103,7 @@
 	"topics": ["distribution-spec", "helm", "kubernetes", "oci", "oci-distribution", "opencontainers", "zot"],
 	"visibility": "public",
 	"forks": 192,
-	"open_issues": 79,
+	"open_issues": 78,
 	"watchers": 2025,
 	"default_branch": "main",
 	"permissions": {
@@ -111,8 +111,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "project-zot",

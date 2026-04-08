@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/coze-dev/coze-studio/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/coze-dev/coze-studio/deployments",
 	"created_at": "2025-06-26T02:19:21Z",
-	"updated_at": "2026-04-08T06:59:25Z",
+	"updated_at": "2026-04-08T08:41:51Z",
 	"pushed_at": "2026-04-03T00:56:20Z",
 	"git_url": "git://github.com/coze-dev/coze-studio.git",
 	"ssh_url": "git@github.com:coze-dev/coze-studio.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/coze-dev/coze-studio",
 	"homepage": "",
 	"size": 75333,
-	"stargazers_count": 20436,
-	"watchers_count": 20436,
+	"stargazers_count": 20439,
+	"watchers_count": 20439,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": false,
-	"forks_count": 2951,
+	"forks_count": 2952,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -120,17 +120,18 @@
 		"workflow"
 	],
 	"visibility": "public",
-	"forks": 2951,
+	"forks": 2952,
 	"open_issues": 490,
-	"watchers": 20436,
+	"watchers": 20439,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "coze-dev",
@@ -153,6 +154,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 2951,
+	"network_count": 2952,
 	"subscribers_count": 119
 }

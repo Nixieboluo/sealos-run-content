@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/excalidraw/excalidraw/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/excalidraw/excalidraw/deployments",
 	"created_at": "2020-01-02T01:04:43Z",
-	"updated_at": "2026-04-08T07:53:33Z",
+	"updated_at": "2026-04-08T08:46:04Z",
 	"pushed_at": "2026-04-07T22:11:32Z",
 	"git_url": "git://github.com/excalidraw/excalidraw.git",
 	"ssh_url": "git@github.com:excalidraw/excalidraw.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/excalidraw/excalidraw",
 	"homepage": "https://excalidraw.com",
 	"size": 99956,
-	"stargazers_count": 120504,
-	"watchers_count": 120504,
+	"stargazers_count": 120514,
+	"watchers_count": 120514,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -104,15 +104,16 @@
 	"visibility": "public",
 	"forks": 13169,
 	"open_issues": 2928,
-	"watchers": 120504,
+	"watchers": 120514,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "excalidraw",

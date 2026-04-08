@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/cloudreve/cloudreve/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/cloudreve/cloudreve/deployments",
 	"created_at": "2018-02-04T04:56:38Z",
-	"updated_at": "2026-04-08T07:49:58Z",
+	"updated_at": "2026-04-08T08:52:10Z",
 	"pushed_at": "2026-03-30T16:23:09Z",
 	"git_url": "git://github.com/cloudreve/cloudreve.git",
 	"ssh_url": "git@github.com:cloudreve/cloudreve.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/cloudreve/cloudreve",
 	"homepage": "https://cloudreve.org",
 	"size": 9576,
-	"stargazers_count": 27320,
-	"watchers_count": 27320,
+	"stargazers_count": 27321,
+	"watchers_count": 27321,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": true,
@@ -104,15 +104,16 @@
 	"visibility": "public",
 	"forks": 3814,
 	"open_issues": 181,
-	"watchers": 27320,
+	"watchers": 27321,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "cloudreve",

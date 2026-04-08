@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/netbirdio/netbird/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/netbirdio/netbird/deployments",
 	"created_at": "2021-04-14T12:27:20Z",
-	"updated_at": "2026-04-08T07:38:37Z",
-	"pushed_at": "2026-04-08T07:38:34Z",
+	"updated_at": "2026-04-08T08:55:59Z",
+	"pushed_at": "2026-04-08T08:58:47Z",
 	"git_url": "git://github.com/netbirdio/netbird.git",
 	"ssh_url": "git@github.com:netbirdio/netbird.git",
 	"clone_url": "https://github.com/netbirdio/netbird.git",
 	"svn_url": "https://github.com/netbirdio/netbird",
 	"homepage": "https://netbird.io",
 	"size": 140666,
-	"stargazers_count": 24164,
-	"watchers_count": 24164,
+	"stargazers_count": 24165,
+	"watchers_count": 24165,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": false,
-	"forks_count": 1232,
+	"forks_count": 1233,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 1499,
+	"open_issues_count": 1498,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -113,17 +113,18 @@
 		"zero-trust-network-access"
 	],
 	"visibility": "public",
-	"forks": 1232,
-	"open_issues": 1499,
-	"watchers": 24164,
+	"forks": 1233,
+	"open_issues": 1498,
+	"watchers": 24165,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "netbirdio",
@@ -146,6 +147,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 1232,
+	"network_count": 1233,
 	"subscribers_count": 122
 }

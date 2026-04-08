@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/juanfont/headscale/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/juanfont/headscale/deployments",
 	"created_at": "2020-06-21T09:21:05Z",
-	"updated_at": "2026-04-08T07:38:09Z",
+	"updated_at": "2026-04-08T09:05:28Z",
 	"pushed_at": "2026-04-05T00:36:59Z",
 	"git_url": "git://github.com/juanfont/headscale.git",
 	"ssh_url": "git@github.com:juanfont/headscale.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/juanfont/headscale",
 	"homepage": "",
 	"size": 29112,
-	"stargazers_count": 37200,
-	"watchers_count": 37200,
+	"stargazers_count": 37204,
+	"watchers_count": 37204,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": true,
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 131,
+	"open_issues_count": 130,
 	"license": {
 		"key": "bsd-3-clause",
 		"name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -103,16 +103,17 @@
 	"topics": ["tailscale", "tailscale-control-server", "tailscale-server", "wireguard"],
 	"visibility": "public",
 	"forks": 2007,
-	"open_issues": 131,
-	"watchers": 37200,
+	"open_issues": 130,
+	"watchers": 37204,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"network_count": 2007,
 	"subscribers_count": 183
 }

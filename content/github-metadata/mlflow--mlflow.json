@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/mlflow/mlflow/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/mlflow/mlflow/deployments",
 	"created_at": "2018-06-05T16:05:58Z",
-	"updated_at": "2026-04-08T07:36:59Z",
-	"pushed_at": "2026-04-08T06:46:32Z",
+	"updated_at": "2026-04-08T09:07:34Z",
+	"pushed_at": "2026-04-08T09:07:44Z",
 	"git_url": "git://github.com/mlflow/mlflow.git",
 	"ssh_url": "git@github.com:mlflow/mlflow.git",
 	"clone_url": "https://github.com/mlflow/mlflow.git",
 	"svn_url": "https://github.com/mlflow/mlflow",
 	"homepage": "https://mlflow.org",
-	"size": 1402143,
-	"stargazers_count": 25201,
-	"watchers_count": 25201,
+	"size": 1401705,
+	"stargazers_count": 25205,
+	"watchers_count": 25205,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 2008,
+	"open_issues_count": 2010,
 	"license": {
 		"key": "apache-2.0",
 		"name": "Apache License 2.0",
@@ -122,16 +122,17 @@
 	],
 	"visibility": "public",
 	"forks": 5535,
-	"open_issues": 2008,
-	"watchers": 25201,
+	"open_issues": 2010,
+	"watchers": 25205,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "mlflow",
@@ -155,5 +156,5 @@
 		"site_admin": false
 	},
 	"network_count": 5535,
-	"subscribers_count": 316
+	"subscribers_count": 317
 }

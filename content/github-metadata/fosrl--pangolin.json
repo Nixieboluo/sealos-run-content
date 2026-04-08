@@ -67,7 +67,7 @@
 	"deployments_url": "https://api.github.com/repos/fosrl/pangolin/deployments",
 	"created_at": "2024-09-27T02:16:47Z",
 	"updated_at": "2026-04-08T06:51:37Z",
-	"pushed_at": "2026-04-08T06:57:05Z",
+	"pushed_at": "2026-04-08T08:20:46Z",
 	"git_url": "git://github.com/fosrl/pangolin.git",
 	"ssh_url": "git@github.com:fosrl/pangolin.git",
 	"clone_url": "https://github.com/fosrl/pangolin.git",
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 92,
+	"open_issues_count": 93,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -122,7 +122,7 @@
 	],
 	"visibility": "public",
 	"forks": 618,
-	"open_issues": 92,
+	"open_issues": 93,
 	"watchers": 19945,
 	"default_branch": "main",
 	"permissions": {
@@ -130,8 +130,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "fosrl",

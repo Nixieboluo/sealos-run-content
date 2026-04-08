@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/paperless-ngx/paperless-ngx/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/paperless-ngx/paperless-ngx/deployments",
 	"created_at": "2022-02-12T21:56:52Z",
-	"updated_at": "2026-04-08T07:38:16Z",
+	"updated_at": "2026-04-08T08:59:46Z",
 	"pushed_at": "2026-04-08T04:39:47Z",
 	"git_url": "git://github.com/paperless-ngx/paperless-ngx.git",
 	"ssh_url": "git@github.com:paperless-ngx/paperless-ngx.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/paperless-ngx/paperless-ngx",
 	"homepage": "http://docs.paperless-ngx.com/",
 	"size": 186260,
-	"stargazers_count": 37924,
-	"watchers_count": 37924,
+	"stargazers_count": 37925,
+	"watchers_count": 37925,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": false,
@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": true,
 	"has_discussions": true,
-	"forks_count": 2413,
+	"forks_count": 2412,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -114,17 +114,18 @@
 		"pdf"
 	],
 	"visibility": "public",
-	"forks": 2413,
+	"forks": 2412,
 	"open_issues": 9,
-	"watchers": 37924,
+	"watchers": 37925,
 	"default_branch": "dev",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "paperless-ngx",
@@ -147,6 +148,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 2413,
+	"network_count": 2412,
 	"subscribers_count": 139
 }

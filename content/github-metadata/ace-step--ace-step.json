@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/ace-step/ACE-Step/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/ace-step/ACE-Step/deployments",
 	"created_at": "2025-04-28T07:03:09Z",
-	"updated_at": "2026-04-08T05:20:48Z",
+	"updated_at": "2026-04-08T08:06:34Z",
 	"pushed_at": "2026-02-15T04:57:54Z",
 	"git_url": "git://github.com/ace-step/ACE-Step.git",
 	"ssh_url": "git@github.com:ace-step/ACE-Step.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/ace-step/ACE-Step",
 	"homepage": "https://ace-step.github.io/",
 	"size": 14337,
-	"stargazers_count": 4278,
-	"watchers_count": 4278,
+	"stargazers_count": 4279,
+	"watchers_count": 4279,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 536,
+	"forks_count": 537,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 144,
+	"open_issues_count": 145,
 	"license": {
 		"key": "apache-2.0",
 		"name": "Apache License 2.0",
@@ -102,17 +102,18 @@
 	"pull_request_creation_policy": "all",
 	"topics": [],
 	"visibility": "public",
-	"forks": 536,
-	"open_issues": 144,
-	"watchers": 4278,
+	"forks": 537,
+	"open_issues": 145,
+	"watchers": 4279,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "ace-step",
@@ -135,6 +136,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 536,
+	"network_count": 537,
 	"subscribers_count": 51
 }

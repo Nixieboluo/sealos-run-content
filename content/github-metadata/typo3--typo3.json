@@ -66,8 +66,8 @@
 	"releases_url": "https://api.github.com/repos/TYPO3/typo3/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/TYPO3/typo3/deployments",
 	"created_at": "2011-03-02T10:02:23Z",
-	"updated_at": "2026-04-08T07:48:33Z",
-	"pushed_at": "2026-04-08T07:48:29Z",
+	"updated_at": "2026-04-08T09:04:51Z",
+	"pushed_at": "2026-04-08T09:04:40Z",
 	"git_url": "git://github.com/TYPO3/typo3.git",
 	"ssh_url": "git@github.com:TYPO3/typo3.git",
 	"clone_url": "https://github.com/TYPO3/typo3.git",
@@ -111,8 +111,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "TYPO3",

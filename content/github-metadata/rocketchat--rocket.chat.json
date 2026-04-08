@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": true,
 	"has_discussions": true,
-	"forks_count": 13507,
+	"forks_count": 13506,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -114,7 +114,7 @@
 		"webrtc"
 	],
 	"visibility": "public",
-	"forks": 13507,
+	"forks": 13506,
 	"open_issues": 3719,
 	"watchers": 45113,
 	"default_branch": "develop",
@@ -123,8 +123,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "RocketChat",
@@ -147,6 +148,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 13507,
+	"network_count": 13506,
 	"subscribers_count": 853
 }

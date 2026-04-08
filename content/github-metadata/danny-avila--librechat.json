@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/danny-avila/LibreChat/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/danny-avila/LibreChat/deployments",
 	"created_at": "2023-02-12T01:06:52Z",
-	"updated_at": "2026-04-08T07:15:20Z",
+	"updated_at": "2026-04-08T08:56:51Z",
 	"pushed_at": "2026-04-08T03:52:45Z",
 	"git_url": "git://github.com/danny-avila/LibreChat.git",
 	"ssh_url": "git@github.com:danny-avila/LibreChat.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/danny-avila/LibreChat",
 	"homepage": "https://librechat.ai/",
 	"size": 161885,
-	"stargazers_count": 35354,
-	"watchers_count": 35354,
+	"stargazers_count": 35355,
+	"watchers_count": 35355,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": true,
 	"has_discussions": true,
-	"forks_count": 7205,
+	"forks_count": 7202,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -123,17 +123,18 @@
 		"webui"
 	],
 	"visibility": "public",
-	"forks": 7205,
+	"forks": 7202,
 	"open_issues": 460,
-	"watchers": 35354,
+	"watchers": 35355,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
-	"network_count": 7205,
+	"temp_clone_token": "",
+	"network_count": 7202,
 	"subscribers_count": 190
 }

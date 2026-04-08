@@ -66,14 +66,14 @@
 	"releases_url": "https://api.github.com/repos/twentyhq/twenty/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/twentyhq/twenty/deployments",
 	"created_at": "2022-12-01T13:04:40Z",
-	"updated_at": "2026-04-08T07:46:00Z",
-	"pushed_at": "2026-04-08T07:55:32Z",
+	"updated_at": "2026-04-08T08:38:14Z",
+	"pushed_at": "2026-04-08T09:08:11Z",
 	"git_url": "git://github.com/twentyhq/twenty.git",
 	"ssh_url": "git@github.com:twentyhq/twenty.git",
 	"clone_url": "https://github.com/twentyhq/twenty.git",
 	"svn_url": "https://github.com/twentyhq/twenty",
 	"homepage": "https://twenty.com",
-	"size": 1005809,
+	"size": 1006022,
 	"stargazers_count": 43703,
 	"watchers_count": 43703,
 	"language": "TypeScript",
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 71,
+	"open_issues_count": 74,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -121,7 +121,7 @@
 	],
 	"visibility": "public",
 	"forks": 5860,
-	"open_issues": 71,
+	"open_issues": 74,
 	"watchers": 43703,
 	"default_branch": "main",
 	"permissions": {
@@ -129,8 +129,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "twentyhq",

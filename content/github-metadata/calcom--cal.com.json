@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": false,
-	"forks_count": 12511,
+	"forks_count": 12512,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 1380,
+	"open_issues_count": 1381,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -114,8 +114,8 @@
 		"zod"
 	],
 	"visibility": "public",
-	"forks": 12511,
-	"open_issues": 1380,
+	"forks": 12512,
+	"open_issues": 1381,
 	"watchers": 41055,
 	"default_branch": "main",
 	"permissions": {
@@ -123,8 +123,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "calcom",
@@ -147,6 +148,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 12511,
+	"network_count": 12512,
 	"subscribers_count": 180
 }

@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/Canner/WrenAI/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/Canner/WrenAI/deployments",
 	"created_at": "2024-03-13T06:18:20Z",
-	"updated_at": "2026-04-08T05:47:09Z",
+	"updated_at": "2026-04-08T09:06:50Z",
 	"pushed_at": "2026-04-06T11:55:49Z",
 	"git_url": "git://github.com/Canner/WrenAI.git",
 	"ssh_url": "git@github.com:Canner/WrenAI.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/Canner/WrenAI",
 	"homepage": "https://getwren.ai/oss",
 	"size": 23437,
-	"stargazers_count": 14882,
-	"watchers_count": 14882,
+	"stargazers_count": 14886,
+	"watchers_count": 14886,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -124,15 +124,16 @@
 	"visibility": "public",
 	"forks": 1644,
 	"open_issues": 301,
-	"watchers": 14882,
+	"watchers": 14886,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {
 		"vanta_production_branch_name": "main"
 	},

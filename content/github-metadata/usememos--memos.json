@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 32,
+	"open_issues_count": 30,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -117,7 +117,7 @@
 	],
 	"visibility": "public",
 	"forks": 4249,
-	"open_issues": 32,
+	"open_issues": 30,
 	"watchers": 58651,
 	"default_branch": "main",
 	"permissions": {
@@ -125,8 +125,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "usememos",

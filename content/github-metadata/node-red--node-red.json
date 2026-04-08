@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": false,
-	"forks_count": 3825,
+	"forks_count": 3826,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -109,7 +109,7 @@
 		"visual-programming"
 	],
 	"visibility": "public",
-	"forks": 3825,
+	"forks": 3826,
 	"open_issues": 509,
 	"watchers": 22996,
 	"default_branch": "master",
@@ -118,8 +118,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "node-red",
@@ -142,6 +143,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 3825,
+	"network_count": 3826,
 	"subscribers_count": 533
 }

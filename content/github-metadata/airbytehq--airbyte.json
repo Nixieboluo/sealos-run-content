@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/airbytehq/airbyte/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/airbytehq/airbyte/deployments",
 	"created_at": "2020-07-27T23:55:54Z",
-	"updated_at": "2026-04-08T05:09:14Z",
+	"updated_at": "2026-04-08T09:09:09Z",
 	"pushed_at": "2026-04-08T07:06:10Z",
 	"git_url": "git://github.com/airbytehq/airbyte.git",
 	"ssh_url": "git@github.com:airbytehq/airbyte.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/airbytehq/airbyte",
 	"homepage": "https://airbyte.com",
 	"size": 834138,
-	"stargazers_count": 21034,
-	"watchers_count": 21034,
+	"stargazers_count": 21035,
+	"watchers_count": 21035,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -125,15 +125,16 @@
 	"visibility": "public",
 	"forks": 5125,
 	"open_issues": 2563,
-	"watchers": 21034,
+	"watchers": 21035,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "airbytehq",

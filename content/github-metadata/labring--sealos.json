@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 78,
+	"open_issues_count": 79,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -103,7 +103,7 @@
 	"topics": ["cloudos", "container", "docker", "golang", "install", "ipvs", "kubeadm", "kubernetes", "kubernetes-ha"],
 	"visibility": "public",
 	"forks": 2382,
-	"open_issues": 78,
+	"open_issues": 79,
 	"watchers": 17228,
 	"default_branch": "main",
 	"permissions": {
@@ -111,8 +111,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "labring",

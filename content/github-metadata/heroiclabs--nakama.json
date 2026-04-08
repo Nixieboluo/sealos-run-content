@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/heroiclabs/nakama/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/heroiclabs/nakama/deployments",
 	"created_at": "2017-01-13T17:15:12Z",
-	"updated_at": "2026-04-07T17:13:17Z",
+	"updated_at": "2026-04-08T08:01:34Z",
 	"pushed_at": "2026-04-06T20:00:56Z",
 	"git_url": "git://github.com/heroiclabs/nakama.git",
 	"ssh_url": "git@github.com:heroiclabs/nakama.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/heroiclabs/nakama",
 	"homepage": "https://heroiclabs.com",
 	"size": 138555,
-	"stargazers_count": 12436,
-	"watchers_count": 12436,
+	"stargazers_count": 12437,
+	"watchers_count": 12437,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": false,
@@ -125,15 +125,16 @@
 	"visibility": "public",
 	"forks": 1390,
 	"open_issues": 123,
-	"watchers": 12436,
+	"watchers": 12437,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "heroiclabs",

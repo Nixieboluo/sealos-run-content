@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/makeplane/plane/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/makeplane/plane/deployments",
 	"created_at": "2022-11-19T12:55:01Z",
-	"updated_at": "2026-04-08T07:41:07Z",
+	"updated_at": "2026-04-08T09:08:30Z",
 	"pushed_at": "2026-04-07T14:38:46Z",
 	"git_url": "git://github.com/makeplane/plane.git",
 	"ssh_url": "git@github.com:makeplane/plane.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/makeplane/plane",
 	"homepage": "http://plane.so",
 	"size": 211975,
-	"stargazers_count": 47428,
-	"watchers_count": 47428,
+	"stargazers_count": 47429,
+	"watchers_count": 47429,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": false,
@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 3915,
+	"forks_count": 3916,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -123,17 +123,18 @@
 		"work-management"
 	],
 	"visibility": "public",
-	"forks": 3915,
+	"forks": 3916,
 	"open_issues": 709,
-	"watchers": 47428,
+	"watchers": 47429,
 	"default_branch": "preview",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "makeplane",
@@ -156,6 +157,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 3915,
+	"network_count": 3916,
 	"subscribers_count": 158
 }

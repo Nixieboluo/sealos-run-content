@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/binary-husky/gpt_academic/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/binary-husky/gpt_academic/deployments",
 	"created_at": "2023-03-20T09:05:13Z",
-	"updated_at": "2026-04-08T06:57:03Z",
+	"updated_at": "2026-04-08T08:44:31Z",
 	"pushed_at": "2026-01-25T12:33:10Z",
 	"git_url": "git://github.com/binary-husky/gpt_academic.git",
 	"ssh_url": "git@github.com:binary-husky/gpt_academic.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/binary-husky/gpt_academic",
 	"homepage": "https://github.com/binary-husky/gpt_academic/wiki/online",
 	"size": 72756,
-	"stargazers_count": 70378,
-	"watchers_count": 70378,
+	"stargazers_count": 70379,
+	"watchers_count": 70379,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -104,15 +104,16 @@
 	"visibility": "public",
 	"forks": 8387,
 	"open_issues": 313,
-	"watchers": 70378,
+	"watchers": 70379,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"network_count": 8387,
 	"subscribers_count": 284
 }
