@@ -1,0 +1,82 @@
+name: Sync GitHub Metadata
+
+on:
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: Sync GitHub metadata and open PR
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout content repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync GitHub metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm sync-github-metadata
+
+      - name: Format generated files
+        run: pnpm exec biome format --write .
+
+      - name: Decide whether to open a PR
+        id: changes
+        run: pnpm exec tsx scripts/should-open-sync-github-metadata-pr.ts
+
+      - name: Create pull request branch
+        if: steps.changes.outputs.should_open_pr == 'true'
+        env:
+          BRANCH_NAME: chore/sync-github-metadata-${{ github.run_id }}-${{ github.run_attempt }}
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git checkout -b "$BRANCH_NAME"
+          git add .
+          git commit -m "chore: sync github metadata"
+          git push --set-upstream origin "$BRANCH_NAME"
+
+      - name: Open pull request
+        if: steps.changes.outputs.should_open_pr == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: chore/sync-github-metadata-${{ github.run_id }}-${{ github.run_attempt }}
+          MATCHED_GITHUB_METADATA_COUNT: ${{ steps.changes.outputs.matched_github_metadata_count }}
+          MATCHED_GITHUB_METADATA_FILES: ${{ steps.changes.outputs.matched_github_metadata_files }}
+          OTHER_CHANGED_COUNT: ${{ steps.changes.outputs.other_changed_count }}
+          OTHER_CHANGED_FILES: ${{ steps.changes.outputs.other_changed_files }}
+        run: |
+          pnpm exec tsx scripts/write-sync-github-metadata-pr-body.ts pr-body.md
+          gh pr create \
+            --title "chore: sync github metadata" \
+            --body-file pr-body.md \
+            --head "$BRANCH_NAME"

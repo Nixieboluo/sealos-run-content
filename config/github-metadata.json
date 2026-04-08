@@ -1,0 +1,7 @@
+{
+	"api_base_url": "https://api.github.com",
+	"templates_dir": "content/appstore/templates",
+	"output_dir": "content/github-metadata",
+	"extra_repos": ["https://github.com/labring/sealos"],
+	"exclude_repos": []
+}

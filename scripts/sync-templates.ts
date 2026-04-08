@@ -73,6 +73,7 @@ type AppstorePageSchema = {
 	description?: string;
 	category?: string;
 	deployCount?: number;
+	github?: string;
 	starsText?: string;
 	versionText?: string;
 	trendDeltaText?: string;
@@ -92,6 +93,49 @@ type TrendPageSchema = AppstorePageSchema & {
 };
 
 const config = templatesConfig satisfies TemplatesConfig;
+
+function normalizeGitHubUrl(input?: string) {
+	if (!input) {
+		return undefined;
+	}
+
+	const trimmed = input.trim();
+	if (!trimmed) {
+		return undefined;
+	}
+
+	const scpLikeMatch = trimmed.match(/^git@github\.com:(.+)$/u);
+	const candidate = scpLikeMatch ? `https://github.com/${scpLikeMatch[1]}` : trimmed;
+	const directRepoMatch = candidate.match(/^([A-Za-z0-9_.-]+)\/([A-Za-z0-9_.-]+?)(?:\.git)?$/u);
+	if (directRepoMatch) {
+		const [, owner, repo] = directRepoMatch;
+		if (!owner || !repo) {
+			return undefined;
+		}
+
+		return `https://github.com/${owner}/${repo}`;
+	}
+
+	let parsedUrl: URL;
+	try {
+		parsedUrl = new URL(candidate);
+	} catch {
+		return undefined;
+	}
+
+	const hostname = parsedUrl.hostname.toLowerCase();
+	if (hostname !== 'github.com' && hostname !== 'www.github.com') {
+		return undefined;
+	}
+
+	const [owner, repoWithOptionalSuffix] = parsedUrl.pathname.split('/').filter(Boolean);
+	const repo = repoWithOptionalSuffix?.replace(/\.git$/u, '');
+	if (!owner || !repo) {
+		return undefined;
+	}
+
+	return `https://github.com/${owner}/${repo}`;
+}
 
 async function ensureGitEnvironment() {
 	try {
@@ -290,6 +334,7 @@ function mapTemplateSpecToAppstore(spec: TemplateSpec): AppstorePageSchema {
 		title: spec.title,
 		description: spec.description,
 		category: spec.categories?.[0],
+		github: normalizeGitHubUrl(spec.gitRepo),
 		thumbnail: spec.icon,
 	};
 }
