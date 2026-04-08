@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/casdoor/casdoor/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/casdoor/casdoor/deployments",
 	"created_at": "2020-10-22T14:40:03Z",
-	"updated_at": "2026-04-08T07:20:04Z",
+	"updated_at": "2026-04-08T08:51:17Z",
 	"pushed_at": "2026-04-08T02:01:52Z",
 	"git_url": "git://github.com/casdoor/casdoor.git",
 	"ssh_url": "git@github.com:casdoor/casdoor.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/casdoor/casdoor",
 	"homepage": "https://casdoor.org",
 	"size": 46154,
-	"stargazers_count": 13297,
-	"watchers_count": 13297,
+	"stargazers_count": 13298,
+	"watchers_count": 13298,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": true,
@@ -125,15 +125,16 @@
 	"visibility": "public",
 	"forks": 1629,
 	"open_issues": 154,
-	"watchers": 13297,
+	"watchers": 13298,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "casdoor",

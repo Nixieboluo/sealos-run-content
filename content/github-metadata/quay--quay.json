@@ -67,7 +67,7 @@
 	"deployments_url": "https://api.github.com/repos/quay/quay/deployments",
 	"created_at": "2019-11-08T17:37:05Z",
 	"updated_at": "2026-04-07T12:53:45Z",
-	"pushed_at": "2026-04-07T19:52:00Z",
+	"pushed_at": "2026-04-08T08:15:39Z",
 	"git_url": "git://github.com/quay/quay.git",
 	"ssh_url": "git@github.com:quay/quay.git",
 	"clone_url": "https://github.com/quay/quay.git",
@@ -111,8 +111,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "quay",

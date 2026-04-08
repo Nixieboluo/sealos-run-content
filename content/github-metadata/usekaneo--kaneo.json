@@ -83,7 +83,7 @@
 	"has_wiki": false,
 	"has_pages": true,
 	"has_discussions": true,
-	"forks_count": 281,
+	"forks_count": 282,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -114,7 +114,7 @@
 		"typescript"
 	],
 	"visibility": "public",
-	"forks": 281,
+	"forks": 282,
 	"open_issues": 37,
 	"watchers": 3396,
 	"default_branch": "main",
@@ -123,8 +123,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "usekaneo",
@@ -147,6 +148,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 281,
+	"network_count": 282,
 	"subscribers_count": 19
 }

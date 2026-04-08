@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/Stirling-Tools/Stirling-PDF/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/Stirling-Tools/Stirling-PDF/deployments",
 	"created_at": "2023-01-27T18:22:42Z",
-	"updated_at": "2026-04-08T07:43:07Z",
-	"pushed_at": "2026-04-07T16:08:11Z",
+	"updated_at": "2026-04-08T09:08:59Z",
+	"pushed_at": "2026-04-08T09:02:55Z",
 	"git_url": "git://github.com/Stirling-Tools/Stirling-PDF.git",
 	"ssh_url": "git@github.com:Stirling-Tools/Stirling-PDF.git",
 	"clone_url": "https://github.com/Stirling-Tools/Stirling-PDF.git",
 	"svn_url": "https://github.com/Stirling-Tools/Stirling-PDF",
 	"homepage": "https://stirling.com",
 	"size": 264955,
-	"stargazers_count": 76405,
-	"watchers_count": 76405,
+	"stargazers_count": 76409,
+	"watchers_count": 76409,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 6563,
+	"forks_count": 6562,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 411,
+	"open_issues_count": 402,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -115,17 +115,18 @@
 		"pdfmerger"
 	],
 	"visibility": "public",
-	"forks": 6563,
-	"open_issues": 411,
-	"watchers": 76405,
+	"forks": 6562,
+	"open_issues": 402,
+	"watchers": 76409,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "Stirling-Tools",
@@ -148,6 +149,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 6563,
+	"network_count": 6562,
 	"subscribers_count": 225
 }

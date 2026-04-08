@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/go-gitea/gitea/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/go-gitea/gitea/deployments",
 	"created_at": "2016-11-01T02:13:26Z",
-	"updated_at": "2026-04-08T07:37:35Z",
+	"updated_at": "2026-04-08T08:46:52Z",
 	"pushed_at": "2026-04-08T04:33:23Z",
 	"git_url": "git://github.com/go-gitea/gitea.git",
 	"ssh_url": "git@github.com:go-gitea/gitea.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/go-gitea/gitea",
 	"homepage": "https://gitea.com",
 	"size": 328915,
-	"stargazers_count": 54781,
-	"watchers_count": 54781,
+	"stargazers_count": 54779,
+	"watchers_count": 54779,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": false,
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 2821,
+	"open_issues_count": 2822,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -124,16 +124,17 @@
 	],
 	"visibility": "public",
 	"forks": 6542,
-	"open_issues": 2821,
-	"watchers": 54781,
+	"open_issues": 2822,
+	"watchers": 54779,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {
 		"vanta_production_branch_name": "main"
 	},

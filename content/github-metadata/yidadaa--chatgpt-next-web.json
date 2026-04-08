@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/ChatGPTNextWeb/NextChat/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/ChatGPTNextWeb/NextChat/deployments",
 	"created_at": "2023-03-10T18:27:54Z",
-	"updated_at": "2026-04-08T07:09:07Z",
+	"updated_at": "2026-04-08T08:55:34Z",
 	"pushed_at": "2025-12-02T17:05:02Z",
 	"git_url": "git://github.com/ChatGPTNextWeb/NextChat.git",
 	"ssh_url": "git@github.com:ChatGPTNextWeb/NextChat.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/ChatGPTNextWeb/NextChat",
 	"homepage": "https://nextchat.club",
 	"size": 20721,
-	"stargazers_count": 87643,
-	"watchers_count": 87643,
+	"stargazers_count": 87644,
+	"watchers_count": 87644,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,7 +83,7 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 59887,
+	"forks_count": 59889,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -122,17 +122,18 @@
 		"webui"
 	],
 	"visibility": "public",
-	"forks": 59887,
+	"forks": 59889,
 	"open_issues": 802,
-	"watchers": 87643,
+	"watchers": 87644,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "ChatGPTNextWeb",
@@ -155,6 +156,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 59887,
+	"network_count": 59889,
 	"subscribers_count": 465
 }

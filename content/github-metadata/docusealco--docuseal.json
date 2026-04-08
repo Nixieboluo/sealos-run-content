@@ -83,7 +83,7 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 1012,
+	"forks_count": 1011,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -116,7 +116,7 @@
 		"webpack"
 	],
 	"visibility": "public",
-	"forks": 1012,
+	"forks": 1011,
 	"open_issues": 107,
 	"watchers": 11695,
 	"default_branch": "master",
@@ -125,8 +125,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "docusealco",
@@ -149,6 +150,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 1012,
+	"network_count": 1011,
 	"subscribers_count": 46
 }

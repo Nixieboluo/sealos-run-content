@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/PDFMathTranslate/PDFMathTranslate/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/PDFMathTranslate/PDFMathTranslate/deployments",
 	"created_at": "2024-09-06T06:56:03Z",
-	"updated_at": "2026-04-08T07:39:03Z",
+	"updated_at": "2026-04-08T08:36:44Z",
 	"pushed_at": "2026-04-06T03:33:09Z",
 	"git_url": "git://github.com/PDFMathTranslate/PDFMathTranslate.git",
 	"ssh_url": "git@github.com:PDFMathTranslate/PDFMathTranslate.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
 	"homepage": "https://pdf2zh.com",
 	"size": 54533,
-	"stargazers_count": 32792,
-	"watchers_count": 32792,
+	"stargazers_count": 32794,
+	"watchers_count": 32794,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -124,15 +124,16 @@
 	"visibility": "public",
 	"forks": 2956,
 	"open_issues": 104,
-	"watchers": 32792,
+	"watchers": 32794,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "PDFMathTranslate",

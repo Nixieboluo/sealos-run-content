@@ -66,8 +66,8 @@
 	"releases_url": "https://api.github.com/repos/labring/FastGPT/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/labring/FastGPT/deployments",
 	"created_at": "2023-02-23T16:53:25Z",
-	"updated_at": "2026-04-08T07:43:13Z",
-	"pushed_at": "2026-04-08T01:53:17Z",
+	"updated_at": "2026-04-08T08:45:05Z",
+	"pushed_at": "2026-04-08T08:15:25Z",
 	"git_url": "git://github.com/labring/FastGPT.git",
 	"ssh_url": "git@github.com:labring/FastGPT.git",
 	"clone_url": "https://github.com/labring/FastGPT.git",
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 190,
+	"open_issues_count": 191,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -103,7 +103,7 @@
 	"topics": ["agent", "claude", "deepseek", "llm", "mcp", "nextjs", "openai", "qwen", "rag", "workflow"],
 	"visibility": "public",
 	"forks": 7020,
-	"open_issues": 190,
+	"open_issues": 191,
 	"watchers": 27650,
 	"default_branch": "main",
 	"permissions": {
@@ -111,8 +111,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "labring",

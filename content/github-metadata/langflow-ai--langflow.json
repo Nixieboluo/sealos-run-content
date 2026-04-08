@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/langflow-ai/langflow/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/langflow-ai/langflow/deployments",
 	"created_at": "2023-02-08T22:28:03Z",
-	"updated_at": "2026-04-08T07:28:42Z",
+	"updated_at": "2026-04-08T09:06:25Z",
 	"pushed_at": "2026-04-08T04:35:50Z",
 	"git_url": "git://github.com/langflow-ai/langflow.git",
 	"ssh_url": "git@github.com:langflow-ai/langflow.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/langflow-ai/langflow",
 	"homepage": "http://www.langflow.org",
 	"size": 1211473,
-	"stargazers_count": 146659,
-	"watchers_count": 146659,
+	"stargazers_count": 146667,
+	"watchers_count": 146667,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -104,15 +104,16 @@
 	"visibility": "public",
 	"forks": 8724,
 	"open_issues": 949,
-	"watchers": 146659,
+	"watchers": 146667,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "langflow-ai",

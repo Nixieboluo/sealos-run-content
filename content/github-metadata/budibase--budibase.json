@@ -66,14 +66,14 @@
 	"releases_url": "https://api.github.com/repos/Budibase/budibase/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/Budibase/budibase/deployments",
 	"created_at": "2019-06-07T11:03:41Z",
-	"updated_at": "2026-04-08T06:56:46Z",
-	"pushed_at": "2026-04-08T07:52:15Z",
+	"updated_at": "2026-04-08T08:25:36Z",
+	"pushed_at": "2026-04-08T09:05:50Z",
 	"git_url": "git://github.com/Budibase/budibase.git",
 	"ssh_url": "git@github.com:Budibase/budibase.git",
 	"clone_url": "https://github.com/Budibase/budibase.git",
 	"svn_url": "https://github.com/Budibase/budibase",
 	"homepage": "https://budibase.com",
-	"size": 727737,
+	"size": 726167,
 	"stargazers_count": 27811,
 	"watchers_count": 27811,
 	"language": "TypeScript",
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 292,
+	"open_issues_count": 294,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -123,7 +123,7 @@
 	],
 	"visibility": "public",
 	"forks": 2109,
-	"open_issues": 292,
+	"open_issues": 294,
 	"watchers": 27811,
 	"default_branch": "master",
 	"permissions": {
@@ -131,8 +131,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "Budibase",

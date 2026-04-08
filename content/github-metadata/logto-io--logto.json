@@ -73,7 +73,7 @@
 	"clone_url": "https://github.com/logto-io/logto.git",
 	"svn_url": "https://github.com/logto-io/logto",
 	"homepage": "https://logto.io",
-	"size": 108879,
+	"size": 108891,
 	"stargazers_count": 11873,
 	"watchers_count": 11873,
 	"language": "TypeScript",
@@ -132,8 +132,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "logto-io",

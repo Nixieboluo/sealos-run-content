@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/FlowiseAI/Flowise/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/FlowiseAI/Flowise/deployments",
 	"created_at": "2023-03-31T12:23:09Z",
-	"updated_at": "2026-04-08T07:54:59Z",
+	"updated_at": "2026-04-08T08:58:49Z",
 	"pushed_at": "2026-04-08T00:11:58Z",
 	"git_url": "git://github.com/FlowiseAI/Flowise.git",
 	"ssh_url": "git@github.com:FlowiseAI/Flowise.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/FlowiseAI/Flowise",
 	"homepage": "https://flowiseai.com",
 	"size": 79460,
-	"stargazers_count": 51647,
-	"watchers_count": 51647,
+	"stargazers_count": 51650,
+	"watchers_count": 51650,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,7 +83,7 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 24081,
+	"forks_count": 24082,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -120,17 +120,18 @@
 		"workflow-automation"
 	],
 	"visibility": "public",
-	"forks": 24081,
+	"forks": 24082,
 	"open_issues": 811,
-	"watchers": 51647,
+	"watchers": 51650,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "FlowiseAI",
@@ -153,6 +154,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 24081,
+	"network_count": 24082,
 	"subscribers_count": 350
 }

@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/open-webui/open-webui/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/open-webui/open-webui/deployments",
 	"created_at": "2023-10-06T22:08:27Z",
-	"updated_at": "2026-04-08T07:50:20Z",
+	"updated_at": "2026-04-08T09:08:44Z",
 	"pushed_at": "2026-04-07T21:05:00Z",
 	"git_url": "git://github.com/open-webui/open-webui.git",
 	"ssh_url": "git@github.com:open-webui/open-webui.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/open-webui/open-webui",
 	"homepage": "https://openwebui.com",
 	"size": 350057,
-	"stargazers_count": 130599,
-	"watchers_count": 130599,
+	"stargazers_count": 130611,
+	"watchers_count": 130611,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": false,
@@ -87,7 +87,7 @@
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 319,
+	"open_issues_count": 313,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -119,16 +119,17 @@
 	],
 	"visibility": "public",
 	"forks": 18510,
-	"open_issues": 319,
-	"watchers": 130599,
+	"open_issues": 313,
+	"watchers": 130611,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "open-webui",
@@ -152,5 +153,5 @@
 		"site_admin": false
 	},
 	"network_count": 18510,
-	"subscribers_count": 565
+	"subscribers_count": 564
 }

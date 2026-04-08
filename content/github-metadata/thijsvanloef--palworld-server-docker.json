@@ -119,8 +119,9 @@
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"network_count": 322,
 	"subscribers_count": 17
 }

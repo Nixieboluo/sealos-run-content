@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/minio/minio/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/minio/minio/deployments",
 	"created_at": "2015-01-14T19:23:58Z",
-	"updated_at": "2026-04-08T07:54:37Z",
+	"updated_at": "2026-04-08T09:05:44Z",
 	"pushed_at": "2026-02-12T20:18:51Z",
 	"git_url": "git://github.com/minio/minio.git",
 	"ssh_url": "git@github.com:minio/minio.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/minio/minio",
 	"homepage": "",
 	"size": 135985,
-	"stargazers_count": 60636,
-	"watchers_count": 60636,
+	"stargazers_count": 60639,
+	"watchers_count": 60639,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": false,
@@ -117,15 +117,16 @@
 	"visibility": "public",
 	"forks": 7357,
 	"open_issues": 80,
-	"watchers": 60636,
+	"watchers": 60639,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
 		"maintain": false,
 		"push": false,
 		"triage": false,
-		"pull": true
+		"pull": false
 	},
+	"temp_clone_token": "",
 	"custom_properties": {},
 	"organization": {
 		"login": "minio",
