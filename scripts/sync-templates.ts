@@ -167,6 +167,10 @@ function normalizeGitHubUrl(input?: string) {
 	return `https://github.com/${owner}/${repo}`;
 }
 
+function normalizeSlug(input: string) {
+	return input.trim().toLowerCase();
+}
+
 async function ensureGitEnvironment() {
 	try {
 		await $`git --version`;
@@ -687,7 +691,8 @@ async function parseTemplates(templateRootDir: string) {
 
 			const spec = manifest.spec;
 			const fileSlug = path.basename(manifestPath).replace(/\.ya?ml$/u, '');
-			const slug = fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
+			const rawSlug = fileSlug === 'index' ? path.basename(path.dirname(manifestPath)) : fileSlug;
+			const slug = normalizeSlug(rawSlug);
 
 			const template: ParsedTemplate = {
 				slug,

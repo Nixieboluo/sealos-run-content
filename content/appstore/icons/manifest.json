@@ -31,10 +31,10 @@
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/airbyte/logo.svg",
 		"status": "downloaded"
 	},
-	"AllinSSL": {
+	"allinssl": {
 		"contentType": "image/svg+xml",
-		"file": "content/appstore/icons/AllinSSL.svg",
-		"path": "/appstore/icons/AllinSSL.svg",
+		"file": "content/appstore/icons/allinssl.svg",
+		"path": "/appstore/icons/allinssl.svg",
 		"sha256": "0bc1a4f816337b39625140f4115965cb4aa7a72b365f031f121541e791bda85d",
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/AllinSSL/logo.svg",
 		"status": "downloaded"
@@ -1025,10 +1025,10 @@
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/openclaw/logo.svg",
 		"status": "downloaded"
 	},
-	"OpenDeepWiki": {
+	"opendeepwiki": {
 		"contentType": "image/png",
-		"file": "content/appstore/icons/OpenDeepWiki.png",
-		"path": "/appstore/icons/OpenDeepWiki.png",
+		"file": "content/appstore/icons/opendeepwiki.png",
+		"path": "/appstore/icons/opendeepwiki.png",
 		"sha256": "8eac969156d13712d3a947ae5faff6c939f34b3ef5bd3060b5d8cc2fdee38617",
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/OpenDeepWiki/logo.png",
 		"status": "downloaded"
@@ -1270,18 +1270,18 @@
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/quay/logo.svg",
 		"status": "downloaded"
 	},
-	"Reactive-Resume": {
+	"reactive-resume": {
 		"contentType": "image/svg+xml",
-		"file": "content/appstore/icons/Reactive-Resume.svg",
-		"path": "/appstore/icons/Reactive-Resume.svg",
+		"file": "content/appstore/icons/reactive-resume.svg",
+		"path": "/appstore/icons/reactive-resume.svg",
 		"sha256": "fd8e0f77f737d1aff15aa583551821166901e8844a2e75e4686f13590c7e9e11",
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/Reactive-Resume/logo.svg",
 		"status": "downloaded"
 	},
-	"Readeck": {
+	"readeck": {
 		"contentType": "image/svg+xml",
-		"file": "content/appstore/icons/Readeck.svg",
-		"path": "/appstore/icons/Readeck.svg",
+		"file": "content/appstore/icons/readeck.svg",
+		"path": "/appstore/icons/readeck.svg",
 		"sha256": "953aead7503f98bfd5a3f021be2f8c2427f49ec5cd7d81c78684e387e73f2274",
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/Readeck/logo.svg",
 		"status": "downloaded"
@@ -1334,10 +1334,10 @@
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/rsshub/logo.png",
 		"status": "downloaded"
 	},
-	"Ruiqi-Waf": {
+	"ruiqi-waf": {
 		"contentType": "image/png",
-		"file": "content/appstore/icons/Ruiqi-Waf.png",
-		"path": "/appstore/icons/Ruiqi-Waf.png",
+		"file": "content/appstore/icons/ruiqi-waf.png",
+		"path": "/appstore/icons/ruiqi-waf.png",
 		"sha256": "3e98f3247b62860e94a78cf750903e2d999e5d806068cdfd71e9b4a87716410a",
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/Ruiqi-Waf/logo.png",
 		"status": "downloaded"
