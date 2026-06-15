@@ -92,7 +92,37 @@ type TrendPageSchema = AppstorePageSchema & {
 	trendDeltaText: string;
 };
 
+type IconManifestEntry = {
+	contentType?: string;
+	error?: string;
+	file?: string;
+	localSource?: string;
+	path?: string;
+	sha256?: string;
+	source: string;
+	status: 'copied' | 'downloaded' | 'failed' | 'skipped';
+};
+
+type IconManifest = Record<string, IconManifestEntry>;
+
 const config = templatesConfig satisfies TemplatesConfig;
+const ICONS_ROUTE_BASE_PATH = '/appstore/icons';
+const ICONS_OUTPUT_DIRNAME = 'icons';
+const MAX_ICON_SIZE_BYTES = 5 * 1024 * 1024;
+const ICON_DOWNLOAD_TIMEOUT_MS = 15_000;
+const CONTENT_TYPE_EXTENSION_MAP = new Map([
+	['image/svg+xml', '.svg'],
+	['image/png', '.png'],
+	['image/jpeg', '.jpg'],
+	['image/webp', '.webp'],
+	['image/gif', '.gif'],
+	['image/x-icon', '.ico'],
+	['image/vnd.microsoft.icon', '.ico'],
+]);
+const SUPPORTED_ICON_EXTENSIONS = new Set(['.svg', '.png', '.jpg', '.jpeg', '.webp', '.gif', '.ico']);
+const EXTENSION_CONTENT_TYPE_MAP = new Map(
+	[...CONTENT_TYPE_EXTENSION_MAP.entries()].map(([contentType, extension]) => [extension, contentType]),
+);
 
 function normalizeGitHubUrl(input?: string) {
 	if (!input) {
@@ -231,6 +261,224 @@ async function buildTemplatesLock(targetDir: string, configPath: string) {
 async function writeTemplatesLock(lockPath: string, lock: TemplatesLock) {
 	const lockContent = `${JSON.stringify(lock, null, '\t')}\n`;
 	await writeFile(lockPath, lockContent, { encoding: 'utf8' });
+}
+
+function isRemoteUrl(input: string) {
+	try {
+		const url = new URL(input);
+		return url.protocol === 'http:' || url.protocol === 'https:';
+	} catch {
+		return false;
+	}
+}
+
+function normalizeContentType(contentType: string | null) {
+	return contentType?.split(';')[0]?.trim().toLowerCase();
+}
+
+function getExtensionFromUrl(source: string) {
+	try {
+		const url = new URL(source);
+		const ext = path.extname(url.pathname).toLowerCase();
+		return SUPPORTED_ICON_EXTENSIONS.has(ext) ? ext : undefined;
+	} catch {
+		return undefined;
+	}
+}
+
+function getExtensionFromContentType(contentType?: string) {
+	if (!contentType) {
+		return undefined;
+	}
+
+	return CONTENT_TYPE_EXTENSION_MAP.get(contentType);
+}
+
+function createIconRoutePath(slug: string, extension: string) {
+	return `${ICONS_ROUTE_BASE_PATH}/${slug}${extension}`;
+}
+
+function createIconRelativeFile(slug: string, extension: string) {
+	return `content/appstore/${ICONS_OUTPUT_DIRNAME}/${slug}${extension}`;
+}
+
+async function downloadIcon(slug: string, source: string, iconsDir: string): Promise<IconManifestEntry> {
+	if (!isRemoteUrl(source)) {
+		return {
+			source,
+			status: 'skipped',
+			error: 'thumbnail is not an HTTP URL',
+		};
+	}
+
+	const controller = new AbortController();
+	const timeout = setTimeout(() => controller.abort(), ICON_DOWNLOAD_TIMEOUT_MS);
+
+	try {
+		const response = await fetch(source, {
+			headers: {
+				'user-agent': 'sealos.run content sync',
+			},
+			signal: controller.signal,
+		});
+
+		if (!response.ok) {
+			throw new Error(`HTTP ${response.status}`);
+		}
+
+		const contentLength = Number(response.headers.get('content-length'));
+		if (Number.isFinite(contentLength) && contentLength > MAX_ICON_SIZE_BYTES) {
+			throw new Error(`icon is larger than ${MAX_ICON_SIZE_BYTES} bytes`);
+		}
+
+		const contentType = normalizeContentType(response.headers.get('content-type'));
+		const extension = getExtensionFromUrl(source) ?? getExtensionFromContentType(contentType);
+		if (!extension) {
+			throw new Error(`unsupported icon content type: ${contentType ?? 'unknown'}`);
+		}
+
+		const bytes = Buffer.from(await response.arrayBuffer());
+		if (bytes.byteLength > MAX_ICON_SIZE_BYTES) {
+			throw new Error(`icon is larger than ${MAX_ICON_SIZE_BYTES} bytes`);
+		}
+
+		const outputPath = path.join(iconsDir, `${slug}${extension}`);
+		await writeFile(outputPath, bytes);
+
+		return {
+			contentType,
+			file: createIconRelativeFile(slug, extension),
+			path: createIconRoutePath(slug, extension),
+			sha256: createHash('sha256').update(bytes).digest('hex'),
+			source,
+			status: 'downloaded',
+		};
+	} catch (error) {
+		return {
+			source,
+			status: 'failed',
+			error: error instanceof Error ? error.message : String(error),
+		};
+	} finally {
+		clearTimeout(timeout);
+	}
+}
+
+async function copyLocalTemplateIcon(slug: string, manifestPath: string, source: string, iconsDir: string) {
+	const templateDir = path.dirname(manifestPath);
+	const entries = await readdir(templateDir, { withFileTypes: true });
+	const localIcon = entries
+		.filter((entry) => entry.isFile())
+		.map((entry) => {
+			const extension = path.extname(entry.name).toLowerCase();
+			return {
+				extension,
+				name: entry.name,
+			};
+		})
+		.find(
+			(entry) => entry.name.toLowerCase().startsWith('logo.') && SUPPORTED_ICON_EXTENSIONS.has(entry.extension),
+		);
+
+	if (!localIcon) {
+		return undefined;
+	}
+
+	const localSource = path.join(templateDir, localIcon.name);
+	const bytes = await readFile(localSource);
+	const outputPath = path.join(iconsDir, `${slug}${localIcon.extension}`);
+	await writeFile(outputPath, bytes);
+
+	return {
+		contentType: EXTENSION_CONTENT_TYPE_MAP.get(localIcon.extension),
+		file: createIconRelativeFile(slug, localIcon.extension),
+		localSource: path.relative(path.dirname(iconsDir), localSource),
+		path: createIconRoutePath(slug, localIcon.extension),
+		sha256: createHash('sha256').update(bytes).digest('hex'),
+		source,
+		status: 'copied',
+	} satisfies IconManifestEntry;
+}
+
+function applyLocalIconPaths(templates: ParsedTemplate[], manifest: IconManifest) {
+	return templates.map((template) => {
+		const icon = manifest[template.slug];
+		if ((icon?.status !== 'downloaded' && icon?.status !== 'copied') || !icon.path) {
+			return template;
+		}
+
+		return {
+			...template,
+			appstore: {
+				...template.appstore,
+				thumbnail: icon.path,
+			},
+		};
+	});
+}
+
+function removeUnavailableIconPaths(templates: ParsedTemplate[], manifest: IconManifest) {
+	return templates.map((template) => {
+		const icon = manifest[template.slug];
+		if (!icon || icon.status === 'downloaded' || icon.status === 'copied') {
+			return template;
+		}
+
+		return {
+			...template,
+			appstore: {
+				...template.appstore,
+				thumbnail: undefined,
+			},
+		};
+	});
+}
+
+async function writeIconManifest(iconsDir: string, manifest: IconManifest) {
+	const sortedManifest = Object.fromEntries(Object.entries(manifest).sort(([a], [b]) => a.localeCompare(b)));
+	await writeFile(path.join(iconsDir, 'manifest.json'), `${JSON.stringify(sortedManifest, null, '\t')}\n`, {
+		encoding: 'utf8',
+	});
+}
+
+async function downloadTemplateIcons(iconsDir: string, templates: ParsedTemplate[]) {
+	await rm(iconsDir, { force: true, recursive: true });
+	await mkdir(iconsDir, { recursive: true });
+
+	const manifestEntries = await Promise.all(
+		templates
+			.toSorted((a, b) => a.slug.localeCompare(b.slug))
+			.map(async (template) => {
+				const source = template.spec.icon;
+				if (!source) {
+					return [
+						template.slug,
+						{
+							source: '',
+							status: 'skipped',
+							error: 'template spec has no icon',
+						} satisfies IconManifestEntry,
+					] as const;
+				}
+
+				const icon = await downloadIcon(template.slug, source, iconsDir);
+				if (icon.status === 'downloaded') {
+					return [template.slug, icon] as const;
+				}
+
+				const localIcon = await copyLocalTemplateIcon(template.slug, template.manifestPath, source, iconsDir);
+				if (localIcon) {
+					return [template.slug, localIcon] as const;
+				}
+
+				return [template.slug, icon] as const;
+			}),
+	);
+	const manifest = Object.fromEntries(manifestEntries);
+
+	await writeIconManifest(iconsDir, manifest);
+
+	return manifest;
 }
 
 function isYamlFile(entry: Dirent) {
@@ -475,11 +723,14 @@ async function syncTemplates(templatesConfig: TemplatesConfig) {
 	const templateRootDir = path.join(cloneTargetDir, templateDir);
 	const outputDir = path.join(workspaceRoot, contentsOutputDir);
 	const trendsDir = path.join(workspaceRoot, trendsOutputDir);
+	const iconsDir = path.join(workspaceRoot, 'content', 'appstore', ICONS_OUTPUT_DIRNAME);
 
 	await mkdir(cloneBaseDir, { recursive: true });
 	await syncCloneTarget(cloneTargetDir, repo, branch);
 
-	const templates = await parseTemplates(templateRootDir);
+	const parsedTemplates = await parseTemplates(templateRootDir);
+	const iconManifest = await downloadTemplateIcons(iconsDir, parsedTemplates);
+	const templates = applyLocalIconPaths(removeUnavailableIconPaths(parsedTemplates, iconManifest), iconManifest);
 	await writeTemplatePages(outputDir, templates);
 	await writeTrendPages(trendsDir, templates, trendItems);
 	const lock = await buildTemplatesLock(cloneTargetDir, configPath);
@@ -487,6 +738,7 @@ async function syncTemplates(templatesConfig: TemplatesConfig) {
 
 	console.log(chalk.green(`templates synced to ${cloneTargetDir}`));
 	console.log(chalk.green(`parsed ${templates.length} templates from ${templateRootDir}`));
+	console.log(chalk.green(`generated appstore icons in ${iconsDir}`));
 	console.log(chalk.green(`generated ${templates.length} appstore pages in ${outputDir}`));
 	console.log(chalk.green(`generated ${trendItems.length} trend pages in ${trendsDir}`));
 	console.log(chalk.green(`lockfile updated at ${lockPath}`));

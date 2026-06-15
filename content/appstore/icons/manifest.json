@@ -1,0 +1,1618 @@
+{
+	"ace-step": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/ace-step.svg",
+		"path": "/appstore/icons/ace-step.svg",
+		"sha256": "bb0932c605f400e95531fd4846e6c508a518264aafda12aa3d41baaaabafc925",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/ace-step/logo.svg",
+		"status": "downloaded"
+	},
+	"affine": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/affine.png",
+		"path": "/appstore/icons/affine.png",
+		"sha256": "0d29960230f4b86123cb915386866d84e1e31aa7280fa35d02411fd6cc6712dc",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/affine/logo.png",
+		"status": "downloaded"
+	},
+	"agora": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/agora.svg",
+		"path": "/appstore/icons/agora.svg",
+		"sha256": "b740f3bfc387577a98adf1cd343df2a71aabbfe3651704c40e3c3bc37c4137aa",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/agora/logo.svg",
+		"status": "downloaded"
+	},
+	"airbyte": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/airbyte.svg",
+		"path": "/appstore/icons/airbyte.svg",
+		"sha256": "7da2f2d882326bf2bd2f72620a384bf5d097fcbafe7148f49a6ab0acf7f357aa",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/airbyte/logo.svg",
+		"status": "downloaded"
+	},
+	"AllinSSL": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/AllinSSL.svg",
+		"path": "/appstore/icons/AllinSSL.svg",
+		"sha256": "0bc1a4f816337b39625140f4115965cb4aa7a72b365f031f121541e791bda85d",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/AllinSSL/logo.svg",
+		"status": "downloaded"
+	},
+	"anki-sync-server": {
+		"contentType": "image/jpeg",
+		"file": "content/appstore/icons/anki-sync-server.jpg",
+		"path": "/appstore/icons/anki-sync-server.jpg",
+		"sha256": "a59faa7d4f5320d3824b6244c8495cab9af57bbe1ae58ff546accf3db8a99a6c",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/anki-sync-server/logo.jpg",
+		"status": "downloaded"
+	},
+	"appflowy": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/appflowy.svg",
+		"path": "/appstore/icons/appflowy.svg",
+		"sha256": "efa7e1099409e706d8048d38965cee60e8afbb3936752a72a51b6ec4247fc6d4",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/appflowy/logo.svg",
+		"status": "downloaded"
+	},
+	"appsmith": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/appsmith.png",
+		"path": "/appstore/icons/appsmith.png",
+		"sha256": "2b20f5906f270922cb27431985cff733a0535e054d194202d6359d482f6199ea",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/appsmith/logo.png",
+		"status": "downloaded"
+	},
+	"artalk": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/artalk.png",
+		"path": "/appstore/icons/artalk.png",
+		"sha256": "9ae894b4c1a48909265b7d06bf7b6860164087ba57fdd48a2bbedb4bac8378f4",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/artalk/logo.png",
+		"status": "downloaded"
+	},
+	"asktable": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/asktable.png",
+		"path": "/appstore/icons/asktable.png",
+		"sha256": "9d05f6decdb12b266261b26a31d03e60b8d5d39d30e4991ce153edf6d186a430",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/asktable/logo.png",
+		"status": "downloaded"
+	},
+	"authentik": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/authentik.png",
+		"path": "/appstore/icons/authentik.png",
+		"sha256": "4fe27c773eea6d5f90a609cd83300561c97f443bd7ba7170689c6eab5dfd966f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/authentik/logo.png",
+		"status": "downloaded"
+	},
+	"banana-slides": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/banana-slides.png",
+		"path": "/appstore/icons/banana-slides.png",
+		"sha256": "073dc103acb472daa79c34b856c6e9c10fd068afcc4b39ab69f36e4b96fc7ed1",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/banana-slides/logo.png",
+		"status": "downloaded"
+	},
+	"blossom": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/blossom.png",
+		"path": "/appstore/icons/blossom.png",
+		"sha256": "44e3b1188ba8eb18b5ce6cb655b56c6122bd7e1ad9971c4ebd6efef3b02f12ef",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/blossom/logo.png",
+		"status": "downloaded"
+	},
+	"btpanel": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/btpanel.png",
+		"path": "/appstore/icons/btpanel.png",
+		"sha256": "c84bb69a0fb091ea6487ea72cd1eff2b9ab2b41572e869d0c30e0046ace97fac",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/btpanel/logo.png",
+		"status": "downloaded"
+	},
+	"budibase": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/budibase.png",
+		"path": "/appstore/icons/budibase.png",
+		"sha256": "6fa5973faa8e16ec2c8044428c5c4a2f8ddecadb0a45415a2307a6074444ea85",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/budibase/logo.png",
+		"status": "downloaded"
+	},
+	"bytebase": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/bytebase.svg",
+		"path": "/appstore/icons/bytebase.svg",
+		"sha256": "8c1000186b41ff5621a437ff317f0b9f1c00d5e59a18d8f79b274abe8aad2b75",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/bytebase/logo.svg",
+		"status": "downloaded"
+	},
+	"calcom": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/calcom.svg",
+		"path": "/appstore/icons/calcom.svg",
+		"sha256": "9f9f03640c39932998cdfb5ecf3194f14b9b4f9a0995e25914d4166be89bd372",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/calcom/logo.svg",
+		"status": "downloaded"
+	},
+	"cap": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/cap.svg",
+		"path": "/appstore/icons/cap.svg",
+		"sha256": "025bafcbda7cc82ddb87a7cd44e100d94ceab91dc824e429d3105b7681697827",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/cap/logo.svg",
+		"status": "downloaded"
+	},
+	"casdoor": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/casdoor.png",
+		"path": "/appstore/icons/casdoor.png",
+		"sha256": "f77b84ceaac60c553db6d9ec6c5abc277dd90881fd3e6b65d3ec108cd1981baf",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/casdoor/logo.png",
+		"status": "downloaded"
+	},
+	"changedetection": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/changedetection.png",
+		"path": "/appstore/icons/changedetection.png",
+		"sha256": "876945e18ea93a142498188fb34617eecde53c7337f1e4901b4dbba4fd50a8b3",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/changedetection/logo.png",
+		"status": "downloaded"
+	},
+	"chatany": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/chatany.png",
+		"path": "/appstore/icons/chatany.png",
+		"sha256": "6afd73fe46dbf995f1f60e381a2537b3ce93bd0afce0430975371bfbea098a7c",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chatany/logo.png",
+		"status": "downloaded"
+	},
+	"chatbot-ui": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/chatbot-ui.png",
+		"path": "/appstore/icons/chatbot-ui.png",
+		"sha256": "1edc18f4a48fc8ef9375cb3fc2a4e74fba2bc9e3f8875946be7ac9681d983933",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chatbot-ui/logo.png",
+		"status": "downloaded"
+	},
+	"chatgpt-next-web": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/chatgpt-next-web.svg",
+		"path": "/appstore/icons/chatgpt-next-web.svg",
+		"sha256": "0f6b1f27019d85bfe7e90af5df1707332ab23c040685f2ee8172865a00eaeff6",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chatgpt-next-web/logo.svg",
+		"status": "downloaded"
+	},
+	"chatgpt-on-wechat": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/chatgpt-on-wechat.png",
+		"path": "/appstore/icons/chatgpt-on-wechat.png",
+		"sha256": "08ae4e30af46b2b08b0afbb3a78725aecdae8442dbd6d7e5f24537ca87bad88f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chatgpt-on-wechat/logo.png",
+		"status": "downloaded"
+	},
+	"chatgpt-web": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/chatgpt-web.svg",
+		"path": "/appstore/icons/chatgpt-web.svg",
+		"sha256": "8cfbca954d24dd08e6dfb3061a45d2dbc478f782a366e2a22e1baf885a3d3f70",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chatgpt-web/logo.svg",
+		"status": "downloaded"
+	},
+	"chatnio": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/chatnio.png",
+		"path": "/appstore/icons/chatnio.png",
+		"sha256": "86c257582b7f8c3e81a5618c22d3f359f3ed9d093da54654605f99a55a4b802b",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chatnio/logo.png",
+		"status": "downloaded"
+	},
+	"chatwoot": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/chatwoot.png",
+		"path": "/appstore/icons/chatwoot.png",
+		"sha256": "5dc23d261ed6dccfd349da99d63475ab6ccea3a84591e6f449c80b61d53d4729",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chatwoot/logo.png",
+		"status": "downloaded"
+	},
+	"chrome": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/chrome.svg",
+		"path": "/appstore/icons/chrome.svg",
+		"sha256": "fa70a8395db5875747df112606379788854a86ac0d39d06914d5fd0c7ba7dc76",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/chrome/logo.svg",
+		"status": "downloaded"
+	},
+	"cloudreve": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/cloudreve.png",
+		"path": "/appstore/icons/cloudreve.png",
+		"sha256": "0dc80c8fb3485978d39662b8d554dbb41896727923412c832f14778259602355",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/cloudreve/logo.png",
+		"status": "downloaded"
+	},
+	"code-server": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/code-server.png",
+		"path": "/appstore/icons/code-server.png",
+		"sha256": "912f93661451fcb099174765b0d0e505ab92f54c292aad99d927ae91a18ea9ce",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/code-server/logo.png",
+		"status": "downloaded"
+	},
+	"coze-studio": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/coze-studio.svg",
+		"path": "/appstore/icons/coze-studio.svg",
+		"sha256": "661d9c17d5fc0932c1984b80352aabd59ab9b3d08e63b6654a6c3185b215d303",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/coze-studio/logo.svg",
+		"status": "downloaded"
+	},
+	"crmeb": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/crmeb.png",
+		"path": "/appstore/icons/crmeb.png",
+		"sha256": "0178aca06916706f5995b97696c6f325c45a708f908f9d74bebc10d687eaeafc",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/crmeb/logo.png",
+		"status": "downloaded"
+	},
+	"cronicle": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/cronicle.png",
+		"path": "/appstore/icons/cronicle.png",
+		"sha256": "9f68f9770d2d03c51bee0f6b1c68cc2a531c24a48282e4eccc138626bca8f834",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/cronicle/logo.png",
+		"status": "downloaded"
+	},
+	"dataease": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/dataease.png",
+		"path": "/appstore/icons/dataease.png",
+		"sha256": "ada6e60e8e2a959e59c81511b3d3309f2a77d99221a41a76a84a22c4a37fd98d",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/dataease/logo.png",
+		"status": "downloaded"
+	},
+	"dbgate": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/dbgate.png",
+		"path": "/appstore/icons/dbgate.png",
+		"sha256": "d6060af63c827d83c28b94b6b0aec5647f4e6dd1212c20b8b7c9d92ce42b2146",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/dbgate/logo.png",
+		"status": "downloaded"
+	},
+	"deeplx": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/deeplx.png",
+		"path": "/appstore/icons/deeplx.png",
+		"sha256": "5a32287c76f5110711ed92e8f84f93d7cadc7270eefd8990902861359b513beb",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/deeplx/logo.png",
+		"status": "downloaded"
+	},
+	"derper": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/derper.svg",
+		"path": "/appstore/icons/derper.svg",
+		"sha256": "eca5783a84a08c99b794c1247df48bc68653459ffe18a1973a8b1628fa65f14f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/derper/logo.svg",
+		"status": "downloaded"
+	},
+	"dify": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/dify.svg",
+		"path": "/appstore/icons/dify.svg",
+		"sha256": "72348ce12b2fe799a1787df6cf837d4c202389640bab83eadd5cbcc0ac253799",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/dify/logo.svg",
+		"status": "downloaded"
+	},
+	"directus": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/directus.svg",
+		"path": "/appstore/icons/directus.svg",
+		"sha256": "72f2e611efec103e89cc97db125ad68fd14741c10715e0fed359f368901aa3e0",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/directus/logo.svg",
+		"status": "downloaded"
+	},
+	"docker-stacks": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/docker-stacks.svg",
+		"path": "/appstore/icons/docker-stacks.svg",
+		"sha256": "fec84a811b702cea424fe63b10cdf85583f04a0bf3d738f2d184344acd2e1c02",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/docker-stacks/logo.svg",
+		"status": "downloaded"
+	},
+	"docuseal": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/docuseal.svg",
+		"path": "/appstore/icons/docuseal.svg",
+		"sha256": "fde5f71884ac625107c918c5c2a555b07b533bcf04a3df622588db99a629f506",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/docuseal/logo.svg",
+		"status": "downloaded"
+	},
+	"dolibarr": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/dolibarr.png",
+		"path": "/appstore/icons/dolibarr.png",
+		"sha256": "e2681e9890ad267475064f5eac27ce13b0ff676878d36d2857b8ea60a95218a7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/dolibarr/logo.png",
+		"status": "downloaded"
+	},
+	"drizzle-studio": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/drizzle-studio.png",
+		"path": "/appstore/icons/drizzle-studio.png",
+		"sha256": "347106f762a9cdcf86386329d225fac5c86a544c1913568e8944f11429241754",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/drizzle-studio/logo.png",
+		"status": "downloaded"
+	},
+	"eaglercraft-server": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/eaglercraft-server.svg",
+		"path": "/appstore/icons/eaglercraft-server.svg",
+		"sha256": "bc8feb1bd4438586ed056bb4ee06ba9de980760399a564860da44b8a102be67a",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/eaglercraft-server/logo.svg",
+		"status": "downloaded"
+	},
+	"edgequake": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/edgequake.svg",
+		"path": "/appstore/icons/edgequake.svg",
+		"sha256": "280abafe33df6ef3a14c6031f2daf43f980cbcb8bc104267686677450be89566",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/edgequake/logo.svg",
+		"status": "downloaded"
+	},
+	"elasticsearch": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/elasticsearch.svg",
+		"path": "/appstore/icons/elasticsearch.svg",
+		"sha256": "bbac21e6660d041d834689453b6a46937694c83cd2cfb1a28a5e409f87c04e12",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/elasticsearch/logo.svg",
+		"status": "downloaded"
+	},
+	"emqx": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/emqx.png",
+		"path": "/appstore/icons/emqx.png",
+		"sha256": "89aec10525f149ebd4c87992eb54de6287a8b71734fcd91dbef5163478a0d9ae",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/emqx/logo.png",
+		"status": "downloaded"
+	},
+	"enshrouded": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/enshrouded.png",
+		"path": "/appstore/icons/enshrouded.png",
+		"sha256": "7f67a2c1d9c469b9fa61b6f92b1f9c99b2f2bf690c108f4923aef23ec9f0ea23",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/enshrouded/logo.png",
+		"status": "downloaded"
+	},
+	"ever-gauzy": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/ever-gauzy.png",
+		"path": "/appstore/icons/ever-gauzy.png",
+		"sha256": "8a152f2fc87f9a42137e78875cda7cec7663568bcf218b8cac50808e378527ab",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/ever-gauzy/logo.png",
+		"status": "downloaded"
+	},
+	"excalidraw": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/excalidraw.svg",
+		"path": "/appstore/icons/excalidraw.svg",
+		"sha256": "ff042440a415c5e3f0b3c77dfbf2a367906e38cbabdd5b2270e6e01ff4f8a97f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/excalidraw/logo.svg",
+		"status": "downloaded"
+	},
+	"fast-poster": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/fast-poster.png",
+		"path": "/appstore/icons/fast-poster.png",
+		"sha256": "f77434ef55f1a47396f563fb338c9309425ee1891e192923d425b3328a2562a5",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/fast-poster/logo.png",
+		"status": "downloaded"
+	},
+	"fastgpt": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/fastgpt.png",
+		"path": "/appstore/icons/fastgpt.png",
+		"sha256": "ec08862dd9cd1eee565de6a9abbbd4b16357e9ef4ea04bea5eb946a367b59e47",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/fastgpt/logo.png",
+		"status": "downloaded"
+	},
+	"fastgpt-milvus": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/fastgpt-milvus.png",
+		"path": "/appstore/icons/fastgpt-milvus.png",
+		"sha256": "ec08862dd9cd1eee565de6a9abbbd4b16357e9ef4ea04bea5eb946a367b59e47",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/fastgpt-milvus/logo.png",
+		"status": "downloaded"
+	},
+	"fastgpt-pro": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/fastgpt-pro.png",
+		"path": "/appstore/icons/fastgpt-pro.png",
+		"sha256": "ec08862dd9cd1eee565de6a9abbbd4b16357e9ef4ea04bea5eb946a367b59e47",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/fastgpt-pro/logo.png",
+		"status": "downloaded"
+	},
+	"featbit-standard": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/featbit-standard.svg",
+		"path": "/appstore/icons/featbit-standard.svg",
+		"sha256": "27685aa1b60a9588f13de482e32568f5b7a0d3b94bfc8f4bf37155b38cc38722",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/featbit-standard/logo.svg",
+		"status": "downloaded"
+	},
+	"fireboom": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/fireboom.png",
+		"path": "/appstore/icons/fireboom.png",
+		"sha256": "218201e1bdc674006d6a4053601d67825a7782cff04655079217f38fdc9f4a17",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/fireboom/logo.png",
+		"status": "downloaded"
+	},
+	"firefox": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/firefox.svg",
+		"path": "/appstore/icons/firefox.svg",
+		"sha256": "f3dd297ee9ef486e0563beea279318cedc69980cb808747197cd42a311a2ba50",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/firefox/logo.svg",
+		"status": "downloaded"
+	},
+	"flarum": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/flarum.png",
+		"path": "/appstore/icons/flarum.png",
+		"sha256": "1cebdedbd840d50a5b9cfc68f7d0dc702c1132bb852c929ff328ed18a7768978",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/flarum/logo.png",
+		"status": "downloaded"
+	},
+	"flowise": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/flowise.png",
+		"path": "/appstore/icons/flowise.png",
+		"sha256": "e6f2150de99fefb465dd420446c32120e405c38c52c550fb19373375cc7b0c84",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/flowise/logo.png",
+		"status": "downloaded"
+	},
+	"formbricks": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/formbricks.png",
+		"path": "/appstore/icons/formbricks.png",
+		"sha256": "7e4da3ac93d23e352b2d1dc8bd5819496eea0f554dfb778654e06acd6c5a6ebe",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/formbricks/logo.png",
+		"status": "downloaded"
+	},
+	"frp": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/frp.svg",
+		"path": "/appstore/icons/frp.svg",
+		"sha256": "3aca3a40ff66dd216a4bee1d9bf71d6e44f93fc95236dc4ca7323fee14b32cb8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/frp/logo.svg",
+		"status": "downloaded"
+	},
+	"full-stack-fastapi": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/full-stack-fastapi.png",
+		"path": "/appstore/icons/full-stack-fastapi.png",
+		"sha256": "d16f72cf5a2773eba499cc7f3db1923c6f5f73de990f739e3a05806aafec15b7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/full-stack-fastapi/logo.png",
+		"status": "downloaded"
+	},
+	"gitea": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/gitea.svg",
+		"localSource": "../../.local/templates/template/gitea/logo.svg",
+		"path": "/appstore/icons/gitea.svg",
+		"sha256": "ad861e06c5004644a50f28f0fe8a5027733d4f184c1509f3fdd749fefac57084",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/gitea/logo.png",
+		"status": "copied"
+	},
+	"glance": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/glance.png",
+		"path": "/appstore/icons/glance.png",
+		"sha256": "3cc3bb4e536e30c8964917c95258300030425ed71b1f0e05b83ecc0f8403f841",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/glance/logo.png",
+		"status": "downloaded"
+	},
+	"glitchtip": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/glitchtip.png",
+		"path": "/appstore/icons/glitchtip.png",
+		"sha256": "e770a63cc18a782b80b0ac1a09b8b8cef030fb0bac2f373762c885186c769840",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/glitchtip/logo.png",
+		"status": "downloaded"
+	},
+	"gpt-academic": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/gpt-academic.png",
+		"path": "/appstore/icons/gpt-academic.png",
+		"sha256": "431281862e2b3ae686d187ad8be53573f6c8a7b15eb1e21962e87d90f5a9395f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/gpt-academic/logo.png",
+		"status": "downloaded"
+	},
+	"grafana-otel": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/grafana-otel.svg",
+		"path": "/appstore/icons/grafana-otel.svg",
+		"sha256": "373e560966183d4055f0627283a4dc3df3877ce7aab6bad12553b5c4296f2d15",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/grafana-otel/logo.svg",
+		"status": "downloaded"
+	},
+	"halo": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/halo.png",
+		"path": "/appstore/icons/halo.png",
+		"sha256": "4027558efa445ce1cfc480f107862cd22978aac7e40fed097efe0f777db718f7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/halo/logo.png",
+		"status": "downloaded"
+	},
+	"happy-server": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/happy-server.png",
+		"path": "/appstore/icons/happy-server.png",
+		"sha256": "194eb5a95a333ad58b4ae7683567a826c83dfdf3ac9e3c6190c53d054035f6e1",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/happy-server/logo.png",
+		"status": "downloaded"
+	},
+	"harbor": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/harbor.png",
+		"path": "/appstore/icons/harbor.png",
+		"sha256": "5aaae8050f2f64caf87036000047ed1d121f072276befa0137457a9a7bfeb683",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/harbor/logo.png",
+		"status": "downloaded"
+	},
+	"hasura": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/hasura.png",
+		"path": "/appstore/icons/hasura.png",
+		"sha256": "e69d1555ee401ab1524a06a6811142b64202569154b826785241fc21fef73b0f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/hasura/logo.png",
+		"status": "downloaded"
+	},
+	"headscale": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/headscale.png",
+		"path": "/appstore/icons/headscale.png",
+		"sha256": "31043f4a5c702c64dae3250276c1f7106b7e1aa5e298fae593632e4bf96f3cdf",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/headscale/logo.png",
+		"status": "downloaded"
+	},
+	"heyform": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/heyform.svg",
+		"path": "/appstore/icons/heyform.svg",
+		"sha256": "976db4492d6ad341687805bb8050067d844aa4e4f099612e1e0c78c236a44b91",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/heyform/logo.svg",
+		"status": "downloaded"
+	},
+	"illa-builder": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/illa-builder.svg",
+		"path": "/appstore/icons/illa-builder.svg",
+		"sha256": "434ece6327f14c2ba0d91994254ff341ed199a928cc4970891ef41bae9190c2e",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/illa-builder/logo.svg",
+		"status": "downloaded"
+	},
+	"immich": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/immich.png",
+		"path": "/appstore/icons/immich.png",
+		"sha256": "cfb94a69a75b6e056865395134130dd0dd33661bace903b48af2b0c013bcccd7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/immich/logo.png",
+		"status": "downloaded"
+	},
+	"influxdb": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/influxdb.svg",
+		"path": "/appstore/icons/influxdb.svg",
+		"sha256": "5d3e5ce3da95da148749eaf78e7e69cc58c4fb029996fbd73276621bc53e2b41",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/influxdb/logo.svg",
+		"status": "downloaded"
+	},
+	"inpaint-web": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/inpaint-web.png",
+		"path": "/appstore/icons/inpaint-web.png",
+		"sha256": "9ba9bb39a2c8a6107b323a8511a80ca574df032dc9e1634ce5fcfa60cd7b19d9",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/inpaint-web/logo.png",
+		"status": "downloaded"
+	},
+	"insforge": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/insforge.svg",
+		"path": "/appstore/icons/insforge.svg",
+		"sha256": "c6a6d0f8d1e0d0ae262ded4693a24b0376e3158b7b4b965801437921b88d3cca",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/insforge/logo.svg",
+		"status": "downloaded"
+	},
+	"it-tools": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/it-tools.png",
+		"path": "/appstore/icons/it-tools.png",
+		"sha256": "809b1944b25bc90afb56b972a3671a03321d1e1fd111e14b3c8834bf2a69db11",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/it-tools/logo.png",
+		"status": "downloaded"
+	},
+	"jsoncrack": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/jsoncrack.png",
+		"path": "/appstore/icons/jsoncrack.png",
+		"sha256": "e820b02b31a3474f49b00c4b2215062f9890cf5ab2ff5f50c2595397b5e7b9ca",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/jsoncrack/logo.png",
+		"status": "downloaded"
+	},
+	"kanboard": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/kanboard.png",
+		"path": "/appstore/icons/kanboard.png",
+		"sha256": "4d3d56f35027756cf920ff77e4d7bf8cde99faae87e4f850af3c51fe03838269",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/kanboard/logo.png",
+		"status": "downloaded"
+	},
+	"kaneo": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/kaneo.svg",
+		"path": "/appstore/icons/kaneo.svg",
+		"sha256": "2bd741729a056f9c4af5055de32b3dfa9bf5d1e958d197ffedcf961df32a6c10",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/kaneo/logo.svg",
+		"status": "downloaded"
+	},
+	"keycloak": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/keycloak.png",
+		"path": "/appstore/icons/keycloak.png",
+		"sha256": "a6ba7654d472ff5244302dd894c0d8e4759169c8b55c16af177c5115bfff8402",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/keycloak/logo.png",
+		"status": "downloaded"
+	},
+	"keystone": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/keystone.svg",
+		"path": "/appstore/icons/keystone.svg",
+		"sha256": "7182db7d72af0acb720d075fbe0fde6e538494f3f6c4eb630de08ee0e2692fac",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/keystone/logo.svg",
+		"status": "downloaded"
+	},
+	"kitten-tts": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/kitten-tts.svg",
+		"path": "/appstore/icons/kitten-tts.svg",
+		"sha256": "8590e728efbc174bae440836660574afc24021f9e54f122d6d564492daf272c3",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/kitten-tts/logo.svg",
+		"status": "downloaded"
+	},
+	"kodcloud": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/kodcloud.png",
+		"path": "/appstore/icons/kodcloud.png",
+		"sha256": "bc464575ef44290b24147242ab185a2a60527ffd382e91642ee139166096e81d",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/kodcloud/logo.png",
+		"status": "downloaded"
+	},
+	"kuboard": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/kuboard.png",
+		"path": "/appstore/icons/kuboard.png",
+		"sha256": "f3f4891256423a40eb1cbee2695e1aa2f10286e691342f6961bbcf2d70874d89",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/kuboard/logo.png",
+		"status": "downloaded"
+	},
+	"laf": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/laf.svg",
+		"path": "/appstore/icons/laf.svg",
+		"sha256": "5e260a814f2ec0615c2737d19d6de35fa54464eab07d3012d3ee463df014e407",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/laf/logo.svg",
+		"status": "downloaded"
+	},
+	"langflow": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/langflow.png",
+		"path": "/appstore/icons/langflow.png",
+		"sha256": "bd27457d4a55866ccc784f26e82d57f1b02c94a226d7a97755ade2545e5354d7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/langflow/logo.png",
+		"status": "downloaded"
+	},
+	"librechat": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/librechat.svg",
+		"path": "/appstore/icons/librechat.svg",
+		"sha256": "6f22e946415022a4fb499d9da48eea61fead6e65eb449b53ec78d95b0f6e4f70",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/librechat/logo.svg",
+		"status": "downloaded"
+	},
+	"liebianbao": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/liebianbao.png",
+		"path": "/appstore/icons/liebianbao.png",
+		"sha256": "ef598cd0afd7549c14b5a367ba70658e441d0ac22e026c5989833405d8b0c4c9",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/liebianbao/logo.png",
+		"status": "downloaded"
+	},
+	"listmonk": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/listmonk.png",
+		"path": "/appstore/icons/listmonk.png",
+		"sha256": "4a3b0ec9ea48a09a407f289c6f6900cfd019b8893998ec9b93bc1926a454aa2b",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/listmonk/logo.png",
+		"status": "downloaded"
+	},
+	"llama2-chinese": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/llama2-chinese.png",
+		"path": "/appstore/icons/llama2-chinese.png",
+		"sha256": "6d9f0de80a2173eb7d9294962ef2fe292df1b05cb18580d041fb582dc636d1e7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/llama2-chinese/logo.png",
+		"status": "downloaded"
+	},
+	"llama3-8b-chinese": {
+		"contentType": "image/jpeg",
+		"file": "content/appstore/icons/llama3-8b-chinese.jpg",
+		"path": "/appstore/icons/llama3-8b-chinese.jpg",
+		"sha256": "b42d37bc15fc66378320121a3811df67b85f0c1f7a09f92b68b108269ca1ddde",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/llama3-8b-chinese/logo.jpg",
+		"status": "downloaded"
+	},
+	"lobe-chat": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/lobe-chat.png",
+		"path": "/appstore/icons/lobe-chat.png",
+		"sha256": "2afdb126a5917cfd32024eb0830b982f22c67f166369541504751983a27b8421",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/lobe-chat/logo.png",
+		"status": "downloaded"
+	},
+	"lobe-chat-db": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/lobe-chat-db.png",
+		"path": "/appstore/icons/lobe-chat-db.png",
+		"sha256": "2afdb126a5917cfd32024eb0830b982f22c67f166369541504751983a27b8421",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/lobe-chat-db/logo.png",
+		"status": "downloaded"
+	},
+	"logto": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/logto.png",
+		"path": "/appstore/icons/logto.png",
+		"sha256": "dbae6c63a4299be8aa150c9d60d863618c345f9002e45ae120190c5fb710ba89",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/logto/logo.png",
+		"status": "downloaded"
+	},
+	"loki": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/loki.svg",
+		"path": "/appstore/icons/loki.svg",
+		"sha256": "f80204863f46cda4ef4f5da0ced6457358df3773e6599ae2bd12189c9d4e3414",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/loki/logo.svg",
+		"status": "downloaded"
+	},
+	"mage-ai": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/mage-ai.svg",
+		"path": "/appstore/icons/mage-ai.svg",
+		"sha256": "5ab066c155c3c00eb137f3688f603b5a29c54730ed87c01cdc0ffbb8db2f4f7d",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/mage-ai/logo.svg",
+		"status": "downloaded"
+	},
+	"matomo": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/matomo.png",
+		"path": "/appstore/icons/matomo.png",
+		"sha256": "e7e1fcf0c1dbaf45fef2373798a7c60cdec49aa8a93192f657f5bbe4f7893387",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/matomo/logo.png",
+		"status": "downloaded"
+	},
+	"matrixgorilla": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/matrixgorilla.png",
+		"path": "/appstore/icons/matrixgorilla.png",
+		"sha256": "4547f8a80c1e159cbbfb9577587a040331bae2fdf422a8de7a4cdadb4a234088",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/matrixgorilla/logo.png",
+		"status": "downloaded"
+	},
+	"mautic": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/mautic.png",
+		"path": "/appstore/icons/mautic.png",
+		"sha256": "72ec7bdec9b4cda45416c6a3cdc75c29c2bd061b833a45da8f881d5c0d5e7404",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/mautic/logo.png",
+		"status": "downloaded"
+	},
+	"meilisearch": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/meilisearch.png",
+		"path": "/appstore/icons/meilisearch.png",
+		"sha256": "55cfcd1a82ea3373f2469f2a472bb3d26aef47d498bb8f06ce87fbc7b6502c23",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/meilisearch/logo.png",
+		"status": "downloaded"
+	},
+	"memos": {
+		"contentType": "image/webp",
+		"file": "content/appstore/icons/memos.webp",
+		"path": "/appstore/icons/memos.webp",
+		"sha256": "f87a44fb961d32a1cece3d00717289b4a30f6528c61a6785d097e4feab291859",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/memos/logo.webp",
+		"status": "downloaded"
+	},
+	"metabase": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/metabase.png",
+		"path": "/appstore/icons/metabase.png",
+		"sha256": "41a824b7e7797278c7a79faed1e4972f52cf3d19c144e2d221bd7693e630a5d7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/metabase/logo.png",
+		"status": "downloaded"
+	},
+	"midjourney-ui": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/midjourney-ui.png",
+		"path": "/appstore/icons/midjourney-ui.png",
+		"sha256": "27ea51e47bba8529021255616f32fcbe011b797fa2b7254200896de3e5a4e944",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/midjourney-ui/logo.png",
+		"status": "downloaded"
+	},
+	"mindoc": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/mindoc.png",
+		"path": "/appstore/icons/mindoc.png",
+		"sha256": "b209612b5b36adad253155f7b319078125ef821fa25523fb8b64c6d67c959280",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/mindoc/logo.png",
+		"status": "downloaded"
+	},
+	"minecraft": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/minecraft.png",
+		"path": "/appstore/icons/minecraft.png",
+		"sha256": "36a45d9121e35f036b42b622be460da914b04d00e5a2dd45a62ebfbdca37b368",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/minecraft/logo.png",
+		"status": "downloaded"
+	},
+	"minio": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/minio.png",
+		"path": "/appstore/icons/minio.png",
+		"sha256": "76ef8cd0bd451d85643e0922012ce1c55b97d4074ff5442f403a2b684ddd8c78",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/minio/logo.png",
+		"status": "downloaded"
+	},
+	"mlflow": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/mlflow.png",
+		"path": "/appstore/icons/mlflow.png",
+		"sha256": "be85dd6db9dd9f687f47e6624ef4fbf5d645930a9a70d993f0d59d38d11254f8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/mlflow/logo.png",
+		"status": "downloaded"
+	},
+	"moneyprinterturbo": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/moneyprinterturbo.png",
+		"path": "/appstore/icons/moneyprinterturbo.png",
+		"sha256": "5ed58d1b1683b927b31ed5552ed3c1aafaf2c887bfc31e2c8af6ef13b6547001",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/moneyprinterturbo/logo.png",
+		"status": "downloaded"
+	},
+	"mongo-express": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/mongo-express.svg",
+		"path": "/appstore/icons/mongo-express.svg",
+		"sha256": "324e7dbaea7f4867de6e7624653555d06d9d87458957a90c40795ab1a8ae2ac6",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/mongo-express/logo.svg",
+		"status": "downloaded"
+	},
+	"n8n": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/n8n.svg",
+		"path": "/appstore/icons/n8n.svg",
+		"sha256": "057fc9acfc04cecffd8ca7fe3cf7cb3a48c0ba972a56a5c23f4389b3d612b689",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/n8n/logo.svg",
+		"status": "downloaded"
+	},
+	"nacos": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/nacos.svg",
+		"path": "/appstore/icons/nacos.svg",
+		"sha256": "c2ae4b0e5603791e869ed5bc34a60a709d1ec6343fc22f75d97937aaafafd7f7",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/nacos/logo.svg",
+		"status": "downloaded"
+	},
+	"nakama": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/nakama.svg",
+		"path": "/appstore/icons/nakama.svg",
+		"sha256": "460a1d86928149a160b025152207fea9659bedd7cb818ee8971d6ee536776bfe",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/nakama/logo.svg",
+		"status": "downloaded"
+	},
+	"netbird": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/netbird.png",
+		"path": "/appstore/icons/netbird.png",
+		"sha256": "29657e12c0886c1069a514f2b570587260d5927efd07a1aaa305db1a6c9dfbeb",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/netbird/logo.png",
+		"status": "downloaded"
+	},
+	"new-api": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/new-api.png",
+		"path": "/appstore/icons/new-api.png",
+		"sha256": "d8cb3a9463134375c5612f2379e0a8bb624a7ad7b42025ae950edb3bef636b9f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/new-api/logo.png",
+		"status": "downloaded"
+	},
+	"nexus": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/nexus.png",
+		"path": "/appstore/icons/nexus.png",
+		"sha256": "90506aca03bccb603385617123cdd460ea913a0df4b621657575bf05960261b5",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/nexus/logo.png",
+		"status": "downloaded"
+	},
+	"nocodb": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/nocodb.svg",
+		"path": "/appstore/icons/nocodb.svg",
+		"sha256": "e6a9a1114cc8f3c94b3c49b9a41fff18f5ee4c9cfa9c88499fda2d48d837d6ef",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/nocodb/logo.svg",
+		"status": "downloaded"
+	},
+	"node-red": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/node-red.svg",
+		"path": "/appstore/icons/node-red.svg",
+		"sha256": "dc6324e93b96b9626a5ef31f64b064c45bf8556c3498775e3b5809c2c9fc923a",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/node-red/logo.svg",
+		"status": "downloaded"
+	},
+	"notifuse": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/notifuse.png",
+		"path": "/appstore/icons/notifuse.png",
+		"sha256": "ab7a686fc8fcc0959be1b5ff028175fde21051e42ead2be14b30efeaeb151baf",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/notifuse/logo.png",
+		"status": "downloaded"
+	},
+	"nsfw": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/nsfw.png",
+		"path": "/appstore/icons/nsfw.png",
+		"sha256": "895793f4aa44baf70c01b4752e3bc5c70d3de7a4ec75c78553de45ae774bce6a",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/nsfw/logo.png",
+		"status": "downloaded"
+	},
+	"one-api": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/one-api.svg",
+		"localSource": "../../.local/templates/template/one-api/logo.svg",
+		"path": "/appstore/icons/one-api.svg",
+		"sha256": "b737460ed285087d52f25ae02b68b8986a56f2a2ae65d595551bd6045d0048ec",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/one-api/logo.png",
+		"status": "copied"
+	},
+	"open-webui": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/open-webui.png",
+		"path": "/appstore/icons/open-webui.png",
+		"sha256": "1dc8b0d4c09abe718e5c2ecfd5811d6dfe1179f58d66630b24d712fab74427b8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/open-webui/logo.png",
+		"status": "downloaded"
+	},
+	"openagents": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/openagents.png",
+		"path": "/appstore/icons/openagents.png",
+		"sha256": "272568cd9fbd582ec373d3a4eb9dc7e778c9dcbcdd141119734765e9b05749f8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/openagents/logo.png",
+		"status": "downloaded"
+	},
+	"openai-proxy": {
+		"contentType": "image/jpeg",
+		"file": "content/appstore/icons/openai-proxy.jpg",
+		"path": "/appstore/icons/openai-proxy.jpg",
+		"sha256": "8ba0571ecb29eeaf31c40d6c73c78b8c239dd532cf4a16db19e192566fb62cfd",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/openai-proxy/logo.jpg",
+		"status": "downloaded"
+	},
+	"opencart": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/opencart.png",
+		"path": "/appstore/icons/opencart.png",
+		"sha256": "c2e80a5f77fdb7a5b845a9fbfa7b182c99fc2c0f740cdf10988183cc402703d3",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/opencart/logo.png",
+		"status": "downloaded"
+	},
+	"openclaw": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/openclaw.svg",
+		"path": "/appstore/icons/openclaw.svg",
+		"sha256": "fa7e2ec07ebfa696bcc8c27d7e36425cbb7b1772f6f7f04ce390cf5f1c35cf0e",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/openclaw/logo.svg",
+		"status": "downloaded"
+	},
+	"OpenDeepWiki": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/OpenDeepWiki.png",
+		"path": "/appstore/icons/OpenDeepWiki.png",
+		"sha256": "8eac969156d13712d3a947ae5faff6c939f34b3ef5bd3060b5d8cc2fdee38617",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/OpenDeepWiki/logo.png",
+		"status": "downloaded"
+	},
+	"openlist": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/openlist.svg",
+		"path": "/appstore/icons/openlist.svg",
+		"sha256": "fe09f04c24101c9b4b8baada86cf77913bc50731082b102f61ad6260626b43db",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/openlist/logo.svg",
+		"status": "downloaded"
+	},
+	"openobserve": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/openobserve.svg",
+		"path": "/appstore/icons/openobserve.svg",
+		"sha256": "c6975fe99353399597624a5edb8f9566a13156f131cd929170435937b68577c0",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/openobserve/logo.svg",
+		"status": "downloaded"
+	},
+	"outline": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/outline.png",
+		"path": "/appstore/icons/outline.png",
+		"sha256": "6e9d1c830b3c39a0c89ca8a8c67f506c987efae4ff38c8c3575e35861d5be009",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/outline/logo.png",
+		"status": "downloaded"
+	},
+	"overleaf": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/overleaf.svg",
+		"path": "/appstore/icons/overleaf.svg",
+		"sha256": "6b04dc5bdb3a992ce9aa5b0b159928f4a8112a63936350f5b9209c160201c802",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/overleaf/logo.svg",
+		"status": "downloaded"
+	},
+	"pageplug": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/pageplug.png",
+		"path": "/appstore/icons/pageplug.png",
+		"sha256": "1ce0cd3f9a92cc4f9d2a7be7feedd1a000329203578a591b0d714bf906630348",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/pageplug/logo.png",
+		"status": "downloaded"
+	},
+	"palacms": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/palacms.png",
+		"path": "/appstore/icons/palacms.png",
+		"sha256": "3cfd2909525a058329b0a9ff75df397245a9fa8f6599b7467dd65eded7c64540",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/palacms/logo.png",
+		"status": "downloaded"
+	},
+	"palworld": {
+		"contentType": "image/jpeg",
+		"file": "content/appstore/icons/palworld.jpg",
+		"path": "/appstore/icons/palworld.jpg",
+		"sha256": "809cdcdbfb571c2965e9b386a1b95491b51a84661d119c32d7a706c24a83815e",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/palworld/logo.jpg",
+		"status": "downloaded"
+	},
+	"palworld-autobackup": {
+		"contentType": "image/jpeg",
+		"file": "content/appstore/icons/palworld-autobackup.jpg",
+		"path": "/appstore/icons/palworld-autobackup.jpg",
+		"sha256": "7557bced2af846c60bd6c3e8dda726ab641ccf1b2fe92721ecf603fd171926fd",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/palworld-autobackup/logo.jpg",
+		"status": "downloaded"
+	},
+	"palworld-export": {
+		"contentType": "image/jpeg",
+		"file": "content/appstore/icons/palworld-export.jpg",
+		"path": "/appstore/icons/palworld-export.jpg",
+		"sha256": "809cdcdbfb571c2965e9b386a1b95491b51a84661d119c32d7a706c24a83815e",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/palworld-export/logo.jpg",
+		"status": "downloaded"
+	},
+	"palworld-management": {
+		"contentType": "image/jpeg",
+		"file": "content/appstore/icons/palworld-management.jpg",
+		"path": "/appstore/icons/palworld-management.jpg",
+		"sha256": "809cdcdbfb571c2965e9b386a1b95491b51a84661d119c32d7a706c24a83815e",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/palworld-management/logo.jpg",
+		"status": "downloaded"
+	},
+	"pangolin": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/pangolin.png",
+		"path": "/appstore/icons/pangolin.png",
+		"sha256": "a4d2f6c24c3ef19611a7b74760c10d38c95eb0cee915fdc9de5e4a3c34f5bcde",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/pangolin/logo.png",
+		"status": "downloaded"
+	},
+	"paperless-ngx": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/paperless-ngx.svg",
+		"path": "/appstore/icons/paperless-ngx.svg",
+		"sha256": "0aba6dc247dd2c60421be6734be2f3160b9afd8f502b5fd3929ac513be8870db",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/paperless-ngx/logo.svg",
+		"status": "downloaded"
+	},
+	"payload": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/payload.png",
+		"path": "/appstore/icons/payload.png",
+		"sha256": "2bf00f1a305c827927383ed91ccb0faf5416e8a140062d782c62ed7f95ddb3bd",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/payload/logo.png",
+		"status": "downloaded"
+	},
+	"pdf2zh": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/pdf2zh.png",
+		"path": "/appstore/icons/pdf2zh.png",
+		"sha256": "11046e998e0719994a224799cc4b96d21b097e42d6914a491dbae18b6f1f8ed4",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/pdf2zh/logo.png",
+		"status": "downloaded"
+	},
+	"penpot": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/penpot.png",
+		"path": "/appstore/icons/penpot.png",
+		"sha256": "d05a0199e93fd76bf2a6fd568519418b513399807c51b44af1352841f2086bb1",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/penpot/logo.png",
+		"status": "downloaded"
+	},
+	"perplexica": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/perplexica.png",
+		"path": "/appstore/icons/perplexica.png",
+		"sha256": "9b8256f4f605af5e54fb11141c29f93c14fabe185af5394c1f94605a7cfad69e",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/perplexica/logo.png",
+		"status": "downloaded"
+	},
+	"pgadmin4": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/pgadmin4.png",
+		"path": "/appstore/icons/pgadmin4.png",
+		"sha256": "d19e191237b77aaf9d705dbf6650de1b93eb93312a3db07b824b3c425e3d30e0",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/pgadmin4/logo.png",
+		"status": "downloaded"
+	},
+	"photoprism": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/photoprism.svg",
+		"path": "/appstore/icons/photoprism.svg",
+		"sha256": "1dc9aea1ee32236633c752d391929c916f6d0d557ec98ea281219fdd261e547a",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/photoprism/logo.svg",
+		"status": "downloaded"
+	},
+	"phpmyadmin": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/phpmyadmin.png",
+		"path": "/appstore/icons/phpmyadmin.png",
+		"sha256": "dad7dfd9a0ebde4dbb22f7698e24ecf0b295d0f58fd8f88e188da20f8b135c0c",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/phpmyadmin/logo.png",
+		"status": "downloaded"
+	},
+	"planka": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/planka.png",
+		"path": "/appstore/icons/planka.png",
+		"sha256": "a02f7dd03b18215712934e505bd8bc7ba3d14685245c9697b9e3a2232d80293f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/planka/logo.png",
+		"status": "downloaded"
+	},
+	"plausible": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/plausible.png",
+		"path": "/appstore/icons/plausible.png",
+		"sha256": "a6c4ca36393d245415633a1d193e5fb477b39a40b4c610bb3928f9fa4e56f791",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/plausible/logo.png",
+		"status": "downloaded"
+	},
+	"pocket-id": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/pocket-id.png",
+		"path": "/appstore/icons/pocket-id.png",
+		"sha256": "d0701607c11fc458137dbfb5016c4b572a2fde34dd4e6470948b81a0bc84bbb3",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/pocket-id/logo.png",
+		"status": "downloaded"
+	},
+	"pocketbase": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/pocketbase.svg",
+		"path": "/appstore/icons/pocketbase.svg",
+		"sha256": "9b16753395c56c101ba2d4db176f7d257a631627256246bcbe52e405377d27d8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/pocketbase/logo.svg",
+		"status": "downloaded"
+	},
+	"posthog": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/posthog.png",
+		"path": "/appstore/icons/posthog.png",
+		"sha256": "51fae91130bb7bf07db85e9fd011b64ee06a71bb64da3d97c8ecf3450cfd0457",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/posthog/logo.png",
+		"status": "downloaded"
+	},
+	"postiz": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/postiz.svg",
+		"path": "/appstore/icons/postiz.svg",
+		"sha256": "fc45c4e5cc893db6894646c516796110c66e331cdd23f74ecd2a64d55b22a46a",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/postiz/logo.svg",
+		"status": "downloaded"
+	},
+	"presenton": {
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/presenton/logo.png",
+		"status": "failed",
+		"error": "HTTP 404"
+	},
+	"prestashop": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/prestashop.png",
+		"path": "/appstore/icons/prestashop.png",
+		"sha256": "9774ceb281ed2fb1b3fb77af6dd53f462f4b65075e91bfa69b9a35775bd0f41e",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/prestashop/logo.png",
+		"status": "downloaded"
+	},
+	"privatebin": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/privatebin.svg",
+		"path": "/appstore/icons/privatebin.svg",
+		"sha256": "c9e0cd4f7a4cd9ec23c68fd6d78393e1a7312b3bb5df3e8190ecfc30c0001e18",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/privatebin/logo.svg",
+		"status": "downloaded"
+	},
+	"qinglong": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/qinglong.png",
+		"path": "/appstore/icons/qinglong.png",
+		"sha256": "e2630d9ee1960fe5345db19b287b32e738f6735501d2be81bc56ab57792102ad",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/qinglong/logo.png",
+		"status": "downloaded"
+	},
+	"quay": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/quay.svg",
+		"path": "/appstore/icons/quay.svg",
+		"sha256": "4ea911fa050cab54466e8cac5abe0764a13b3d6dc990822a9e9b6284c4c569ae",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/quay/logo.svg",
+		"status": "downloaded"
+	},
+	"Reactive-Resume": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/Reactive-Resume.svg",
+		"path": "/appstore/icons/Reactive-Resume.svg",
+		"sha256": "fd8e0f77f737d1aff15aa583551821166901e8844a2e75e4686f13590c7e9e11",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/Reactive-Resume/logo.svg",
+		"status": "downloaded"
+	},
+	"Readeck": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/Readeck.svg",
+		"path": "/appstore/icons/Readeck.svg",
+		"sha256": "953aead7503f98bfd5a3f021be2f8c2427f49ec5cd7d81c78684e387e73f2274",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/Readeck/logo.svg",
+		"status": "downloaded"
+	},
+	"redisinsight": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/redisinsight.png",
+		"path": "/appstore/icons/redisinsight.png",
+		"sha256": "7f3c9ead61dd01e8740a09b6e517fe852b3c9447a69b993ad5705761d8565424",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/redisinsight/logo.png",
+		"status": "downloaded"
+	},
+	"refly": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/refly.svg",
+		"path": "/appstore/icons/refly.svg",
+		"sha256": "33a1b2b756993c3c57a0eab83f781bf9cfce0298d905657e45bb279503cee20f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/refly/logo.svg",
+		"status": "downloaded"
+	},
+	"registry": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/registry.svg",
+		"path": "/appstore/icons/registry.svg",
+		"sha256": "9cb90e900a3a6f42c7718fe688011f35091a653afbdea925229158173a4517c9",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/registry/logo.svg",
+		"status": "downloaded"
+	},
+	"rocketchat": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/rocketchat.svg",
+		"path": "/appstore/icons/rocketchat.svg",
+		"sha256": "189d1b2ef423265d7762f57af5886771cb5670ca2cad5f1aa22e02720e23e236",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/rocketchat/logo.svg",
+		"status": "downloaded"
+	},
+	"rocketchat-micro": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/rocketchat-micro.svg",
+		"path": "/appstore/icons/rocketchat-micro.svg",
+		"sha256": "189d1b2ef423265d7762f57af5886771cb5670ca2cad5f1aa22e02720e23e236",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/rocketchat-micro/logo.svg",
+		"status": "downloaded"
+	},
+	"rsshub": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/rsshub.png",
+		"path": "/appstore/icons/rsshub.png",
+		"sha256": "2fe53257d7061343b5ac4e2642041e8b295ed145033867b9c46615c04826b0d8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/rsshub/logo.png",
+		"status": "downloaded"
+	},
+	"Ruiqi-Waf": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/Ruiqi-Waf.png",
+		"path": "/appstore/icons/Ruiqi-Waf.png",
+		"sha256": "3e98f3247b62860e94a78cf750903e2d999e5d806068cdfd71e9b4a87716410a",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/Ruiqi-Waf/logo.png",
+		"status": "downloaded"
+	},
+	"rustdesk": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/rustdesk.png",
+		"path": "/appstore/icons/rustdesk.png",
+		"sha256": "9548aed8658ca579bcd523bbea9f6021d280ed1eafeaa7eb599fc9cea5adb1c9",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/rustdesk/logo.png",
+		"status": "downloaded"
+	},
+	"rustfs": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/rustfs.png",
+		"path": "/appstore/icons/rustfs.png",
+		"sha256": "12e7aa5160f58565f852b8ec87d8391d2ec55f2537714b251188050678999ad4",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/rustfs/logo.png",
+		"status": "downloaded"
+	},
+	"rybbit": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/rybbit.png",
+		"path": "/appstore/icons/rybbit.png",
+		"sha256": "80c55f4d02b53f0033af4eb768b8030cc3efb7c4d1b4dc85766a9ed8fc0f9da5",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/rybbit/logo.png",
+		"status": "downloaded"
+	},
+	"s-pdf": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/s-pdf.png",
+		"path": "/appstore/icons/s-pdf.png",
+		"sha256": "ecb29363daa8fc11554b033bfa95d2d15d550bf099f662d2ff94125320905233",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/s-pdf/logo.png",
+		"status": "downloaded"
+	},
+	"samarium": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/samarium.png",
+		"path": "/appstore/icons/samarium.png",
+		"sha256": "07e1acffdfa5ddf36c49672b7a7b660072a1954667af92a4931833224dc433c6",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/samarium/logo.png",
+		"status": "downloaded"
+	},
+	"signoz": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/signoz.svg",
+		"path": "/appstore/icons/signoz.svg",
+		"sha256": "cc0a1ace499a08d09398d78dc08d351e0901bd991abb5cdf69ea619ed5a2b525",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/signoz/logo.svg",
+		"status": "downloaded"
+	},
+	"skardi": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/skardi.png",
+		"path": "/appstore/icons/skardi.png",
+		"sha256": "2ee365d916fbd875d4891793910c59e6c5cfc5248f1adf274599996f864dd32c",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/skardi/logo.png",
+		"status": "downloaded"
+	},
+	"strapi": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/strapi.svg",
+		"path": "/appstore/icons/strapi.svg",
+		"sha256": "eba0601559619d9281c26b2217795724af3b0ddc5600006d79fdfe8d9b020627",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/strapi/logo.svg",
+		"status": "downloaded"
+	},
+	"sub2api": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/sub2api.png",
+		"path": "/appstore/icons/sub2api.png",
+		"sha256": "6d3fade369f77916e92cf7a8301769cd40f3b7cddaf3a10b0c2f530b10f75c90",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/sub2api/logo.png",
+		"status": "downloaded"
+	},
+	"supabase": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/supabase.png",
+		"path": "/appstore/icons/supabase.png",
+		"sha256": "8c424a771aad730f80e38b9b1d25b2164c8df73dd6544e992487a9018bf6ddf9",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/supabase/logo.png",
+		"status": "downloaded"
+	},
+	"surveyking": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/surveyking.svg",
+		"path": "/appstore/icons/surveyking.svg",
+		"sha256": "28cae55843f59590a998736f3ef480df14f692b38388fbc2d594b6d26af592df",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/surveyking/logo.svg",
+		"status": "downloaded"
+	},
+	"tailchat": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/tailchat.png",
+		"path": "/appstore/icons/tailchat.png",
+		"sha256": "6937cea5d054a0953817ebf50aac162cf811e19f0ea3fbbe05be7cc9a44d765f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/tailchat/logo.png",
+		"status": "downloaded"
+	},
+	"teable": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/teable.png",
+		"path": "/appstore/icons/teable.png",
+		"sha256": "5bcd9da797861b179df8fc17ef1188106ea0a222c3df5ee7da415d38a7002917",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/teable/logo.png",
+		"status": "downloaded"
+	},
+	"tentix": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/tentix.svg",
+		"path": "/appstore/icons/tentix.svg",
+		"sha256": "9984c64b0a0fb301f2e8d99128048a4287ef4a4c7153bfd78c7413f8f26390e8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/tentix/logo.svg",
+		"status": "downloaded"
+	},
+	"tianji": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/tianji.svg",
+		"path": "/appstore/icons/tianji.svg",
+		"sha256": "3ecce8ad6431a1e366816e07c1dc60d802a7d8fc81c69fbd0d9f27559c4c3933",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/tianji/logo.svg",
+		"status": "downloaded"
+	},
+	"tolgee": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/tolgee.png",
+		"path": "/appstore/icons/tolgee.png",
+		"sha256": "a17ba3bf71db476679b9c437412b9f8317257d81d6c19d18870a8ac3cd3dbd15",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/tolgee/logo.png",
+		"status": "downloaded"
+	},
+	"tooljet": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/tooljet.svg",
+		"path": "/appstore/icons/tooljet.svg",
+		"sha256": "9c794cc506a0449bcd61f52780d3b54e3d0d45d532d1e77168eff1b35bda80f8",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/tooljet/logo.svg",
+		"status": "downloaded"
+	},
+	"twenty": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/twenty.svg",
+		"path": "/appstore/icons/twenty.svg",
+		"sha256": "0016254102d200b1598b4c1ecb88dfa398ec3a34db0616ed9441eda887ff2fef",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/twenty/logo.svg",
+		"status": "downloaded"
+	},
+	"typesense": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/typesense.png",
+		"path": "/appstore/icons/typesense.png",
+		"sha256": "da4bb6a0d9d7bfbe1915e443128ff12d358a62117a1855c2dbe34e05f5ee5a43",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/typesense/logo.png",
+		"status": "downloaded"
+	},
+	"typo3": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/typo3.png",
+		"path": "/appstore/icons/typo3.png",
+		"sha256": "dbcb929758c1893c746cb05272abdbd3c0a7bc48fe0ac5919f3addf5dc517f19",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/typo3/logo.png",
+		"status": "downloaded"
+	},
+	"ubuntu-sshd": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/ubuntu-sshd.png",
+		"path": "/appstore/icons/ubuntu-sshd.png",
+		"sha256": "933c557a2cd96283c83b8aa873aae2ccd47dbf5d2f6814da88f352ec3f071e30",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/ubuntu-sshd/logo.png",
+		"status": "downloaded"
+	},
+	"umami": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/umami.svg",
+		"path": "/appstore/icons/umami.svg",
+		"sha256": "a1ad04285bf43d2ae366e6972de6178c026804f0af2491a03d2b8f32a099ba7f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/umami/logo.svg",
+		"status": "downloaded"
+	},
+	"uptime-kuma": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/uptime-kuma.svg",
+		"path": "/appstore/icons/uptime-kuma.svg",
+		"sha256": "1f7b4df28ef01c74e334382dab159d96b2ff145ac835b5d2febbbc4166857831",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/uptime-kuma/logo.svg",
+		"status": "downloaded"
+	},
+	"vaultwarden": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/vaultwarden.svg",
+		"path": "/appstore/icons/vaultwarden.svg",
+		"sha256": "c58fe91554bda6e1be51bd0cf56ac84ab63f798d5173e41e71e1aa1de515c7ef",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/vaultwarden/logo.svg",
+		"status": "downloaded"
+	},
+	"webos": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/webos.png",
+		"path": "/appstore/icons/webos.png",
+		"sha256": "7a946a0ad5ccec56e931c2c12fe498a20646c700f5c778a4fd60051670981756",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/webos/logo.png",
+		"status": "downloaded"
+	},
+	"wechat": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/wechat.png",
+		"path": "/appstore/icons/wechat.png",
+		"sha256": "541108e359820fbdb1191072c8f0741df4d45770d564c69f17f2d797aeca620f",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/wechat/logo.png",
+		"status": "downloaded"
+	},
+	"wechat2rss": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/wechat2rss.png",
+		"path": "/appstore/icons/wechat2rss.png",
+		"sha256": "621fed30b904fe8770da30bdc9ea109fbbbc7c41be4358329319f5ebeeebbb46",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/wechat2rss/logo.png",
+		"status": "downloaded"
+	},
+	"wewe-rss": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/wewe-rss.png",
+		"path": "/appstore/icons/wewe-rss.png",
+		"sha256": "3b6491f8e37689a6c25630ee0df2d6c691a5df9402acf77276c5eb76a1bfd060",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/wewe-rss/logo.png",
+		"status": "downloaded"
+	},
+	"woocommerce": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/woocommerce.png",
+		"path": "/appstore/icons/woocommerce.png",
+		"sha256": "31863f8ee16fed4c54fe08af3059876181c479618612d29670cf125566b22bfc",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/woocommerce/logo.png",
+		"status": "downloaded"
+	},
+	"wordpress": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/wordpress.svg",
+		"path": "/appstore/icons/wordpress.svg",
+		"sha256": "a0bbefd626f1e76f9245ec6c6101b679ba27412b71b32fc43eccda9db40f394b",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/wordpress/logo.svg",
+		"status": "downloaded"
+	},
+	"wrenai": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/wrenai.png",
+		"path": "/appstore/icons/wrenai.png",
+		"sha256": "cd9d73be95a3618e13433b01a62cf6cd7e9a2c6cd9a209d16317ba3a9a04f644",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/wrenai/logo.png",
+		"status": "downloaded"
+	},
+	"yourls": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/yourls.svg",
+		"localSource": "../../.local/templates/template/yourls/logo.svg",
+		"path": "/appstore/icons/yourls.svg",
+		"sha256": "da81854b677df36c965d6d49e6d3a9fcc5016ece5a0f42781b9a2855bb1f8058",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/yourls/logo.png",
+		"status": "copied"
+	},
+	"zitadel": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/zitadel.png",
+		"path": "/appstore/icons/zitadel.png",
+		"sha256": "4e365322183fa389af464d11e1192194d27ee3010533f105f80e2f872a0ab7f4",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/zitadel/logo.png",
+		"status": "downloaded"
+	},
+	"zot": {
+		"contentType": "image/svg+xml",
+		"file": "content/appstore/icons/zot.svg",
+		"path": "/appstore/icons/zot.svg",
+		"sha256": "4a0e272648c7625e1ca8b93a1f24a1b964280ad995b403e2c197d48374aeba80",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/zot/logo.svg",
+		"status": "downloaded"
+	}
+}

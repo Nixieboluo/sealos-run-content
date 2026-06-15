@@ -6,10 +6,12 @@
 		"useIgnoreFile": false
 	},
 	"files": {
-		"ignoreUnknown": false
+		"ignoreUnknown": false,
+		"includes": ["**", "!content/appstore/icons"]
 	},
 	"formatter": {
 		"enabled": true,
+		"includes": ["**", "!content/appstore/icons"],
 		"useEditorconfig": true,
 		"indentStyle": "tab",
 		"indentWidth": 4,
