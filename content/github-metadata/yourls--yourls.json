@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/YOURLS/YOURLS/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/YOURLS/YOURLS/deployments",
 	"created_at": "2012-08-22T11:36:52Z",
-	"updated_at": "2026-04-08T03:06:40Z",
-	"pushed_at": "2026-04-06T14:01:06Z",
+	"updated_at": "2026-06-15T19:38:51Z",
+	"pushed_at": "2026-06-15T19:38:46Z",
 	"git_url": "git://github.com/YOURLS/YOURLS.git",
 	"ssh_url": "git@github.com:YOURLS/YOURLS.git",
 	"clone_url": "https://github.com/YOURLS/YOURLS.git",
 	"svn_url": "https://github.com/YOURLS/YOURLS",
 	"homepage": "https://yourls.org",
-	"size": 391208,
-	"stargazers_count": 11964,
-	"watchers_count": 11964,
+	"size": 436711,
+	"stargazers_count": 12077,
+	"watchers_count": 12077,
 	"language": "PHP",
 	"has_issues": true,
 	"has_projects": false,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 2072,
+	"forks_count": 2071,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 66,
+	"open_issues_count": 52,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -112,9 +112,9 @@
 		"yourls"
 	],
 	"visibility": "public",
-	"forks": 2072,
-	"open_issues": 66,
-	"watchers": 11964,
+	"forks": 2071,
+	"open_issues": 52,
+	"watchers": 12077,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
@@ -146,6 +146,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 2072,
-	"subscribers_count": 334
+	"network_count": 2071,
+	"subscribers_count": 330
 }

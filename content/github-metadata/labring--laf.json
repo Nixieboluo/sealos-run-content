@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/labring/laf/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/labring/laf/deployments",
 	"created_at": "2021-03-07T11:13:42Z",
-	"updated_at": "2026-04-08T06:46:53Z",
+	"updated_at": "2026-06-14T05:47:06Z",
 	"pushed_at": "2025-12-01T08:01:13Z",
 	"git_url": "git://github.com/labring/laf.git",
 	"ssh_url": "git@github.com:labring/laf.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/labring/laf",
 	"homepage": "https://sealos.run",
 	"size": 85782,
-	"stargazers_count": 7615,
-	"watchers_count": 7615,
+	"stargazers_count": 7553,
+	"watchers_count": 7553,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 681,
+	"forks_count": 671,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 45,
+	"open_issues_count": 46,
 	"license": {
 		"key": "apache-2.0",
 		"name": "Apache License 2.0",
@@ -112,9 +112,9 @@
 		"typescript"
 	],
 	"visibility": "public",
-	"forks": 681,
-	"open_issues": 45,
-	"watchers": 7615,
+	"forks": 671,
+	"open_issues": 46,
+	"watchers": 7553,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -146,6 +146,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 681,
-	"subscribers_count": 64
+	"network_count": 671,
+	"subscribers_count": 63
 }

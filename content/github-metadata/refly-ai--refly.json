@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/refly-ai/refly/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/refly-ai/refly/deployments",
 	"created_at": "2024-02-19T11:04:30Z",
-	"updated_at": "2026-04-08T06:37:13Z",
+	"updated_at": "2026-06-16T06:01:42Z",
 	"pushed_at": "2026-03-25T14:51:18Z",
 	"git_url": "git://github.com/refly-ai/refly.git",
 	"ssh_url": "git@github.com:refly-ai/refly.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/refly-ai/refly",
 	"homepage": "https://refly.ai",
 	"size": 135285,
-	"stargazers_count": 7186,
-	"watchers_count": 7186,
+	"stargazers_count": 7367,
+	"watchers_count": 7367,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 706,
+	"forks_count": 719,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 95,
+	"open_issues_count": 93,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -120,9 +120,9 @@
 		"workflow"
 	],
 	"visibility": "public",
-	"forks": 706,
-	"open_issues": 95,
-	"watchers": 7186,
+	"forks": 719,
+	"open_issues": 93,
+	"watchers": 7367,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -154,6 +154,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 706,
-	"subscribers_count": 51
+	"network_count": 719,
+	"subscribers_count": 52
 }

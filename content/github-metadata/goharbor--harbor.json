@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/goharbor/harbor/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/goharbor/harbor/deployments",
 	"created_at": "2016-01-28T21:10:28Z",
-	"updated_at": "2026-04-08T08:03:14Z",
-	"pushed_at": "2026-04-08T06:24:52Z",
+	"updated_at": "2026-06-16T07:37:50Z",
+	"pushed_at": "2026-06-16T06:15:08Z",
 	"git_url": "git://github.com/goharbor/harbor.git",
 	"ssh_url": "git@github.com:goharbor/harbor.git",
 	"clone_url": "https://github.com/goharbor/harbor.git",
 	"svn_url": "https://github.com/goharbor/harbor",
 	"homepage": "https://goharbor.io",
-	"size": 262428,
-	"stargazers_count": 27944,
-	"watchers_count": 27944,
+	"size": 264575,
+	"stargazers_count": 28710,
+	"watchers_count": 28710,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 5163,
+	"forks_count": 5260,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 823,
+	"open_issues_count": 828,
 	"license": {
 		"key": "apache-2.0",
 		"name": "Apache License 2.0",
@@ -115,9 +115,9 @@
 		"registry"
 	],
 	"visibility": "public",
-	"forks": 5163,
-	"open_issues": 823,
-	"watchers": 27944,
+	"forks": 5260,
+	"open_issues": 828,
+	"watchers": 28710,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -127,7 +127,9 @@
 		"pull": false
 	},
 	"temp_clone_token": "",
-	"custom_properties": {},
+	"custom_properties": {
+		"SKIP_PROXY_CACHE": "false"
+	},
 	"organization": {
 		"login": "goharbor",
 		"id": 40275816,
@@ -149,6 +151,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 5163,
+	"network_count": 5260,
 	"subscribers_count": 518
 }

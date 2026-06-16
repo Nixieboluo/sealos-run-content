@@ -26,7 +26,7 @@
 		"site_admin": false
 	},
 	"html_url": "https://github.com/twentyhq/twenty",
-	"description": "Building a modern alternative to Salesforce, powered by the community.",
+	"description": "The open alternative to Salesforce, designed for AI.",
 	"fork": false,
 	"url": "https://api.github.com/repos/twentyhq/twenty",
 	"forks_url": "https://api.github.com/repos/twentyhq/twenty/forks",
@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/twentyhq/twenty/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/twentyhq/twenty/deployments",
 	"created_at": "2022-12-01T13:04:40Z",
-	"updated_at": "2026-04-08T08:38:14Z",
-	"pushed_at": "2026-04-08T09:08:11Z",
+	"updated_at": "2026-06-16T08:03:14Z",
+	"pushed_at": "2026-06-16T08:03:41Z",
 	"git_url": "git://github.com/twentyhq/twenty.git",
 	"ssh_url": "git@github.com:twentyhq/twenty.git",
 	"clone_url": "https://github.com/twentyhq/twenty.git",
 	"svn_url": "https://github.com/twentyhq/twenty",
 	"homepage": "https://twenty.com",
-	"size": 1006022,
-	"stargazers_count": 43703,
-	"watchers_count": 43703,
+	"size": 1331001,
+	"stargazers_count": 50084,
+	"watchers_count": 50084,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 5860,
+	"forks_count": 7251,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 74,
+	"open_issues_count": 149,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -120,9 +120,9 @@
 		"web"
 	],
 	"visibility": "public",
-	"forks": 5860,
-	"open_issues": 74,
-	"watchers": 43703,
+	"forks": 7251,
+	"open_issues": 149,
+	"watchers": 50084,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -154,6 +154,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 5860,
-	"subscribers_count": 191
+	"network_count": 7251,
+	"subscribers_count": 207
 }

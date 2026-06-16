@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/fs185085781/webos/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/fs185085781/webos/deployments",
 	"created_at": "2023-01-09T04:54:56Z",
-	"updated_at": "2026-03-28T17:26:10Z",
+	"updated_at": "2026-06-13T09:00:58Z",
 	"pushed_at": "2025-11-16T23:51:23Z",
 	"git_url": "git://github.com/fs185085781/webos.git",
 	"ssh_url": "git@github.com:fs185085781/webos.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/fs185085781/webos",
 	"homepage": "https://os.tenfell.cn",
 	"size": 26608,
-	"stargazers_count": 313,
-	"watchers_count": 313,
+	"stargazers_count": 320,
+	"watchers_count": 320,
 	"language": "JavaScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": false,
-	"forks_count": 55,
+	"forks_count": 56,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -102,9 +102,9 @@
 	"pull_request_creation_policy": "all",
 	"topics": ["123yunpan", "aliyundrive", "baiduyun", "kodbox", "tianyiyunpan", "webdav", "win11-in-web", "windows"],
 	"visibility": "public",
-	"forks": 55,
+	"forks": 56,
 	"open_issues": 6,
-	"watchers": 313,
+	"watchers": 320,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -114,6 +114,6 @@
 		"pull": false
 	},
 	"temp_clone_token": "",
-	"network_count": 55,
+	"network_count": 56,
 	"subscribers_count": 4
 }

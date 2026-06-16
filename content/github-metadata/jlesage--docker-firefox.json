@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/jlesage/docker-firefox/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/jlesage/docker-firefox/deployments",
 	"created_at": "2018-02-15T01:23:41Z",
-	"updated_at": "2026-04-07T18:56:14Z",
+	"updated_at": "2026-06-16T07:50:56Z",
 	"pushed_at": "2026-03-14T20:55:32Z",
 	"git_url": "git://github.com/jlesage/docker-firefox.git",
 	"ssh_url": "git@github.com:jlesage/docker-firefox.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/jlesage/docker-firefox",
 	"homepage": null,
 	"size": 211,
-	"stargazers_count": 2433,
-	"watchers_count": 2433,
+	"stargazers_count": 2478,
+	"watchers_count": 2478,
 	"language": "Shell",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 420,
+	"forks_count": 427,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 89,
+	"open_issues_count": 91,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -102,9 +102,9 @@
 	"pull_request_creation_policy": "all",
 	"topics": [],
 	"visibility": "public",
-	"forks": 420,
-	"open_issues": 89,
-	"watchers": 2433,
+	"forks": 427,
+	"open_issues": 91,
+	"watchers": 2478,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
@@ -114,6 +114,6 @@
 		"pull": false
 	},
 	"temp_clone_token": "",
-	"network_count": 420,
-	"subscribers_count": 20
+	"network_count": 427,
+	"subscribers_count": 21
 }

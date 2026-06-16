@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/blossom-editor/blossom/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/blossom-editor/blossom/deployments",
 	"created_at": "2023-08-07T03:02:17Z",
-	"updated_at": "2026-04-07T11:21:16Z",
+	"updated_at": "2026-06-16T02:27:40Z",
 	"pushed_at": "2025-12-23T23:00:05Z",
 	"git_url": "git://github.com/blossom-editor/blossom.git",
 	"ssh_url": "git@github.com:blossom-editor/blossom.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/blossom-editor/blossom",
 	"homepage": "https://www.wangyunf.com/blossom-doc/index",
 	"size": 63301,
-	"stargazers_count": 3792,
-	"watchers_count": 3792,
+	"stargazers_count": 3794,
+	"watchers_count": 3794,
 	"language": "Java",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,7 +83,7 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 341,
+	"forks_count": 338,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -102,9 +102,9 @@
 	"pull_request_creation_policy": "all",
 	"topics": ["blog", "client-server", "editor", "markdown"],
 	"visibility": "public",
-	"forks": 341,
+	"forks": 338,
 	"open_issues": 5,
-	"watchers": 3792,
+	"watchers": 3794,
 	"default_branch": "dev",
 	"permissions": {
 		"admin": false,
@@ -136,6 +136,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 341,
+	"network_count": 338,
 	"subscribers_count": 20
 }

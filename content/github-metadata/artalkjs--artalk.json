@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/ArtalkJS/Artalk/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/ArtalkJS/Artalk/deployments",
 	"created_at": "2018-10-02T09:53:12Z",
-	"updated_at": "2026-04-07T17:23:45Z",
-	"pushed_at": "2025-06-10T10:44:39Z",
+	"updated_at": "2026-06-14T16:03:02Z",
+	"pushed_at": "2026-06-15T16:10:40Z",
 	"git_url": "git://github.com/ArtalkJS/Artalk.git",
 	"ssh_url": "git@github.com:ArtalkJS/Artalk.git",
 	"clone_url": "https://github.com/ArtalkJS/Artalk.git",
 	"svn_url": "https://github.com/ArtalkJS/Artalk",
 	"homepage": "https://artalk.js.org",
-	"size": 13641,
-	"stargazers_count": 2222,
-	"watchers_count": 2222,
+	"size": 12820,
+	"stargazers_count": 2269,
+	"watchers_count": 2269,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 188,
+	"forks_count": 193,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 108,
+	"open_issues_count": 99,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -121,9 +121,9 @@
 		"vue"
 	],
 	"visibility": "public",
-	"forks": 188,
-	"open_issues": 108,
-	"watchers": 2222,
+	"forks": 193,
+	"open_issues": 99,
+	"watchers": 2269,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
@@ -155,6 +155,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 188,
-	"subscribers_count": 11
+	"network_count": 193,
+	"subscribers_count": 10
 }

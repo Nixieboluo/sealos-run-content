@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/PostHog/posthog/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/PostHog/posthog/deployments",
 	"created_at": "2020-01-23T22:46:58Z",
-	"updated_at": "2026-04-08T09:07:57Z",
-	"pushed_at": "2026-04-08T09:09:34Z",
+	"updated_at": "2026-06-16T07:47:11Z",
+	"pushed_at": "2026-06-16T08:04:13Z",
 	"git_url": "git://github.com/PostHog/posthog.git",
 	"ssh_url": "git@github.com:PostHog/posthog.git",
 	"clone_url": "https://github.com/PostHog/posthog.git",
 	"svn_url": "https://github.com/PostHog/posthog",
 	"homepage": "https://posthog.com",
-	"size": 4819067,
-	"stargazers_count": 32458,
-	"watchers_count": 32458,
+	"size": 5300017,
+	"stargazers_count": 35056,
+	"watchers_count": 35056,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": true,
 	"has_discussions": false,
-	"forks_count": 2486,
+	"forks_count": 2860,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 3336,
+	"open_issues_count": 4074,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -118,9 +118,9 @@
 		"web-analytics"
 	],
 	"visibility": "public",
-	"forks": 2486,
-	"open_issues": 3336,
-	"watchers": 32458,
+	"forks": 2860,
+	"open_issues": 4074,
+	"watchers": 35056,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
@@ -152,6 +152,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 2486,
-	"subscribers_count": 124
+	"network_count": 2860,
+	"subscribers_count": 133
 }

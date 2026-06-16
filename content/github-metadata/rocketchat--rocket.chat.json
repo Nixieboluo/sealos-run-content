@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/RocketChat/Rocket.Chat/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/RocketChat/Rocket.Chat/deployments",
 	"created_at": "2015-05-19T07:36:09Z",
-	"updated_at": "2026-04-08T05:48:20Z",
-	"pushed_at": "2026-04-08T04:46:08Z",
+	"updated_at": "2026-06-16T06:24:58Z",
+	"pushed_at": "2026-06-16T04:18:51Z",
 	"git_url": "git://github.com/RocketChat/Rocket.Chat.git",
 	"ssh_url": "git@github.com:RocketChat/Rocket.Chat.git",
 	"clone_url": "https://github.com/RocketChat/Rocket.Chat.git",
 	"svn_url": "https://github.com/RocketChat/Rocket.Chat",
 	"homepage": "https://rocket.chat/",
-	"size": 2021489,
-	"stargazers_count": 45113,
-	"watchers_count": 45113,
+	"size": 2048509,
+	"stargazers_count": 45474,
+	"watchers_count": 45474,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": true,
 	"has_discussions": true,
-	"forks_count": 13506,
+	"forks_count": 13651,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 3719,
+	"open_issues_count": 3775,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -114,9 +114,9 @@
 		"webrtc"
 	],
 	"visibility": "public",
-	"forks": 13506,
-	"open_issues": 3719,
-	"watchers": 45113,
+	"forks": 13651,
+	"open_issues": 3775,
+	"watchers": 45474,
 	"default_branch": "develop",
 	"permissions": {
 		"admin": false,
@@ -148,6 +148,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 13506,
-	"subscribers_count": 853
+	"network_count": 13651,
+	"subscribers_count": 843
 }

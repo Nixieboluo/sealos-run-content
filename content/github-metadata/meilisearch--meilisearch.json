@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/meilisearch/meilisearch/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/meilisearch/meilisearch/deployments",
 	"created_at": "2018-04-23T11:45:28Z",
-	"updated_at": "2026-04-08T08:44:01Z",
-	"pushed_at": "2026-04-08T09:03:38Z",
+	"updated_at": "2026-06-16T07:44:27Z",
+	"pushed_at": "2026-06-15T16:54:21Z",
 	"git_url": "git://github.com/meilisearch/meilisearch.git",
 	"ssh_url": "git@github.com:meilisearch/meilisearch.git",
 	"clone_url": "https://github.com/meilisearch/meilisearch.git",
 	"svn_url": "https://github.com/meilisearch/meilisearch",
 	"homepage": "https://www.meilisearch.com",
-	"size": 88668,
-	"stargazers_count": 57017,
-	"watchers_count": 57017,
+	"size": 90065,
+	"stargazers_count": 58116,
+	"watchers_count": 58116,
 	"language": "Rust",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": false,
-	"forks_count": 2484,
+	"forks_count": 2567,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 287,
+	"open_issues_count": 312,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -123,9 +123,9 @@
 		"vectors"
 	],
 	"visibility": "public",
-	"forks": 2484,
-	"open_issues": 287,
-	"watchers": 57017,
+	"forks": 2567,
+	"open_issues": 312,
+	"watchers": 58116,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -157,6 +157,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 2484,
-	"subscribers_count": 298
+	"network_count": 2567,
+	"subscribers_count": 299
 }

@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/ItzCrazyKns/Vane/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/ItzCrazyKns/Vane/deployments",
 	"created_at": "2024-04-09T10:51:32Z",
-	"updated_at": "2026-04-08T07:39:23Z",
-	"pushed_at": "2026-03-27T12:24:05Z",
+	"updated_at": "2026-06-16T06:21:24Z",
+	"pushed_at": "2026-04-11T14:33:06Z",
 	"git_url": "git://github.com/ItzCrazyKns/Vane.git",
 	"ssh_url": "git@github.com:ItzCrazyKns/Vane.git",
 	"clone_url": "https://github.com/ItzCrazyKns/Vane.git",
 	"svn_url": "https://github.com/ItzCrazyKns/Vane",
 	"homepage": "",
-	"size": 112945,
-	"stargazers_count": 33680,
-	"watchers_count": 33680,
+	"size": 113096,
+	"stargazers_count": 35306,
+	"watchers_count": 35306,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 3644,
+	"forks_count": 3890,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 287,
+	"open_issues_count": 321,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -117,9 +117,9 @@
 		"vane"
 	],
 	"visibility": "public",
-	"forks": 3644,
-	"open_issues": 287,
-	"watchers": 33680,
+	"forks": 3890,
+	"open_issues": 321,
+	"watchers": 35306,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
@@ -129,6 +129,6 @@
 		"pull": false
 	},
 	"temp_clone_token": "",
-	"network_count": 3644,
-	"subscribers_count": 187
+	"network_count": 3890,
+	"subscribers_count": 194
 }
