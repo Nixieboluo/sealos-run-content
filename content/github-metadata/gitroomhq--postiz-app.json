@@ -26,7 +26,7 @@
 		"site_admin": false
 	},
 	"html_url": "https://github.com/gitroomhq/postiz-app",
-	"description": "📨 The ultimate social media scheduling tool, with a bunch of AI  🤖",
+	"description": "📨 The ultimate agentic social media scheduling tool 🤖",
 	"fork": false,
 	"url": "https://api.github.com/repos/gitroomhq/postiz-app",
 	"forks_url": "https://api.github.com/repos/gitroomhq/postiz-app/forks",
@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/gitroomhq/postiz-app/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/gitroomhq/postiz-app/deployments",
 	"created_at": "2023-07-08T17:24:22Z",
-	"updated_at": "2026-04-08T08:42:23Z",
-	"pushed_at": "2026-04-08T04:35:05Z",
+	"updated_at": "2026-06-16T07:56:21Z",
+	"pushed_at": "2026-06-12T06:22:11Z",
 	"git_url": "git://github.com/gitroomhq/postiz-app.git",
 	"ssh_url": "git@github.com:gitroomhq/postiz-app.git",
 	"clone_url": "https://github.com/gitroomhq/postiz-app.git",
 	"svn_url": "https://github.com/gitroomhq/postiz-app",
 	"homepage": "https://postiz.com",
-	"size": 45131,
-	"stargazers_count": 27930,
-	"watchers_count": 27930,
+	"size": 46969,
+	"stargazers_count": 32001,
+	"watchers_count": 32001,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 4980,
+	"forks_count": 5904,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 231,
+	"open_issues_count": 159,
 	"license": {
 		"key": "agpl-3.0",
 		"name": "GNU Affero General Public License v3.0",
@@ -111,9 +111,9 @@
 		"typescript"
 	],
 	"visibility": "public",
-	"forks": 4980,
-	"open_issues": 231,
-	"watchers": 27930,
+	"forks": 5904,
+	"open_issues": 159,
+	"watchers": 32001,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -145,6 +145,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 4980,
-	"subscribers_count": 118
+	"network_count": 5904,
+	"subscribers_count": 129
 }

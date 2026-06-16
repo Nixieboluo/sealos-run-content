@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/PrivateBin/PrivateBin/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/PrivateBin/PrivateBin/deployments",
 	"created_at": "2016-07-09T07:03:25Z",
-	"updated_at": "2026-04-07T20:57:46Z",
-	"pushed_at": "2026-04-07T10:47:59Z",
+	"updated_at": "2026-06-16T06:55:13Z",
+	"pushed_at": "2026-06-16T08:01:49Z",
 	"git_url": "git://github.com/PrivateBin/PrivateBin.git",
 	"ssh_url": "git@github.com:PrivateBin/PrivateBin.git",
 	"clone_url": "https://github.com/PrivateBin/PrivateBin.git",
 	"svn_url": "https://github.com/PrivateBin/PrivateBin",
 	"homepage": "https://privatebin.info/",
-	"size": 16299,
-	"stargazers_count": 8184,
-	"watchers_count": 8184,
+	"size": 16669,
+	"stargazers_count": 8381,
+	"watchers_count": 8381,
 	"language": "PHP",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 975,
+	"forks_count": 995,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 137,
+	"open_issues_count": 136,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -115,9 +115,9 @@
 		"self-hosting"
 	],
 	"visibility": "public",
-	"forks": 975,
-	"open_issues": 137,
-	"watchers": 8184,
+	"forks": 995,
+	"open_issues": 136,
+	"watchers": 8381,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
@@ -149,6 +149,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 975,
-	"subscribers_count": 104
+	"network_count": 995,
+	"subscribers_count": 105
 }

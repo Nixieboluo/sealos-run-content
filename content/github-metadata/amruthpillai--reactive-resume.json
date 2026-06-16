@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/amruthpillai/reactive-resume/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/amruthpillai/reactive-resume/deployments",
 	"created_at": "2020-03-25T14:08:22Z",
-	"updated_at": "2026-04-08T09:02:07Z",
-	"pushed_at": "2026-04-05T08:11:23Z",
+	"updated_at": "2026-06-16T07:55:18Z",
+	"pushed_at": "2026-06-06T07:33:11Z",
 	"git_url": "git://github.com/amruthpillai/reactive-resume.git",
 	"ssh_url": "git@github.com:amruthpillai/reactive-resume.git",
 	"clone_url": "https://github.com/amruthpillai/reactive-resume.git",
 	"svn_url": "https://github.com/amruthpillai/reactive-resume",
 	"homepage": "https://rxresu.me",
-	"size": 135212,
-	"stargazers_count": 36181,
-	"watchers_count": 36181,
+	"size": 213191,
+	"stargazers_count": 38603,
+	"watchers_count": 38603,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": false,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": true,
 	"has_discussions": false,
-	"forks_count": 3999,
+	"forks_count": 4358,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 68,
+	"open_issues_count": 92,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -111,9 +111,9 @@
 		"tanstack-start"
 	],
 	"visibility": "public",
-	"forks": 3999,
-	"open_issues": 68,
-	"watchers": 36181,
+	"forks": 4358,
+	"open_issues": 92,
+	"watchers": 38603,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -123,6 +123,6 @@
 		"pull": false
 	},
 	"temp_clone_token": "",
-	"network_count": 3999,
-	"subscribers_count": 117
+	"network_count": 4358,
+	"subscribers_count": 123
 }

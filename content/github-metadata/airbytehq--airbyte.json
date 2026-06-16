@@ -26,7 +26,7 @@
 		"site_admin": false
 	},
 	"html_url": "https://github.com/airbytehq/airbyte",
-	"description": "The leading data integration platform for ETL / ELT data pipelines from APIs, databases & files to data warehouses, data lakes & data lakehouses. Both self-hosted and Cloud-hosted.",
+	"description": "Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
 	"fork": false,
 	"url": "https://api.github.com/repos/airbytehq/airbyte",
 	"forks_url": "https://api.github.com/repos/airbytehq/airbyte/forks",
@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/airbytehq/airbyte/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/airbytehq/airbyte/deployments",
 	"created_at": "2020-07-27T23:55:54Z",
-	"updated_at": "2026-04-08T09:09:09Z",
-	"pushed_at": "2026-04-08T07:06:10Z",
+	"updated_at": "2026-06-16T08:03:31Z",
+	"pushed_at": "2026-06-16T08:03:27Z",
 	"git_url": "git://github.com/airbytehq/airbyte.git",
 	"ssh_url": "git@github.com:airbytehq/airbyte.git",
 	"clone_url": "https://github.com/airbytehq/airbyte.git",
 	"svn_url": "https://github.com/airbytehq/airbyte",
 	"homepage": "https://airbyte.com",
-	"size": 834138,
-	"stargazers_count": 21035,
-	"watchers_count": 21035,
+	"size": 871377,
+	"stargazers_count": 21470,
+	"watchers_count": 21470,
 	"language": "Python",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": false,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 5125,
+	"forks_count": 5222,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 2563,
+	"open_issues_count": 2279,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -123,9 +123,9 @@
 		"snowflake"
 	],
 	"visibility": "public",
-	"forks": 5125,
-	"open_issues": 2563,
-	"watchers": 21035,
+	"forks": 5222,
+	"open_issues": 2279,
+	"watchers": 21470,
 	"default_branch": "master",
 	"permissions": {
 		"admin": false,
@@ -157,6 +157,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 5125,
-	"subscribers_count": 183
+	"network_count": 5222,
+	"subscribers_count": 182
 }

@@ -26,7 +26,7 @@
 		"site_admin": false
 	},
 	"html_url": "https://github.com/danny-avila/LibreChat",
-	"description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+	"description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
 	"fork": false,
 	"url": "https://api.github.com/repos/danny-avila/LibreChat",
 	"forks_url": "https://api.github.com/repos/danny-avila/LibreChat/forks",
@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/danny-avila/LibreChat/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/danny-avila/LibreChat/deployments",
 	"created_at": "2023-02-12T01:06:52Z",
-	"updated_at": "2026-04-08T08:56:51Z",
-	"pushed_at": "2026-04-08T03:52:45Z",
+	"updated_at": "2026-06-16T07:35:02Z",
+	"pushed_at": "2026-06-16T07:59:44Z",
 	"git_url": "git://github.com/danny-avila/LibreChat.git",
 	"ssh_url": "git@github.com:danny-avila/LibreChat.git",
 	"clone_url": "https://github.com/danny-avila/LibreChat.git",
 	"svn_url": "https://github.com/danny-avila/LibreChat",
 	"homepage": "https://librechat.ai/",
-	"size": 161885,
-	"stargazers_count": 35355,
-	"watchers_count": 35355,
+	"size": 183386,
+	"stargazers_count": 39253,
+	"watchers_count": 39253,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": true,
 	"has_discussions": true,
-	"forks_count": 7202,
+	"forks_count": 8055,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 460,
+	"open_issues_count": 507,
 	"license": {
 		"key": "mit",
 		"name": "MIT License",
@@ -123,9 +123,9 @@
 		"webui"
 	],
 	"visibility": "public",
-	"forks": 7202,
-	"open_issues": 460,
-	"watchers": 35355,
+	"forks": 8055,
+	"open_issues": 507,
+	"watchers": 39253,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -135,6 +135,6 @@
 		"pull": false
 	},
 	"temp_clone_token": "",
-	"network_count": 7202,
-	"subscribers_count": 190
+	"network_count": 8055,
+	"subscribers_count": 196
 }

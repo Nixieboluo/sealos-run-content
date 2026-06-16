@@ -26,7 +26,7 @@
 		"site_admin": false
 	},
 	"html_url": "https://github.com/openobserve/openobserve",
-	"description": "OpenObserve is an open-source observability platform for logs, metrics, traces, and frontend monitoring. A cost-effective alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
+	"description": "Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
 	"fork": false,
 	"url": "https://api.github.com/repos/openobserve/openobserve",
 	"forks_url": "https://api.github.com/repos/openobserve/openobserve/forks",
@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/openobserve/openobserve/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/openobserve/openobserve/deployments",
 	"created_at": "2023-02-02T03:29:51Z",
-	"updated_at": "2026-04-08T08:03:13Z",
-	"pushed_at": "2026-04-08T08:36:07Z",
+	"updated_at": "2026-06-16T07:23:00Z",
+	"pushed_at": "2026-06-16T07:57:34Z",
 	"git_url": "git://github.com/openobserve/openobserve.git",
 	"ssh_url": "git@github.com:openobserve/openobserve.git",
 	"clone_url": "https://github.com/openobserve/openobserve.git",
 	"svn_url": "https://github.com/openobserve/openobserve",
 	"homepage": "https://openobserve.ai",
-	"size": 128911,
-	"stargazers_count": 18477,
-	"watchers_count": 18477,
+	"size": 170927,
+	"stargazers_count": 19301,
+	"watchers_count": 19301,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 783,
+	"forks_count": 858,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 637,
+	"open_issues_count": 566,
 	"license": {
 		"key": "agpl-3.0",
 		"name": "GNU Affero General Public License v3.0",
@@ -123,9 +123,9 @@
 		"traces"
 	],
 	"visibility": "public",
-	"forks": 783,
-	"open_issues": 637,
-	"watchers": 18477,
+	"forks": 858,
+	"open_issues": 566,
+	"watchers": 19301,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -157,6 +157,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 783,
-	"subscribers_count": 94
+	"network_count": 858,
+	"subscribers_count": 97
 }

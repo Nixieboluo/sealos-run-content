@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/teableio/teable/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/teableio/teable/deployments",
 	"created_at": "2022-11-01T07:02:49Z",
-	"updated_at": "2026-04-08T08:19:49Z",
-	"pushed_at": "2026-04-08T09:09:21Z",
+	"updated_at": "2026-06-16T01:50:45Z",
+	"pushed_at": "2026-06-16T07:54:54Z",
 	"git_url": "git://github.com/teableio/teable.git",
 	"ssh_url": "git@github.com:teableio/teable.git",
 	"clone_url": "https://github.com/teableio/teable.git",
 	"svn_url": "https://github.com/teableio/teable",
 	"homepage": "https://teable.ai",
-	"size": 60807,
-	"stargazers_count": 21093,
-	"watchers_count": 21093,
+	"size": 63418,
+	"stargazers_count": 21345,
+	"watchers_count": 21345,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 1242,
+	"forks_count": 1287,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 165,
+	"open_issues_count": 191,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -116,9 +116,9 @@
 		"sqlite"
 	],
 	"visibility": "public",
-	"forks": 1242,
-	"open_issues": 165,
-	"watchers": 21093,
+	"forks": 1287,
+	"open_issues": 191,
+	"watchers": 21345,
 	"default_branch": "develop",
 	"permissions": {
 		"admin": false,
@@ -150,6 +150,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 1242,
-	"subscribers_count": 91
+	"network_count": 1287,
+	"subscribers_count": 92
 }

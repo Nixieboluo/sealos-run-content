@@ -66,7 +66,7 @@
 	"releases_url": "https://api.github.com/repos/zaigie/palworld-server-tool/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/zaigie/palworld-server-tool/deployments",
 	"created_at": "2024-01-24T04:25:45Z",
-	"updated_at": "2026-04-07T06:52:48Z",
+	"updated_at": "2026-06-15T08:30:24Z",
 	"pushed_at": "2026-02-11T11:59:29Z",
 	"git_url": "git://github.com/zaigie/palworld-server-tool.git",
 	"ssh_url": "git@github.com:zaigie/palworld-server-tool.git",
@@ -74,8 +74,8 @@
 	"svn_url": "https://github.com/zaigie/palworld-server-tool",
 	"homepage": "",
 	"size": 35397,
-	"stargazers_count": 1015,
-	"watchers_count": 1015,
+	"stargazers_count": 1025,
+	"watchers_count": 1025,
 	"language": "Go",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,7 +83,7 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": false,
-	"forks_count": 107,
+	"forks_count": 108,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
@@ -102,9 +102,9 @@
 	"pull_request_creation_policy": "all",
 	"topics": [],
 	"visibility": "public",
-	"forks": 107,
+	"forks": 108,
 	"open_issues": 6,
-	"watchers": 1015,
+	"watchers": 1025,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -114,6 +114,6 @@
 		"pull": false
 	},
 	"temp_clone_token": "",
-	"network_count": 107,
-	"subscribers_count": 16
+	"network_count": 108,
+	"subscribers_count": 17
 }

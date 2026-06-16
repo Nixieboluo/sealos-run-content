@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/nocodb/nocodb/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/nocodb/nocodb/deployments",
 	"created_at": "2017-10-29T18:51:48Z",
-	"updated_at": "2026-04-08T09:09:35Z",
-	"pushed_at": "2026-04-08T06:36:18Z",
+	"updated_at": "2026-06-16T07:51:15Z",
+	"pushed_at": "2026-06-16T07:56:25Z",
 	"git_url": "git://github.com/nocodb/nocodb.git",
 	"ssh_url": "git@github.com:nocodb/nocodb.git",
 	"clone_url": "https://github.com/nocodb/nocodb.git",
 	"svn_url": "https://github.com/nocodb/nocodb",
 	"homepage": "https://nocodb.com",
-	"size": 1431884,
-	"stargazers_count": 62650,
-	"watchers_count": 62650,
+	"size": 1436497,
+	"stargazers_count": 63461,
+	"watchers_count": 63461,
 	"language": "TypeScript",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 4714,
+	"forks_count": 4842,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 668,
+	"open_issues_count": 712,
 	"license": {
 		"key": "other",
 		"name": "Other",
@@ -117,9 +117,9 @@
 		"swagger"
 	],
 	"visibility": "public",
-	"forks": 4714,
-	"open_issues": 668,
-	"watchers": 62650,
+	"forks": 4842,
+	"open_issues": 712,
+	"watchers": 63461,
 	"default_branch": "develop",
 	"permissions": {
 		"admin": false,
@@ -151,6 +151,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 4714,
-	"subscribers_count": 394
+	"network_count": 4842,
+	"subscribers_count": 392
 }

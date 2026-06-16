@@ -66,16 +66,16 @@
 	"releases_url": "https://api.github.com/repos/rustfs/rustfs/releases{/id}",
 	"deployments_url": "https://api.github.com/repos/rustfs/rustfs/deployments",
 	"created_at": "2023-11-23T13:45:10Z",
-	"updated_at": "2026-04-08T09:05:55Z",
-	"pushed_at": "2026-04-08T08:20:13Z",
+	"updated_at": "2026-06-16T08:01:55Z",
+	"pushed_at": "2026-06-16T07:11:56Z",
 	"git_url": "git://github.com/rustfs/rustfs.git",
 	"ssh_url": "git@github.com:rustfs/rustfs.git",
 	"clone_url": "https://github.com/rustfs/rustfs.git",
 	"svn_url": "https://github.com/rustfs/rustfs",
 	"homepage": "https://rustfs.com/download/",
-	"size": 18099,
-	"stargazers_count": 24342,
-	"watchers_count": 24342,
+	"size": 27276,
+	"stargazers_count": 28826,
+	"watchers_count": 28826,
 	"language": "Rust",
 	"has_issues": true,
 	"has_projects": true,
@@ -83,11 +83,11 @@
 	"has_wiki": true,
 	"has_pages": false,
 	"has_discussions": true,
-	"forks_count": 1045,
+	"forks_count": 1259,
 	"mirror_url": null,
 	"archived": false,
 	"disabled": false,
-	"open_issues_count": 90,
+	"open_issues_count": 70,
 	"license": {
 		"key": "apache-2.0",
 		"name": "Apache License 2.0",
@@ -115,9 +115,9 @@
 		"s3"
 	],
 	"visibility": "public",
-	"forks": 1045,
-	"open_issues": 90,
-	"watchers": 24342,
+	"forks": 1259,
+	"open_issues": 70,
+	"watchers": 28826,
 	"default_branch": "main",
 	"permissions": {
 		"admin": false,
@@ -149,6 +149,6 @@
 		"user_view_type": "public",
 		"site_admin": false
 	},
-	"network_count": 1045,
-	"subscribers_count": 63
+	"network_count": 1259,
+	"subscribers_count": 76
 }
