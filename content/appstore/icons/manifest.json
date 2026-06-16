@@ -1033,6 +1033,14 @@
 		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/OpenDeepWiki/logo.png",
 		"status": "downloaded"
 	},
+	"opendesign": {
+		"contentType": "image/png",
+		"file": "content/appstore/icons/opendesign.png",
+		"path": "/appstore/icons/opendesign.png",
+		"sha256": "6e7280eb37982056d16b0abf10d71bfb346a82273fb53212e5f16368af826d73",
+		"source": "https://raw.githubusercontent.com/labring-actions/templates/kb-0.9/template/opendesign/logo.png",
+		"status": "downloaded"
+	},
 	"openlist": {
 		"contentType": "image/svg+xml",
 		"file": "content/appstore/icons/openlist.svg",
