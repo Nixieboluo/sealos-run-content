@@ -1,0 +1,4 @@
+{
+    "title": "K8s 集群管理",
+    "pages": ["getting-started", "cluster-image", "cluster-run", "registry", "advanced-topics", "command-reference", "QA"]
+}

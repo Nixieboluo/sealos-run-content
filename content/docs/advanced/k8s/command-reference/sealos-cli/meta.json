@@ -1,0 +1,4 @@
+{
+    "title": "Sealos CLI",
+    "pages": ["commands", "kubernetes-cluster-image", "app-cluster-image"]
+}

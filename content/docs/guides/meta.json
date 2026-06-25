@@ -1,5 +1,6 @@
 {
 	"title": "使用指南",
+	"defaultOpen": true,
 	"pages": [
 		"feature-list",
 		"account-workspace",

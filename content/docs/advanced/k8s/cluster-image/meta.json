@@ -1,0 +1,4 @@
+{
+    "title": "集群镜像",
+    "pages": ["image-build-standardized", "build-multi-arch-image", "build-image-image-list", "build-image-manifests", "build-image-helm_charts", "build-image-binary", "build-image-go_template", "build-image-scp_exec", "build-image-with-kubeadm-run-cluster", "build_run_application_private_registry"]
+}

@@ -1,0 +1,4 @@
+{
+    "title": "高级主题",
+    "pages": ["build-image-using-registry-sync", "sealos-run", "dual-stack-cluster", "template-function"]
+}
