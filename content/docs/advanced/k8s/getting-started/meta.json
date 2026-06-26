@@ -1,0 +1,4 @@
+{
+    "title": "入门",
+    "pages": ["install-cli", "deploy-kubernetes", "build-ingress-cluster-image"]
+}

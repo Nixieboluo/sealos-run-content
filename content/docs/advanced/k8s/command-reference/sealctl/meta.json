@@ -1,0 +1,4 @@
+{
+    "title": "Sealctl",
+    "pages": ["cert", "cri", "hostname", "hosts", "ipvs", "registry", "static-pod", "tar-and-untar", "token"]
+}
