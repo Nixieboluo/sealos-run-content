@@ -49,7 +49,7 @@ go build -o main
 
 ### 2. 验证构建结果
 
-确认构建产物已经正确生成：
+确认构建产物已经正确生成。下面以 Node.js / TypeScript 项目为例，其他语言请按实际构建产物验证：
 
 ```bash
 # 检查构建目录
@@ -90,7 +90,7 @@ NODE_ENV=production node .next/standalone/server.js
 node server/index.js
 
 # React
-serve -s build -l 3000
+npx serve -s build -l 3000
 ```
 
 ### 编译型后端服务
