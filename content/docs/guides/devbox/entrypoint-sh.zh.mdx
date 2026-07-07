@@ -66,8 +66,9 @@ node dist/main.js
 ```bash title="entrypoint.sh"
 #!/bin/bash
 
-# Next.js
+# Next.js（已启用 output: "standalone"）
 NODE_ENV=production node .next/standalone/server.js
+# 未启用 standalone 时，改用项目实际的生产启动命令，例如：npx next start -p 3000
 
 # TypeScript Node.js
 node dist/main.js
@@ -85,8 +86,9 @@ node dist/main.js
 ```bash title="entrypoint.sh"
 #!/bin/bash
 
-# Next.js
+# Next.js（已启用 output: "standalone"）
 NODE_ENV=production node .next/standalone/server.js
+# 未启用 standalone 时，改用项目实际的生产启动命令，例如：npx next start -p 3000
 
 # Vue
 node server/index.js
