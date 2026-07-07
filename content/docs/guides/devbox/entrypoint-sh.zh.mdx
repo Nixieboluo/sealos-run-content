@@ -61,7 +61,7 @@ node dist/main.js
 
 ### 3. 配置启动命令
 
-根据构建产物配置 `entrypoint.sh`：
+根据构建产物配置 `entrypoint.sh`。下面是不同项目类型的示例，实际使用时只保留与你项目对应的一段启动命令：
 
 ```bash title="entrypoint.sh"
 #!/bin/bash
@@ -80,6 +80,8 @@ node dist/main.js
 
 ### 预构建 Web 应用
 
+按你的项目框架选择其中一种启动方式：
+
 ```bash title="entrypoint.sh"
 #!/bin/bash
 
@@ -94,6 +96,8 @@ npx serve -s build -l 3000
 ```
 
 ### 编译型后端服务
+
+按你的项目语言选择其中一种启动方式：
 
 ```bash title="entrypoint.sh"
 #!/bin/bash
@@ -110,6 +114,8 @@ java -jar app.jar
 
 ### 解释型后端服务
 
+按你的项目运行时选择其中一种启动方式：
+
 ```bash title="entrypoint.sh"
 #!/bin/bash
 
@@ -117,7 +123,7 @@ java -jar app.jar
 python app.py
 
 # Node.js
-node dist/index.js
+node dist/main.js
 
 # PHP
 php -S 0.0.0.0:8000
